@@ -3,12 +3,12 @@
 * Listening-centric
 * Jamming
 * No GUIs (at least in the beginning)
-* Javascript
+* Javascript / Web Audio / Tone.js
 
 # WEEK 0
 
-* Course Syllabus
-* Techniques / History
+* Intros
+* Techniques / History / Context
 * Implementations
 * Constraints
 * Jam
@@ -106,6 +106,7 @@ Thoughts?
 #### [Patatap](http://www.patatap.com/) - Jono Brandel - 2014
 
 * Sample player
+* Triggering with corresponding visuals
 * Two.js visuals
 
 ### Roles: Person / Process
@@ -169,6 +170,7 @@ Why NOT make interactive music?
 2. Assign them to 4 directions: Up/Down/Left/Right. 
 3. A conductor will cue participants in these 4 actions for a group improvisation. 
 
+(I will upload our Jam soon)
 
 ## REFERENCES
 
@@ -176,11 +178,10 @@ Why NOT make interactive music?
 
 ## READING
 
-* [Spectromorphology](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=76427&fileId=S1355771897009059)
-* [Arp 2600 Owner's Manual](http://guitarfool.com/ARP2600/Arp%202600%20Owners%20Manual.pdf)
+* [Arp 2600 Owner's Manual Pages 4-9](http://guitarfool.com/ARP2600/Arp%202600%20Owners%20Manual.pdf)
 
 ## ASSIGNMENT
 
-Pick a musical constraint/parameter, make something which explores that dimension. Could be low-tech/no-tech. 
+Pick a musical constraint/parameter, make a piece of music which explores that dimension. Email me an audio recording and a brief description. Could be low-tech/no-tech. 
 
 (additional assignment to start learning a little Javascript for people with no JS experience)
