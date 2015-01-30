@@ -182,6 +182,6 @@ Why NOT make interactive music?
 
 ## ASSIGNMENT
 
-Pick a musical constraint/parameter, make a piece of music which explores that dimension. Email me an audio recording and a brief description. Could be low-tech/no-tech. 
+Pick a musical constraint/parameter, make a piece of music which explores that dimension. 1-2 minutes. Email me an audio recording and a brief description. Could be low-tech/no-tech.
 
 (additional assignment to start learning a little Javascript for people with no JS experience)
