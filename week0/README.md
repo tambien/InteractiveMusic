@@ -170,7 +170,7 @@ Why NOT make interactive music?
 2. Assign them to 4 directions: Up/Down/Left/Right. 
 3. A conductor will cue participants in these 4 actions for a group improvisation. 
 
-[Jam0 - Cobra Snake](./Jam0.mp3)
+[Jam0 - Cobra Snake](https://dl.dropboxusercontent.com/s/o3bkjaqfdqfn7e3/Jam0.mp3?dl=0)
 
 ## REFERENCES
 
