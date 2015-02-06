@@ -39,7 +39,6 @@ When two waves are in phase, their amplitudes sum. If they are out of phase, the
 * Octave - the interval between one musical pitch and another with half or double its frequency.
 * Decibel - a logarithmic scale used to measure sound level. 
 * Fundamental Frequency - the lowest frequency of a periodic waveform. 
-* 
 
 ## ANALOG AUDIO
 
@@ -154,11 +153,6 @@ Making some sounds. Dissecting those patches.
 
 ### Sunvox
 
-## JAM - Cobra
-
-Everyone will only play 3 notes on synths or collections of synths. 
-
-
 ## DIGITAL AUDIO WORKSTATION
 
 ### Channels
@@ -175,11 +169,11 @@ Most DAWs let you automate nearly every parameter. A volume automation might be 
 
 ## DIGITAL AUDIO
 
-### Mixers
+### Mixers (+)
 
 When two signals meet at a junction, the resulting signal is the sum of the inputs. 
 
-### Gain
+### Gain (*)
 
 Gain is the ratio between the input and the output signal. 
 
@@ -205,7 +199,6 @@ When audio is converted back into analog sound (like out your speaker), smoothin
 
 The noise introduced by quantization error, including rounding errors and loss of precision introduced during audio processing, can be mitigated by adding a small amount of random noise, called dither, to the signal before quantizing. Dithering eliminates the granularity of quantization error, giving very low distortion, but at the expense of a slightly raised noise floor. 
 
-
 ## Spectromorphology
 
 First published in 1986. 1997 Paper by Denis Smally. 
@@ -230,12 +223,7 @@ Score created by Rainer Wehinger after the piece was composed.
 
 Associating sounds sources with what is perceived to have created that sound. 
 
-
 ## ASSIGNMENT RECAP
-
-Doing as much with as little as possible. 
-
-[Beethoven's 5th](https://www.youtube.com/watch?v=rRgXUFnfKIY) - pregnant cell. 
 
 ## REFERENCES
 
@@ -247,6 +235,4 @@ Doing as much with as little as possible.
 * [Web Audio - O'Reilly](http://chimera.labs.oreilly.com/books/1234000001552/index.html)
 * [Javascript: The Good Parts - Crockford, Chapters 2-4](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?s=books&ie=UTF8&qid=1417638918&sr=1-1&keywords=javascript+the+good+parts)
 
-## ASSIGNMENT
-
-Exploring implementation: Try to implement the same sound/gesture in two (or more) ways. Sounds should be less than 30 seconds.
+## [ASSIGNMENT](week1/ASSIGNMENTS.md)

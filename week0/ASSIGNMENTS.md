@@ -8,7 +8,7 @@ Pick a musical constraint/parameter, make a piece of music which explores that d
 
 Please add your response here in this format: 
 
-### Your Name
+### Your Name - Title of your work (if you have one)
 
 description
 
