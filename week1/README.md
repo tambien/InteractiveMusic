@@ -235,4 +235,4 @@ Associating sounds sources with what is perceived to have created that sound.
 * [Web Audio - O'Reilly](http://chimera.labs.oreilly.com/books/1234000001552/index.html)
 * [Javascript: The Good Parts - Crockford, Chapters 2-4](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?s=books&ie=UTF8&qid=1417638918&sr=1-1&keywords=javascript+the+good+parts)
 
-## [ASSIGNMENT](week1/ASSIGNMENTS.md)
+## [ASSIGNMENT](ASSIGNMENTS.md)
