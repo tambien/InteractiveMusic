@@ -10,14 +10,14 @@ The first part of the course will cover the tools and techniques of interactive 
 * Discussion
 * Jam - Cobra Snake
 
-### WEEK 1: Analog/Digital Synthesis.
+### [WEEK 1: Analog/Digital Synthesis](week1/)
 
-* Analog Audio
-* Digital Audio
+* Sound
+* Synthesis
+* Analog Synth Components - w/guest Jonathan Baken
 * DAWs
-* Synths
-* Jon's Synths
-* Jam
+* Digital Audio
+* Spectromorphology
 
 ### WEEK 2: Making Sound in the Browser.
 
