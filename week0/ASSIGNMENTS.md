@@ -13,3 +13,9 @@ Please add your response here in this format:
 description
 
 [link](http://example.com)
+
+### Abe Rubenstein - process music
+
+Used SuperLooper to compose using only the letters of specific words, typed in order.
+
+[link](http://itp.aberubenste.in/2015/02/process-music.html)
