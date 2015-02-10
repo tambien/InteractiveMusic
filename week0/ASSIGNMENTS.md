@@ -9,13 +9,13 @@ Pick a musical constraint/parameter, make a piece of music which explores that d
 Please add your response here in this format: 
 
 ### Your Name - Title of your work (if you have one)
-
 description
-
 [link](http://example.com)
 
 ### Abe Rubenstein - process music
-
 Used SuperLooper to compose using only the letters of specific words, typed in order.
-
 [link](http://itp.aberubenste.in/2015/02/process-music.html)
+
+### Sehwan Park - Sound Collage
+Recorded daily sound around me, and edited in a arbitrarily way.
+[link](http://thinkingclay.com/index.php/week1_-sound-collage/)
