@@ -11,7 +11,9 @@ Sounds should be less than 30 seconds.
 Please add your response here in this format: 
 
 ### Your Name - Title of your work (if you have one)
-
 description
-
 [link](http://example.com)
+
+### Sehwan Park - Case study : sound implementation
+This is a sound piece to practice different implementation with same sound.
+[link](http://thinkingclay.com/index.php/week1_-sound-implementation/)
