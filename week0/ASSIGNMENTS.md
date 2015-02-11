@@ -20,10 +20,14 @@ Used SuperLooper to compose using only the letters of specific words, typed in o
 
 [link](http://itp.aberubenste.in/2015/02/process-music.html)
 
-### Marc Abi-Samra && Yurika Mulase - Headed Home
+### Yurika Mulase - Two Six Eight 
 
-Composition a melody with Web Audio for a Music Box in A Dorian
+Misunderstood the assignment a bit but I created 8 chords consisting of sixths and seconds and used 2 different random number generators to determine which chord to play (1-8) and for how long (1-6 beats). 
 
-[Headed Home](http://104.131.178.99:3000/home)
+[link](http://www.yurikamulase.com/two-six-eight/)
 
+### Marc Abi-Samra and Yurika - Earthbound Spaceman
 
+Marc and Yurika made a website that produces a melody when you scroll down while showing a man journeying from the moon back down to Earth. Our parameters were to create a music-box melody in p5. It is also in the unusual key of A Dorian. 
+
+[link](http://104.131.178.99:3000/home/)
