@@ -31,3 +31,9 @@ Misunderstood the assignment a bit but I created 8 chords consisting of sixths a
 Marc and Yurika made a website that produces a melody when you scroll down while showing a man journeying from the moon back down to Earth. Our parameters were to create a music-box melody in p5. It is also in the unusual key of A Dorian. 
 
 [link](http://104.131.178.99:3000/home/)
+
+### Sehwan Park
+
+Recorded the everyday sound around me, then edited in a arbitrarily way.
+
+[link](http://thinkingclay.com/index.php/week1_-sound-collage/)
