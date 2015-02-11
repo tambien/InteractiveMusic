@@ -37,3 +37,8 @@ Marc and Yurika made a website that produces a melody when you scroll down while
 Recorded the everyday sound around me, then edited in a arbitrarily way.
 
 [link](http://thinkingclay.com/index.php/week1_-sound-collage/)
+
+### S.M - 10 Methods of Measuring
+10 chosen sounds or groups of players playing the gamelon during burial ceremonies, starting at the same time and finishing their part at different times. Inspired by In C by Terry Riley, and reflecting on the lifespan of people born at the same time, and passing away at varying rates.
+
+[link](http://www.createubiquitously.com/?p=250)
