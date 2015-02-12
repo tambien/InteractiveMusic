@@ -42,3 +42,8 @@ Recorded the everyday sound around me, then edited in a arbitrarily way.
 10 chosen sounds or groups of players playing the gamelon during burial ceremonies, starting at the same time and finishing their part at different times. Inspired by In C by Terry Riley, and reflecting on the lifespan of people born at the same time, and passing away at varying rates.
 
 [link](http://www.createubiquitously.com/?p=250)
+
+### Seth Kranzler - Dub
+Controlling volume of a synthesizer through a phaser/distorter to create different levels of distortion on a bass arpeggiation. 
+
+[link](https://www.dropbox.com/s/nzjrfzm4iyy8rz6/20150131%20Interactive%20music.mp3?dl=0)
