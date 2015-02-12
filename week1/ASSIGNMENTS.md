@@ -33,3 +33,15 @@ Two different versions of the same melody
 ### Yang Zhao - Untitled
 same piece of kick beat in three different effects
 [link](https://soundcloud.com/yang_zhao/sets/week1)
+
+### Jedy Chen - Dance
+Two implementations of one melody
+[link](https://soundcloud.com/jedychen/sets/interactive-music-week1)
+
+### Gabriel Andrade - A long way
+same melody different instruments
+[link](http://www.gandradep.com/?p=303)
+
+### YUrika Mulase - FF melody
+one melody different instruments and effects
+[link](http://www.yurikamulase.com/sound-implementation/)

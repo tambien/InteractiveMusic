@@ -47,3 +47,8 @@ Recorded the everyday sound around me, then edited in a arbitrarily way.
 Controlling volume of a synthesizer through a phaser/distorter to create different levels of distortion on a bass arpeggiation. 
 
 [link](https://www.dropbox.com/s/nzjrfzm4iyy8rz6/20150131%20Interactive%20music.mp3?dl=0)
+
+
+### Tommy Payne - Phonetics
+A phonetic recording of a vowel sound re-pitched at three intervals.
+[link](http://www.tommypayne.org/?p=841)
