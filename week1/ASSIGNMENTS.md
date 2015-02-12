@@ -20,12 +20,16 @@ This is a sound piece to practice different implementation with same sound.
 
 ### S.M. - 2 Sounds, Similar Yet Different
 DAC circuit vs online generation
-[link] (http://www.createubiquitously.com/?p=239)
+[link](http://www.createubiquitously.com/?p=239)
 
 ### João Costa - Untitled (Silence)
 Silence in different ambiences.
-[link] (http://blog.costajoao.com/subs/interactive-music/untitled-silence/)
+[link](http://blog.costajoao.com/subs/interactive-music/untitled-silence/)
 
 ## Seth Kranzler - Remixed
 Two different versions of the same melody
 [link](https://www.dropbox.com/s/76s6dq0z3imb6yl/Mixes.aif?dl=0)
+
+### Yang Zhao - Untitled
+same piece of kick beat in three different effects
+[link](https://soundcloud.com/yang_zhao/sets/week1)
