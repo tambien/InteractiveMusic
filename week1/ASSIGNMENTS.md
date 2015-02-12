@@ -10,12 +10,9 @@ Sounds should be less than 30 seconds.
 
 Please add your response here in this format: 
 
-### Michael Ricca - 2 Similar Sounds in Dissimilar Ways
-EFX Sound 1:  Clap run through a very long reverb.   Track audio is bounced down and run through a compression side chain and filter sweep.
-
-EFX Sound 2:  White noise oscillator run through a compression side chain and filter sweep.
-[link](http://kinetec.org/2015/02/imhw2/)
-
+### Your Name - Title of your work (if you have one)
+description
+[link](http://example.com)
 
 ### AV Sehyun Kim - Untitled
 2 different implementations 
@@ -59,7 +56,7 @@ one melody different instruments and effects
 
 ### Marc Abi-Samra - Train Delay
 Recreating the Web Audio 'delay node'
-[link](http://http://104.131.178.99:3000/traindelay/)
+[link](http://104.131.178.99:3000/traindelay/)
 
 ### Tommy Payne - Drill
 Big drill, small drill
@@ -69,7 +66,6 @@ Big drill, small drill
 3 different effects on poorly sung&recorded vocals and guitar
 [link](https://soundcloud.com/openthy/sets/interactive-music-hw2/s-0kt65)
 
-
 ### Justin Peake - bootClap
 bootClap in stairwell and a simulation of the gesture through synthesis.
 [link](http://www.justinpeake.com/assgn1/)
@@ -78,7 +74,6 @@ bootClap in stairwell and a simulation of the gesture through synthesis.
 Different Location and Same Sound
 [link](http://www.changyeonlee.com/interactive-music/2015/2/12/exploring-implementation)
 
-### Matthew Kaney - Envelopes
-Experimenting with the diversity of tones that can by synthesized with different envelopes on a sine wave oscillator.
-[link](http://content.mindofmatthew.com/interactive_music/hw1/)
-
+### Abe Rubenstein - analog/digital
+Same melody, different instruments and production
+[link](http://abe.sh/im/hw2.mp3)
