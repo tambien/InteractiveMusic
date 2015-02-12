@@ -25,3 +25,7 @@ DAC circuit vs online generation
 ### João Costa - Untitled (Silence)
 Silence in different ambiences.
 [link] (http://blog.costajoao.com/subs/interactive-music/untitled-silence/)
+
+### Yang Zhao - untitled
+same piece of kick beat in three different effects
+[link](https://soundcloud.com/yang_zhao/sets/week1)
