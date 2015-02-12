@@ -14,6 +14,14 @@ Please add your response here in this format:
 description
 [link](http://example.com)
 
+### AV Sehyun Kim - Untitled
+2 different implementations 
+Freq 640 -> 22k 
+Reso 29% -> 99%
+Octave 0 -> 3
+Semi 0st -> -6st
+[link](https://www.dropbox.com/s/0k4qt8x9um1hd0d/implementation.aif?dl=0)
+
 ### Sehwan Park - Case study : sound implementation
 This is a sound piece to practice different implementation with same sound.
 [link](http://thinkingclay.com/index.php/week1_-sound-implementation/)
