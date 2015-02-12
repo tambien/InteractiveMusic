@@ -33,3 +33,7 @@ Two different versions of the same melody
 ### Yang Zhao - Untitled
 same piece of kick beat in three different effects
 [link](https://soundcloud.com/yang_zhao/sets/week1)
+
+### Gabriel Andrade - A long way
+same melody different instruments
+[link](http://www.gandradep.com/?p=303)
