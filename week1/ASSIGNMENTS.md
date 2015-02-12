@@ -10,9 +10,12 @@ Sounds should be less than 30 seconds.
 
 Please add your response here in this format: 
 
-### Your Name - Title of your work (if you have one)
-description
-[link](http://example.com)
+### Michael Ricca - 2 Similar Sounds in Dissimilar Ways
+EFX Sound 1:  Clap run through a very long reverb.   Track audio is bounced down and run through a compression side chain and filter sweep.
+
+EFX Sound 2:  White noise oscillator run through a compression side chain and filter sweep.
+[link](http://kinetec.org/2015/02/imhw2/)
+
 
 ### AV Sehyun Kim - Untitled
 2 different implementations 
