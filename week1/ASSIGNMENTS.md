@@ -21,3 +21,7 @@ This is a sound piece to practice different implementation with same sound.
 ### S.M. - 2 Sounds, Similar Yet Different
 DAC circuit vs online generation
 [link] (http://www.createubiquitously.com/?p=239)
+
+### João Costa - Untitled (Silence)
+Silence in different ambiences.
+[link] (http://blog.costajoao.com/subs/interactive-music/untitled-silence/)
