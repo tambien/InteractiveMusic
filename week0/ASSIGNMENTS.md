@@ -70,3 +70,6 @@ Composition creating with a prime number pattern.
 I made the base-beat by using sounds of pencil / paper / desk. And then, I manipulated 'Tempo(bpm)' from 50 to 300.
 [link](http://www.changyeonlee.com/interactive-music/2015/2/12/parameters)
 
+### Matthew Kaney - 
+Arpeggiated musical lines overlaid at a variety of different beat subdivisions (whole notes, quarter notes, sixteenths, etc)
+[link](http://content.mindofmatthew.com/interactive_music/hw0/MatthewKaney_Assignment0.mp3)
