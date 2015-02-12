@@ -22,13 +22,12 @@ The first part of the course will cover the tools and techniques of interactive 
 ### WEEK 2: Making Sound in the Browser.
 
 * Getting up and running in Javascript. 
+* Developer Tools
+	* debugger
 * Basics of Web Audio API. 
 * Intro to Tone.js
 * Mouse and keyboard events
-* Developer Tools
-	* debugger
-* WebSockets.
-* Musical interactivity: Game pieces, group improvisation, in C. 
+* Musical interactivity: Group improvisation, in C. 
 
 ### WEEK 3: Sonic Objects.
 
@@ -54,6 +53,7 @@ Make an object. document the interfaces and API
 * Inheritance
 	* extend
 	* instanceof
+* WebSockets.
 
 Get an Object Class from another person in the class. Make something using their object and API.
 
