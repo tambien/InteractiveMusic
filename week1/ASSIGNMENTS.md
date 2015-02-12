@@ -61,3 +61,7 @@ Recreating the Web Audio 'delay node'
 ### Tommy Payne - Drill
 Big drill, small drill
 [link](http://www.tommypayne.org/?p=887)
+
+### Tigran Paravyan - Vocal Experiments
+3 different effects on poorly sung&recorded vocals and guitar
+[link](https://soundcloud.com/openthy/sets/interactive-music-hw2/s-0kt65)
