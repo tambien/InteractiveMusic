@@ -19,7 +19,7 @@ The first part of the course will cover the tools and techniques of interactive 
 * Digital Audio
 * Spectromorphology
 
-### WEEK 2: Making Sound in the Browser.
+### [WEEK 2: Making Sound in the Browser](week2/)
 
 * Getting up and running in Javascript. 
 * Developer Tools

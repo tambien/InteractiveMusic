@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DEBUGGING</title>
+	<script type="text/javascript" src="../deps/Tone.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+
+		//ANSWER THE FOLLOWING QUESTIONS USING ONLY THE DEVELOPER TOOLS (don't type anything here)
+
+		// 0
+		// What is the type of osc's output?
+		// Whats the gain value of osc's output?
+
+		var osc = new Tone.Oscillator();
+
+		// 1
+		// What is the type of Tone.context?
+		// What is the value of Tone.context.currentTime?
+		// What is the value of Tone.context.currentTime now?
+
+
+		// 2
+		// What properties does this GainNode named gainy have?
+		// What are the method's attached to gainy's __proto___
+
+		var gainy = Tone.context.createGain();
+
+		// 3
+		// What is the value of freq before the lfo is connected
+		// What is the value after?
+		// Step into the LFO constructor. There is a member called this.amplitude. What is the 'units' property of this.amplitude equal?
+		// Start oscTwo by calling oscTwo.start();
+
+		(function(){
+
+			var lfo = new Tone.LFO("4n", 20, 20000);
+
+			var oscTwo = new Tone.Oscillator().toMaster();
+
+			var freq = oscTwo.frequency.value;
+
+			lfo.connect(oscTwo.frequency);
+
+			freq = oscTwo.frequency.value;
+
+			lfo.start();
+
+		}());
+
+
+	</script>
+</body>
+</html>

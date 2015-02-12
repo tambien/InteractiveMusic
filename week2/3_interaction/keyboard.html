@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KEYBOARD INTERACTION</title>
+	<script type="text/javascript" src="../deps/Tone.js"></script>
+	<script type="text/javascript" src="../deps/nexusUI.js"></script>
+</head>
+<body>
+	<canvas nx="typewriter" id="typo"></canvas>
+	<script type="text/javascript">
+
+		var B = new Tone.Player("../samples/B1.mp3").toMaster();
+		var C = new Tone.Player("../samples/C2.mp3").toMaster();
+		var E = new Tone.Player("../samples/E2.mp3").toMaster();
+
+		B.retrigger = true;
+		C.retrigger = true;
+		E.retrigger = true;
+
+		var notes = [B, C, E];
+
+		nx.onload = function(){
+			typo.on("on", function(on){
+				if (on === 1 && Tone.Buffer.allLoaded){
+					var randNote = Math.floor(Math.random() * notes.length);
+					var note = notes[randNote];
+					note.start();
+				}
+			});
+		};
+	</script>
+</body>
+</html>

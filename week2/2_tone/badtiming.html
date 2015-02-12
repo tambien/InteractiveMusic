@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BAD TIMING</title>
+	<script type="text/javascript" src="../deps/Tone.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+
+	var HH = new Tone.Player("../samples/hh.mp3").toMaster();
+	HH.retrigger = true;
+
+	Tone.Buffer.onload = function(){
+		console.log("loaded");
+		setInterval(function(){
+			HH.start();
+		}, 75);
+	};
+
+
+	</script>
+</body>
+</html>
