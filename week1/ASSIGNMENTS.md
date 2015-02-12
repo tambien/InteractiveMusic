@@ -71,4 +71,7 @@ Big drill, small drill
 bootClap in stairwell and a simulation of the gesture through synthesis.
 [link](http://www.justinpeake.com/assgn1/)
 
+### Changyeon Lee - Sigh
+Different Location and Same Sound
+[link](http://www.changyeonlee.com/interactive-music/2015/2/12/exploring-implementation)
 
