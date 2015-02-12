@@ -65,3 +65,10 @@ Big drill, small drill
 ### Tigran Paravyan - Vocal Experiments
 3 different effects on poorly sung&recorded vocals and guitar
 [link](https://soundcloud.com/openthy/sets/interactive-music-hw2/s-0kt65)
+
+
+### Justin Peake - bootClap
+bootClap in stairwell and a simulation of the gesture through synthesis.
+[link](http://www.justinpeake.com/assgn1/)
+
+
