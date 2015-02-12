@@ -33,3 +33,7 @@ Two different versions of the same melody
 ### Yang Zhao - Untitled
 same piece of kick beat in three different effects
 [link](https://soundcloud.com/yang_zhao/sets/week1)
+
+### Jedy Chen - Dance
+Two implementations of one melody
+[link](https://soundcloud.com/jedychen/sets/interactive-music-week1)
