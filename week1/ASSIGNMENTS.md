@@ -33,3 +33,7 @@ Two different versions of the same melody
 ### Yang Zhao - Untitled
 same piece of kick beat in three different effects
 [link](https://soundcloud.com/yang_zhao/sets/week1)
+
+### Marc Abi-Samra - Train Delay
+Recreating the Web Audio 'delay node'
+[link](http://http://104.131.178.99:3000/traindelay/)
