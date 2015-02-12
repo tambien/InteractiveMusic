@@ -25,3 +25,7 @@ DAC circuit vs online generation
 ### João Costa - Untitled (Silence)
 Silence in different ambiences.
 [link] (http://blog.costajoao.com/subs/interactive-music/untitled-silence/)
+
+## Seth Kranzler - Remixed
+Two different versions of the same melody
+[link](https://www.dropbox.com/s/76s6dq0z3imb6yl/Mixes.aif?dl=0)
