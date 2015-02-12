@@ -10,12 +10,9 @@ Sounds should be less than 30 seconds.
 
 Please add your response here in this format: 
 
-### Michael Ricca - 2 Similar Sounds in Dissimilar Ways
-EFX Sound 1:  Clap run through a very long reverb.   Track audio is bounced down and run through a compression side chain and filter sweep.
-
-EFX Sound 2:  White noise oscillator run through a compression side chain and filter sweep.
-[link](http://kinetec.org/2015/02/imhw2/)
-
+### Your Name - Title of your work (if you have one)
+description
+[link](http://example.com)
 
 ### AV Sehyun Kim - Untitled
 2 different implementations 
@@ -82,3 +79,6 @@ Different Location and Same Sound
 Experimenting with the diversity of tones that can by synthesized with different envelopes on a sine wave oscillator.
 [link](http://content.mindofmatthew.com/interactive_music/hw1/)
 
+### Denny George - Clock Tick
+I tried to recreate clock ticks using multiple means
+[link] (http://abrain.in/recreating-clock-ticks-for-interactive-music/)
