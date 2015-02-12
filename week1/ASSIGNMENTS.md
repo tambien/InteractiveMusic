@@ -33,3 +33,7 @@ Two different versions of the same melody
 ### Yang Zhao - Untitled
 same piece of kick beat in three different effects
 [link](https://soundcloud.com/yang_zhao/sets/week1)
+
+### YUrika Mulase - FF melody
+one melody different instruments and effects
+[link](http://www.yurikamulase.com/sound-implementation/)
