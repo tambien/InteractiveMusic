@@ -65,3 +65,8 @@ A phonetic recording of a vowel sound re-pitched at three intervals.
 Composition creating with a prime number pattern. 
 
 [link](http://www.gandradep.com/?p=296)
+
+### Changyeon Lee - Tempo Variation
+I made the base-beat by using sounds of pencil / paper / desk. And then, I manipulated 'Tempo(bpm)' from 50 to 300.
+[link](http://www.changyeonlee.com/interactive-music/2015/2/12/parameters)
+
