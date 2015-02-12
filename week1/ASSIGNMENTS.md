@@ -56,7 +56,7 @@ one melody different instruments and effects
 
 ### Marc Abi-Samra - Train Delay
 Recreating the Web Audio 'delay node'
-[link](http://104.131.178.99:3000/traindelay/)
+[link](http://http://104.131.178.99:3000/traindelay/)
 
 ### Tommy Payne - Drill
 Big drill, small drill
@@ -74,4 +74,8 @@ bootClap in stairwell and a simulation of the gesture through synthesis.
 ### Changyeon Lee - Sigh
 Different Location and Same Sound
 [link](http://www.changyeonlee.com/interactive-music/2015/2/12/exploring-implementation)
+
+### Matthew Kaney - Envelopes
+Experimenting with the diversity of tones that can by synthesized with different envelopes on a sine wave oscillator.
+[link](http://content.mindofmatthew.com/interactive_music/hw1/)
 
