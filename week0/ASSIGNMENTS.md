@@ -14,6 +14,14 @@ description
 
 [link](http://example.com)
 
+### AV Sehyun Kim - Baby's Laughing 
+
+I recorded my daughter's laughing and re-composed it.
+Duration is my parameter. It's incremented over the time. It's interesting to listen the flow of changing of emotional expereince. 
+
+[link](https://www.dropbox.com/s/iop5svxx9p03o85/IM_W01_Assignment%28AV%29.mp3?dl=0)
+
+
 ### Abe Rubenstein - process music
 
 Used SuperLooper to compose using only the letters of specific words, typed in order.
@@ -52,3 +60,8 @@ Controlling volume of a synthesizer through a phaser/distorter to create differe
 ### Tommy Payne - Phonetics
 A phonetic recording of a vowel sound re-pitched at three intervals.
 [link](http://www.tommypayne.org/?p=841)
+
+### Gabriel Andrade - Prime Numbers
+Composition creating with a prime number pattern. 
+
+[link](http://www.gandradep.com/?p=296)

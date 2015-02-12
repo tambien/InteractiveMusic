@@ -14,6 +14,14 @@ Please add your response here in this format:
 description
 [link](http://example.com)
 
+### AV Sehyun Kim - Untitled
+2 different implementations 
+Freq 640 -> 22k 
+Reso 29% -> 99%
+Octave 0 -> 3
+Semi 0st -> -6st
+[link](https://www.dropbox.com/s/0k4qt8x9um1hd0d/implementation.aif?dl=0)
+
 ### Sehwan Park - Case study : sound implementation
 This is a sound piece to practice different implementation with same sound.
 [link](http://thinkingclay.com/index.php/week1_-sound-implementation/)
@@ -26,9 +34,9 @@ DAC circuit vs online generation
 Silence in different ambiences.
 [link](http://blog.costajoao.com/subs/interactive-music/untitled-silence/)
 
-## Seth Kranzler - Remixed
+### Seth Kranzler - Remixed
 Two different versions of the same melody
-[link](https://www.dropbox.com/s/76s6dq0z3imb6yl/Mixes.aif?dl=0)
+[link](https://www.dropbox.com/s/xi05j4hr24gen6g/Mixes.mp3?dl=0)
 
 ### Yang Zhao - Untitled
 same piece of kick beat in three different effects
@@ -45,3 +53,7 @@ same melody different instruments
 ### YUrika Mulase - FF melody
 one melody different instruments and effects
 [link](http://www.yurikamulase.com/sound-implementation/)
+
+### Marc Abi-Samra - Train Delay
+Recreating the Web Audio 'delay node'
+[link](http://http://104.131.178.99:3000/traindelay/)
