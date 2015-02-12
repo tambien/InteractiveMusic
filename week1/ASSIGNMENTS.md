@@ -26,9 +26,9 @@ DAC circuit vs online generation
 Silence in different ambiences.
 [link](http://blog.costajoao.com/subs/interactive-music/untitled-silence/)
 
-## Seth Kranzler - Remixed
+### Seth Kranzler - Remixed
 Two different versions of the same melody
-[link](https://www.dropbox.com/s/76s6dq0z3imb6yl/Mixes.aif?dl=0)
+[link](https://www.dropbox.com/s/xi05j4hr24gen6g/Mixes.mp3?dl=0)
 
 ### Yang Zhao - Untitled
 same piece of kick beat in three different effects
