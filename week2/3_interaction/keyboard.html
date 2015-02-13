@@ -19,9 +19,9 @@
 
 		var notes = [B, C, E];
 
-		nx.onload = function(){
+		Tone.Buffer.onload = function(){
 			typo.on("on", function(on){
-				if (on === 1 && Tone.Buffer.allLoaded){
+				if (on === 1){
 					var randNote = Math.floor(Math.random() * notes.length);
 					var note = notes[randNote];
 					note.start();
