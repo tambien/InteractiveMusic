@@ -370,7 +370,7 @@
 		 */
 		Tone.prototype.fan = function(){
 			if (arguments.length > 0){
-				for (var i = 1; i < arguments.length; i++){
+				for (var i = 0; i < arguments.length; i++){
 					this.connect(arguments[i]);
 				}
 			}
@@ -981,6 +981,13 @@
 			this._scalar = this.context.createGain();
 
 			/**
+			 * The node where the value is set
+			 * @type {AudioParam}
+			 * @private
+			 */
+			this._value = this._scalar.gain;
+
+			/**
 			 *  the ratio of the this value to the control signal value
 			 *
 			 *  @private
@@ -1022,12 +1029,12 @@
 		 */
 		Object.defineProperty(Tone.Signal.prototype, "value", {
 			get : function(){
-				return this._toUnits(this._scalar.gain.value);
+				return this._toUnits(this._value.value);
 			},
 			set : function(value){
 				var convertedVal = this._fromUnits(value);
 				convertedVal *= this._syncRatio;
-				this._scalar.gain.value = convertedVal;
+				this._value.value = convertedVal;
 			}
 		});
 
@@ -1078,7 +1085,7 @@
 		Tone.Signal.prototype.setValueAtTime = function(value, time){
 			value = this._fromUnits(value);
 			value *= this._syncRatio;
-			this._scalar.gain.setValueAtTime(value, this.toSeconds(time));
+			this._value.setValueAtTime(value, this.toSeconds(time));
 			return this;
 		};
 
@@ -1090,9 +1097,9 @@
 		 */
 		Tone.Signal.prototype.setCurrentValueNow = function(now){
 			now = this.defaultArg(now, this.now());
-			var currentVal = this.value;
+			var currentVal = this._value.value;
 			this.cancelScheduledValues(now);
-			this._scalar.gain.setValueAtTime(currentVal, now);
+			this._value.setValueAtTime(currentVal, now);
 			return this;
 		};
 
@@ -1107,7 +1114,7 @@
 		Tone.Signal.prototype.linearRampToValueAtTime = function(value, endTime){
 			value = this._fromUnits(value);
 			value *= this._syncRatio;
-			this._scalar.gain.linearRampToValueAtTime(value, this.toSeconds(endTime));
+			this._value.linearRampToValueAtTime(value, this.toSeconds(endTime));
 			return this;
 		};
 
@@ -1124,7 +1131,7 @@
 			value *= this._syncRatio;
 			//can't go below a certain value
 			value = Math.max(0.00001, value);
-			this._scalar.gain.exponentialRampToValueAtTime(value, this.toSeconds(endTime));
+			this._value.exponentialRampToValueAtTime(value, this.toSeconds(endTime));
 			return this;
 		};
 
@@ -1154,11 +1161,9 @@
 		 *  @returns {Tone.Signal} `this`
 		 */
 		Tone.Signal.prototype.linearRampToValueNow = function(value, rampTime){
-			value = this._fromUnits(value);
 			var now = this.now();
 			this.setCurrentValueNow(now);
-			value *= this._syncRatio;
-			this._scalar.gain.linearRampToValueAtTime(value, now + this.toSeconds(rampTime));
+			this.linearRampToValueAtTime(value, now + this.toSeconds(rampTime));
 			return this;
 		};
 
@@ -1174,7 +1179,7 @@
 		Tone.Signal.prototype.setTargetAtTime = function(value, startTime, timeConstant){
 			value = this._fromUnits(value);
 			value *= this._syncRatio;
-			this._scalar.gain.setTargetAtTime(value, this.toSeconds(startTime), timeConstant);
+			this._value.setTargetAtTime(value, this.toSeconds(startTime), timeConstant);
 			return this;
 		};
 
@@ -1192,7 +1197,7 @@
 				values[i] = this._fromUnits(values[i]);
 				values[i] *= this._syncRatio;
 			}
-			this._scalar.gain.setValueCurveAtTime(values, this.toSeconds(startTime), this.toSeconds(duration));
+			this._value.setValueCurveAtTime(values, this.toSeconds(startTime), this.toSeconds(duration));
 			return this;
 		};
 
@@ -1204,7 +1209,7 @@
 		 *  @returns {Tone.Signal} `this`
 		 */
 		Tone.Signal.prototype.cancelScheduledValues = function(startTime){
-			this._scalar.gain.cancelScheduledValues(this.toSeconds(startTime));
+			this._value.cancelScheduledValues(this.toSeconds(startTime));
 			return this;
 		};
 
@@ -1246,8 +1251,8 @@
 				this._syncRatio = ratio;
 			} else {
 				//get the sync ratio
-				if (signal.value !== 0){
-					this._syncRatio = this.value / signal.value;
+				if (signal._value.value !== 0){
+					this._syncRatio = this._value.value / signal._value.value;
 				} else {
 					this._syncRatio = 0;
 				}
@@ -1255,9 +1260,10 @@
 			//make a new scalar which is not connected to the constant signal
 			this._scalar.disconnect();
 			this._scalar = this.context.createGain();
+			this._value = this._scalar.gain;
 			this.connectSeries(signal, this._scalar, this.output);
 			//set it ot the sync ratio
-			this._scalar.gain.value = this._syncRatio;
+			this._value.value = this._syncRatio;
 			return this;
 		};
 
@@ -1270,10 +1276,11 @@
 		Tone.Signal.prototype.unsync = function(){
 			//make a new scalar so that it's disconnected from the control signal
 			//get the current gain
-			var currentGain = this.value;
+			var currentGain = this._value.value;
 			this._scalar.disconnect();
 			this._scalar = this.context.createGain();
-			this._scalar.gain.value = currentGain / this._syncRatio;
+			this._value = this._scalar.gain;
+			this._value.value = currentGain / this._syncRatio;
 			this._syncRatio = 1;
 			//reconnect things up
 			Tone.Signal._constant.chain(this._scalar, this.output);
@@ -1288,6 +1295,7 @@
 			Tone.prototype.dispose.call(this);
 			this._scalar.disconnect();
 			this._scalar = null;
+			this._value = null;
 			return this;
 		};
 
@@ -8264,14 +8272,6 @@
 		 *  @type {number}
 		 */
 		Tone.Buffer.MAX_SIMULTANEOUS_DOWNLOADS = 6;
-
-		/**
-		 *  Flag if everything was loaded.
-		 *  @static
-		 *  @readOnly
-		 *  @type {boolean}
-		 */
-		Tone.Buffer.allLoaded = false;
 		
 		/**
 		 *  Adds a file to be loaded to the loading queue
@@ -8341,7 +8341,6 @@
 					next.xhr.onerror = Tone.Buffer.onerror;
 				} 
 			} else if (Tone.Buffer._currentDownloads.length === 0){
-				Tone.Buffer.allLoaded = true;
 				Tone.Buffer.onload();
 				//reset the downloads
 				Tone.Buffer._totalDownloads = 0;
@@ -10679,22 +10678,15 @@
 			this._rightDelay = this.context.createDelay(options.maxDelayTime);
 
 			/**
-			 *  the predelay on the left side
-			 *  @private
-			 *  @type {DelayNode}
-			 */
-			this._leftPreDelay = this.context.createDelay(options.maxDelayTime);
-
-			/**
 			 *  the delay time signal
 			 *  @type {Tone.Signal}
 			 */
 			this.delayTime = new Tone.Signal(options.delayTime, Tone.Signal.Units.Time);
 
 			//connect it up
-			this.effectSendL.chain(this._leftPreDelay, this._leftDelay, this.effectReturnL);
+			this.effectSendL.chain(this._leftDelay, this.effectReturnL);
 			this.effectSendR.chain(this._rightDelay, this.effectReturnR);
-			this.delayTime.fan(this._leftDelay.delayTime, this._rightDelay.delayTime, this._leftPreDelay.delayTime);
+			this.delayTime.fan(this._leftDelay.delayTime, this._rightDelay.delayTime);
 			//rearranged the feedback to be after the leftPreDelay
 			this._feedbackRL.disconnect();
 			this._feedbackRL.connect(this._leftDelay);
@@ -10718,12 +10710,10 @@
 		Tone.PingPongDelay.prototype.dispose = function(){
 			Tone.StereoXFeedbackEffect.prototype.dispose.call(this);
 			this._leftDelay.disconnect();
-			this._rightDelay.disconnect();
-			this._leftPreDelay.disconnect();
-			this.delayTime.dispose();
 			this._leftDelay = null;
+			this._rightDelay.disconnect();
 			this._rightDelay = null;
-			this._leftPreDelay = null;
+			this.delayTime.dispose();
 			this.delayTime = null;
 			return this;
 		};
