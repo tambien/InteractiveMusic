@@ -24,3 +24,7 @@ Mouse will change parameters for the bitcrusher and filter.
 ### Justin Peake - Untitled
 
 [link](http://104.131.171.245:3000/untitled/)
+
+### Jedy Chen - RGB Loop
+
+[link](http://104.131.104.216:3000/Week3/index.html)
