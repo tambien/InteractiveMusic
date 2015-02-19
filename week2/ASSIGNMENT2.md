@@ -28,3 +28,7 @@ Mouse will change parameters for the bitcrusher and filter.
 ### Jedy Chen - RGB Loop
 
 [link](http://104.131.104.216:3000/Week3/index.html)
+
+### Yurika Mulase - Blue
+
+[link](http://104.131.170.242:3004/)
