@@ -20,7 +20,6 @@ Mouse will change parameters for the bitcrusher and filter.
 
 [link](http://104.131.172.147:3000/)
 
-[link](http://abe.sh/block-chords/)
 
 ### Justin Peake - Untitled
 
