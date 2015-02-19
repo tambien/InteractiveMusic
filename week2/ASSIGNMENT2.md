@@ -32,3 +32,7 @@ Mouse will change parameters for the bitcrusher and filter.
 ### Yurika Mulase - Blue
 
 [link](http://104.131.170.242:3004/)
+
+### Seth Kranzler - Ω
+
+[link] (http://104.131.75.82:8000/)
