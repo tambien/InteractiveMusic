@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>POLYSYNTH</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="https://rawgit.com/lsu-emdm/nexusUI/master/dist/nexusUI.js"></script>
+	<script type="text/javascript" src="http://cdn.tonejs.org/r4-dev/Tone.min.js"></script>
+</head>
+<body>
+	<div>
+		j, k, and l, will trigger notes.
+	</div>
+	<canvas nx="typewriter" id="typewriter"></canvas>
+	<script type="text/javascript">
+
+
+	//the synth takes 2 arguments, the number of voices, and the type of voices
+	var monoSynth = new Tone.PolySynth(3, Tone.MonoSynth());
+
+	var notes = {
+		"j" : "C2",
+		"k" : "E4",
+		"l" : "A6"
+	};
+
+	nx.onload = function(){
+		typewriter.on("*", function(data){
+			if (data.on === 1){
+				if (notes[data.key]){
+					monoSynth.triggerAttack(notes[data.key]);
+				}
+			} else {
+				if (notes[data.key]){
+					monoSynth.triggerRelease(notes[data.key]);
+				}
+			}
+		});
+	};
+	</script>
+</body>
+</html>

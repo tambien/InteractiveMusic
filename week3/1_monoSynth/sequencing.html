@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SEQUENCER</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="https://rawgit.com/lsu-emdm/nexusUI/master/dist/nexusUI.js"></script>
+	<script type="text/javascript" src="http://cdn.tonejs.org/r4-dev/Tone.min.js"></script>
+</head>
+<body>
+	<canvas nx="toggle" id="C"></canvas>
+	<canvas nx="toggle" id="E"></canvas>
+	<canvas nx="toggle" id="A"></canvas>
+	<script type="text/javascript">
+
+
+	var monoSynth = new Tone.MonoSynth({
+		"portamento" : 0.001,
+	}).toMaster();
+
+	var score = {
+		"synth" : [["0", "C"],      ["8n", "A"],     ["8n * 2", "E"], ["8n * 3", "C"], 
+				   ["8n * 4", "E"], ["8n * 5", "C"], ["8n * 6", "A"], ["8n * 7", "E"]]
+	};
+
+	Tone.Note.parseScore(score);
+
+	Tone.Note.route("synth", function(time, note){
+		var octave = Math.floor(Math.random() * 6) + 1;
+		if (onNotes[note]){
+			monoSynth.triggerAttackRelease(note + octave, time, "8n");
+		}
+
+	});
+
+	Tone.Transport.loop = true;
+	Tone.Transport.setLoopPoints(0, "1:0:0");
+	Tone.Transport.start();
+
+	var onNotes = {
+		"C" : false,
+		"E" : false,
+		"A" : false
+	};
+
+	nx.onload = function(){
+		C.on("value", function(val){
+			onNotes.C = val === 1;
+		});
+		E.on("value", function(val){
+			onNotes.E = val === 1;
+		});
+		A.on("value", function(val){
+			onNotes.A = val === 1;
+		});
+	};
+	</script>
+</body>
+</html>
