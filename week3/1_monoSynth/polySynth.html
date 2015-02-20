@@ -15,7 +15,7 @@
 
 
 	//the synth takes 2 arguments, the number of voices, and the type of voices
-	var monoSynth = new Tone.PolySynth(3, Tone.MonoSynth());
+	var polySynth = new Tone.PolySynth(3, Tone.NoiseSynth);
 
 	var notes = {
 		"j" : "C2",
@@ -27,11 +27,11 @@
 		typewriter.on("*", function(data){
 			if (data.on === 1){
 				if (notes[data.key]){
-					monoSynth.triggerAttack(notes[data.key]);
+					polySynth.triggerAttack(notes[data.key]);
 				}
 			} else {
 				if (notes[data.key]){
-					monoSynth.triggerRelease(notes[data.key]);
+					polySynth.triggerRelease(notes[data.key]);
 				}
 			}
 		});
