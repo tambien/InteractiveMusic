@@ -29,7 +29,6 @@ Mouse will change parameters for the bitcrusher and filter.
 
 [link](http://104.131.104.216:3000/Week3/index.html)
 
-<<<<<<< Updated upstream
 ### Yurika Mulase - Blue
 
 [link](http://104.131.170.242:3004/)
@@ -37,7 +36,6 @@ Mouse will change parameters for the bitcrusher and filter.
 ### Marc Abi-Samra & Matthew Kaney
 
 [link](http://content.mindofmatthew.com/interactive_music/hw2/)
-=======
+
 ### Denny - Walk in a Park
 [link](http://dennyabrain.github.io/InteractiveMusic/WalkInAPark/)
->>>>>>> Stashed changes
