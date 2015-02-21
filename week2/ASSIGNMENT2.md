@@ -39,3 +39,11 @@ Mouse will change parameters for the bitcrusher and filter.
 
 ### Denny - Walk in a Park
 [link](http://dennyabrain.github.io/InteractiveMusic/WalkInAPark/)
+
+### Gabriel Andrade - all noise mixer
+
+MouseY will change the noise type, and mouseX will mix between noise and a track.
+[link](http://gandradep.github.io/noise/)
+
+
+
