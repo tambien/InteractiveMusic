@@ -18,4 +18,6 @@
 
 [Scape - Brian Eno & Peter Chilvers](https://www.youtube.com/watch?v=8zNLlKRrUVk)
 
-[Google IO15 (click on the faders on the bottom right corner)](https://events.google.com/io2015/)
+[Google IO15 (click on the faders on the bottom right corner)](https://events.google.com/io2015/) - by [Instrument](http://www.instrument.com/)
+
+[SMOG - Kelsa Trom & Sarah Rothberg](http://www.s-m-o-g.net/kelsa_trom)
