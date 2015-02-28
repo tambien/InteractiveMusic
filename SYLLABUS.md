@@ -29,7 +29,7 @@ The first part of the course will cover the tools and techniques of interactive 
 * Mouse and keyboard events
 * Musical interactivity: Group improvisation, in C. 
 
-### WEEK 3: Sonic Objects.
+### [WEEK 3: Sonic Objects](week3/)
 
 * Object Oriented Javascript
 	* function prototype objects
@@ -43,32 +43,31 @@ The first part of the course will cover the tools and techniques of interactive 
 * Dependencies
 * JSDocs
 
-Make an object. document the interfaces and API
-
-### WEEK 4: Sonic Objects Continued.
+### [WEEK 4: Sonic Objects Continued](week4/)
 
 * Look at peoples objects and APIs
-* What sorts of sounds/experiences do those objects and APIs afford?
 * `prototype`
+* `this`
 * Inheritance
-	* extend
-	* instanceof
-* WebSockets.
-
-Get an Object Class from another person in the class. Make something using their object and API.
+* Tone
 
 ### WEEK 5: Musical Architecture.
 
 * Modules
 * Coupling
-* Mediator
 * Channels
 * Buses
 * Scores
+* WebSockets
 
 ### WEEK 6: Mid Terms.
 
-In class performance of an interactive instrument/composition
+* In class presentation/performance of an interactive instrument/composition using the sonic objects that you've been developing for yourself to use as well as each other. 
+* Refactoring
+* Documentation
+* Extensibility
+
+Assignment: package up some class/feature from your midterm with documentation and at least one example of how to use it. We are creating a library of sonic objects from people's assignments which can be used, combined and remixed for the final assignment. 
 
 ### WEEK 7: Performative Processes.
 
