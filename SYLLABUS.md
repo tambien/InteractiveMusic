@@ -51,7 +51,7 @@ The first part of the course will cover the tools and techniques of interactive 
 * Inheritance
 * Tone
 
-### WEEK 5: [Musical Architecture](week5).
+### [WEEK 5: Musical Architecture](week5/).
 
 * Conceptual Clarity
 * Coupling
