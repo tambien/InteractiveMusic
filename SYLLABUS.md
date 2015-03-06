@@ -51,13 +51,16 @@ The first part of the course will cover the tools and techniques of interactive 
 * Inheritance
 * Tone
 
-### WEEK 5: Musical Architecture.
+### WEEK 5: [Musical Architecture](week5).
 
-* Modules
+* Conceptual Clarity
 * Coupling
-* Channels
-* Buses
+	* Modules
+	* Mediator
+	* Channels
+	* Buses
 * Scores
+* Sampler
 * WebSockets
 
 ### WEEK 6: Mid Terms.

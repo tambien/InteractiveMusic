@@ -1,0 +1,29 @@
+<html>
+<head>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script> 
+	<script type="text/javascript" src="https://rawgit.com/lsu-emdm/nexusUI/master/dist/nexusUI.js"></script>
+	<script type="text/javascript" src="http://cdn.tonejs.org/r4/Tone.min.js"></script>
+	<script type="text/javascript" src="http://cdn.tonejs.org/r4/Tone.Preset.js"></script>
+
+</head>
+<body>
+	<canvas nx="mouse"></canvas>
+	<script type="text/javascript">
+
+		//connect to the server
+		var socket = new WebSocket("ws://"+window.location.hostname+":8001");
+
+		//broadcast mouse events to all connected clients
+		nx.onload = function(){
+			mouse1.on("*", function(val){
+				socket.send(JSON.stringify({
+					"type" : "control",
+					"x" : val.x,
+					"y" : val.y
+				}));
+			});
+		};
+	</script>
+
+</body>
+</html>
