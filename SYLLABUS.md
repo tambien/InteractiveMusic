@@ -51,7 +51,7 @@ The first part of the course will cover the tools and techniques of interactive 
 * Inheritance
 * Tone
 
-### WEEK 5: [Musical Architecture](week5).
+### WEEK 5: [Musical Architecture](week5/)
 
 * Conceptual Clarity
 * Coupling
@@ -63,35 +63,40 @@ The first part of the course will cover the tools and techniques of interactive 
 * Sampler
 * WebSockets
 
-### WEEK 6: Mid Terms.
+### WEEK 6: [Mid Terms](week6/).
 
 * In class presentation/performance of an interactive instrument/composition using the sonic objects that you've been developing for yourself to use as well as each other. 
+* Data Sonification
 * Refactoring
 * Documentation
 * Extensibility
 
 Assignment: package up some class/feature from your midterm with documentation and at least one example of how to use it. We are creating a library of sonic objects from people's assignments which can be used, combined and remixed for the final assignment. 
 
-### WEEK 7: Performative Processes.
+### WEEK 7: Musical Installations
 
-* Gestural
-	* Gesture mapping.
-* Improvisational
-	* Create a structure over which someone can play.
-* Combinatoric
-	* Step Sequencer.
+* Interactive Music Installations
+* Gesture mapping
+* Gesture Recognition
+* Musical Installation Paper Prototyping
 
-### WEEK 8: Probabilistic Processes
+### WEEK 8: Processes
 
 * Probabilistic
 	* probabilistic step sequencer
 * Generative
 	* Markov Chains
-* Groupthink/Consensus
-	* If everyone's mouse is over the same thing...
+* Improvisational
+	* Create a structure over which someone can play.
+* Combinatoric
+	* Step Sequencer.
 
 
-### WEEK 9: Video Game Music.
+### WEEK 9: Hardware
+
+* Guest: Luisa Periera
+* Musical Hardware
+* Instrument Design
 
 ### WEEK 10: GUI / Visuals / Special Topics (TBD)
 

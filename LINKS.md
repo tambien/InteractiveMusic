@@ -52,6 +52,20 @@
 
 [Studie nr 8 (excerpt) - Oskar Fischinger](https://vimeo.com/35735682)
 
+[Do Not Touch - by Light Light - Interactive Music video using crowdsourced mouse positions](http://donottouch.org/)
+
+[Sounds of Empathy - Xavier Watkins](http://www.ebi.ac.uk/~xwatkins/genome-synth/)
+
+[looptracks - Conor O'Boyle](http://www.looptracks.net/)
+
+[Floral Drift - White Vinyl Designs](http://whitevinyldesign.com/work/flora-drift/)
+
+[Designing musical instruments that privilege improvisation - David Wessel](https://www.youtube.com/watch?v=uGASpqTXz4g)
+
+[Design choices for computer instruments and computer compositional tools - Miller Puckette](https://www.youtube.com/watch?v=ZLACjtOpe0Q)
+
+[Problems and Prospects for Intimate Musical Control of Computers - David Wessel, Matt Wright](http://xenia.media.mit.edu/~mbb/bid_www_class/readings/wessel.pdf)
+
 ## Javascript
 
 [Learning Advanced JavaScript - John Resig](http://ejohn.org/apps/learn/)
@@ -59,3 +73,5 @@
 [Web Audio API O'Reilly](http://chimera.labs.oreilly.com/books/1234000001552/index.html)
 
 [Addy Osmandi - Javascript design Pattern](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+
+[Gesture recognition using Doppler shifts - Daniel Rapp](http://danielrapp.github.io/doppler/)
