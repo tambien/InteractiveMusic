@@ -66,6 +66,8 @@
 
 [Problems and Prospects for Intimate Musical Control of Computers - David Wessel, Matt Wright](http://xenia.media.mit.edu/~mbb/bid_www_class/readings/wessel.pdf)
 
+[Nodea - Jesse Smith](http://mienaikoe.github.io/nodea/)
+
 ## Javascript
 
 [Learning Advanced JavaScript - John Resig](http://ejohn.org/apps/learn/)

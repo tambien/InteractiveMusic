@@ -63,7 +63,7 @@ The first part of the course will cover the tools and techniques of interactive 
 * Sampler
 * WebSockets
 
-### WEEK 6: [Mid Terms](week6/).
+### [WEEK 6: Mid Terms](week6/).
 
 * In class presentation/performance of an interactive instrument/composition using the sonic objects that you've been developing for yourself to use as well as each other. 
 * Data Sonification
@@ -75,9 +75,11 @@ Assignment: package up some class/feature from your midterm with documentation a
 
 ### WEEK 7: Musical Installations
 
+* Final Proposals
 * Interactive Music Installations
 * Gesture mapping
 * Gesture Recognition
+* Spatialization and Amplification
 * Musical Installation Paper Prototyping
 
 ### WEEK 8: Processes
@@ -91,13 +93,28 @@ Assignment: package up some class/feature from your midterm with documentation a
 * Combinatoric
 	* Step Sequencer.
 
-
 ### WEEK 9: Hardware
 
 * Guest: Luisa Periera
 * Musical Hardware
 * Instrument Design
 
-### WEEK 10: GUI / Visuals / Special Topics (TBD)
+### WEEK 10: Visuals / Game Audio
+
+* Game Audio
+* Live Coding
+* Visuals Libraries
+	* Three.js
+	* Two.js
+* Javascript Inheritance
+* `bind`, `apply`, `call`
 
 ### WEEK 11: Final Presentation
+
+PROMPT: A 9 minute performance / presentation of a piece of Interactive Music. It can take the form of an installation, game, instrument, interactive song, sonification, etc (if what you want to do is not on this list, just ask). 
+
+CONSIDERATIONS: 
+* What is the interplay/cohesion/tension between music, interaction and visuals? 
+* How does interaction heighten the experience of the music?
+* Who is your audience? How much are you asking of them?
+* What is the setting/environment of your piece?
