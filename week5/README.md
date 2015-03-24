@@ -48,12 +48,13 @@ What does it sound like? What does it look like? What is the interaction?
 ## Coupling
 
 Your Goals: 
-	* Get a lot out of a little
-	* Be able to re-use work
-	* Save time programming
-	* debug easily
-	* scale your projects bigger
-	* work in teams
+
+* Get a lot out of a little
+* Be able to re-use work
+* Save time programming
+* debug easily
+* scale your projects bigger
+* work in teams
 
 Modularity and Loose-coupling will help you achieve all of those goals. 
 
