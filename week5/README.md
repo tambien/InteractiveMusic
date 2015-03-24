@@ -5,7 +5,7 @@
 	* Buses
 * Scores
 * Sampler
-* WebSockets
+* WebSockets 
 
 ## Conceptual Clarity
 
