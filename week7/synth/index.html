@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Browser Synth</title>
+		<link rel="stylesheet" type="text/css" href="styles/base.css">
+		<script charset="utf-8" src="scripts/core/notes.js"></script>
+		<script charset="utf-8" src="scripts/core/voices.js"></script>
+		<script charset="utf-8" src="scripts/core/triggers.js"></script>
+		<script charset="utf-8" src="scripts/core/instruments.js"></script>
+
+		<script charset="utf-8" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	</head>
+	<body>
+		<style type="text/css">
+			#synth {
+				margin-top: 20%;
+			}
+		</style>
+		<div id="synth"></div>
+
+		<script type="text/javascript">
+		//new instrument
+		var inst = new Instrument("synth");
+		//clear it
+		// inst.unbuild();
+
+		//make whatever triggers you want
+		// inst.newTrigger("5G", 40);
+		// inst.newTrigger("2G", 38);
+		// inst.newTrigger("7G", 39);
+		// inst.newTrigger("2F#", 41);
+
+		/*$(window).keydown(function(e){
+			console.log(e.which);
+		});*/
+		
+		</script>
+
+	</body>
+</html>

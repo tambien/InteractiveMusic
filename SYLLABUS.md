@@ -84,6 +84,7 @@ Assignment: package up some class/feature from your midterm with documentation a
 
 ### WEEK 8: Processes
 
+* Guest: Luke Dubois
 * Probabilistic
 	* probabilistic step sequencer
 * Generative
@@ -101,13 +102,13 @@ Assignment: package up some class/feature from your midterm with documentation a
 
 ### WEEK 10: Visuals / Game Audio
 
-* Game Audio
-* Live Coding
+* Javascript Inheritance
+* `bind`, `apply`, `call`
 * Visuals Libraries
 	* Three.js
 	* Two.js
-* Javascript Inheritance
-* `bind`, `apply`, `call`
+* Game Audio
+* Live Coding guest: Kyle Stetz
 
 ### WEEK 11: Final Presentation
 

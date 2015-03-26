@@ -66,6 +66,8 @@
 
 [Problems and Prospects for Intimate Musical Control of Computers - David Wessel, Matt Wright](http://xenia.media.mit.edu/~mbb/bid_www_class/readings/wessel.pdf)
 
+[Composing Instruments: Inventing and Performing with Generative Computer-based Instruments - Ali Momeni](http://alimomeni.net/files/documents/ali-momeni-dissertation.pdf)
+
 [Nodea - Jesse Smith](http://mienaikoe.github.io/nodea/)
 
 ## Javascript
