@@ -12,6 +12,10 @@ CONSIDERATIONS:
 * Who is your audience? How much are you asking of them?
 * What is the setting/environment of your piece?
 
+## Modular
+
+[This friday and Saturday](https://www.facebook.com/events/1559524397651445/)
+
 ## Installations
 
 ### Spatialization
