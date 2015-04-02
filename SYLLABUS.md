@@ -73,32 +73,30 @@ The first part of the course will cover the tools and techniques of interactive 
 
 Assignment: package up some class/feature from your midterm with documentation and at least one example of how to use it. We are creating a library of sonic objects from people's assignments which can be used, combined and remixed for the final assignment. 
 
-### WEEK 7: Musical Installations
+### [WEEK 7: Musical Installations](week7/)
 
 * Final Proposals
 * Interactive Music Installations
 * Gesture mapping
-* Gesture Recognition
-* Spatialization and Amplification
 * Musical Installation Paper Prototyping
 
 ### WEEK 8: Processes
 
 * Guest: Luke Dubois
-* Probabilistic
-	* probabilistic step sequencer
-* Generative
-	* Markov Chains
-* Improvisational
-	* Create a structure over which someone can play.
-* Combinatoric
-	* Step Sequencer.
+* Randomness and Noise
+* Random Melody Walk
+	* Interactive Melody Walk
+* Markov Melodies
+	* Interactive Markov Melodies
+* Probabilistic drum loops
+* Functions
 
 ### WEEK 9: Hardware
 
 * Guest: Luisa Periera
 * Musical Hardware
 * Instrument Design
+* Speakers and Amplification
 
 ### WEEK 10: Visuals / Game Audio
 

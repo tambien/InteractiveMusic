@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>PLAYER</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	
+	
+	<script type="text/javascript" src="http://cdn.tonejs.org/r4/Tone.min.js"></script>
+  <script type="text/javascript" src="./ViolaSampler2.js"></script>
+	
+	<script src="p5.js"></script>
+	<script src="p5.dom.js"></script> 
+
+
+	<script type="text/javascript"></script>
+
+</head>
+<body>
+	<script id="ToneCode" type="text/javascript">
+		 // All the paths
+
+
+var arcoNotes = ["A.C5", "A.D5", "A.Gb6", "C.A3", "C.D3", "G.F4", "G.G3", "G.Gb5"];
+
+
+var pizzNotes = ["PizzC.C5", "PizzC.D3", "PizzA.A4", "PizzA.A6", "PizzA.B4"];
+
+// Start it up
+function mousePressed(f) {
+  next = 0;
+  painting = true;
+  previous.x = mouseX;
+  previous.y = mouseY;
+  paths.push(new Path());
+ 
+  
+  var normalizedY = Math.min(f.offsetY / height, 0.999);
+  var normalizedX = Math.min(f.offsetY / width, 0.999);
+  var note = pizzNotes[Math.floor(normalizedX * pizzNotes.length)];
+  Pizzviola.triggerAttack(note, 0.5, 0.1);
+
+
+}
+  //sound changes with drawing
+function mouseDragged(e) {
+
+  var normalizedX = Math.min(e.offsetX / width, 0.999);
+  var normalizedY = Math.min(e.offsetY / height, 0.999);
+  var note = arcoNotes[Math.floor(normalizedX * arcoNotes.length)];
+
+ 
+  Arcoviola.triggerAttack(note, 1, 1);
+      
+}
+
+// Stop
+function mouseReleased() {
+  painting = false;
+}
+
+</script>
+</body>
+</html>

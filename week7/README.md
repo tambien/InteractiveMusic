@@ -62,6 +62,10 @@ Super simple, no-tech, conceptual cross fader between two performers.
 
 A table with a camera underneath tracks fiducial markers on blocks. The placement and rotation of the blocks controls music music or sound effects.
 
+#### [Playing the Building - David Byrne](https://www.youtube.com/watch?v=Gea9SYUdJeY)
+
+Byrne connected a piano keyboard to trigger motors and actuators around the building. Great use of space and materials. 
+
 ### Environmental
 
 #### [Subway Symphony - James Murphy](http://pitchfork.com/news/54088-james-murphy-previews-music-for-new-york-city-subway-stations/)
@@ -75,10 +79,6 @@ Very architecturally striking design. Maps string plucks / stretches to samples 
 #### [21 Balançoires (21 Swings) -  Daily tous les jours](https://vimeo.com/40980676)
 
 Playful public installation where swinging on swings generates music. Clear mapping and lots of variation in rhythm and melody. 
-
-#### [Playing the Building - David Byrne](https://www.youtube.com/watch?v=Gea9SYUdJeY)
-
-Byrne connected a piano keyboard to trigger motors and actuators around the building. Great use of space and materials. 
 
 #### [Piano Stairs - Remo Saraceni](https://www.youtube.com/watch?v=FOVHNGeDxKE)
 

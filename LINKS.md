@@ -70,6 +70,10 @@
 
 [Nodea - Jesse Smith](http://mienaikoe.github.io/nodea/)
 
+[Infinite String Quartet](http://www.infinitestringquartet.com/)
+
+[Tristan Perich 1-bit symphony]
+
 ## Javascript
 
 [Learning Advanced JavaScript - John Resig](http://ejohn.org/apps/learn/)
