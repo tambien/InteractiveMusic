@@ -54,7 +54,7 @@
 				"type" : "triangle"
 			},
 			"envelope" : {
-				"attack" : "0.3",
+				"attack" : "0.001",
 				"decay" : "1",
 				"susain" : "0",
 				"release" : "0.01",
@@ -130,7 +130,7 @@
 		var hh = new Tone.Player("../audio/hh.mp3").toMaster();
 		hh.retrigger = true;
 
-		var step = 0;
+		var step = -1;
 		Tone.Transport.setInterval(function(time){
 			step++;
 			step = step % 16;
