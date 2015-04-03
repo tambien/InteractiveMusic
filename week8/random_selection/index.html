@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Selection</title>
+	<script type="text/javascript" src="http://cdn.tonejs.org/r4/Tone.js"></script>
+	<script type="text/javascript" src="https://rawgit.com/lsu-emdm/nexusUI/master/dist/nexusUI.js"></script>	
+</head>
+<body>
+	<canvas id="jumpSlider" nx="slider"></canvas>
+	<script type="text/javascript">
+
+	var scale = ["C4", "D4", "E4", "G4", "A4", "C5", "D5", "E5", "G5", "A5"];
+
+	var synth = new Tone.MonoSynth({
+		"oscillator" : {
+			"type" : "square",
+		},
+		"envelope" : {
+			"attack" : 0.01,
+			"sustain" : 1,
+			"release" : 0.1
+		}
+	}).toMaster();
+
+	var jumpSize = 0.25;
+
+	var currentNote = Math.random() * scale.length;
+
+	Tone.Transport.setInterval(function(time){
+		jumpSize = jumpSlider.val.value;
+		var randomJump = (Math.random() * jumpSize - jumpSize / 2) * scale.length;
+		currentNote += randomJump;
+		currentNote = Math.min(currentNote, scale.length - 1);
+		currentNote = Math.max(currentNote, 0);
+		synth.triggerAttackRelease(scale[Math.floor(currentNote)], "8n", time);
+	}, "4n");
+
+	nx.onload = function(){
+		Tone.Transport.start();
+	};
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Selection</title>
+	<script type="text/javascript" src="http://cdn.tonejs.org/r4/Tone.js"></script>
+	<script type="text/javascript" src="http://cdn.tonejs.org/r4/Tone.Preset.js"></script>
+	<script type="text/javascript" src="https://rawgit.com/lsu-emdm/nexusUI/master/dist/nexusUI.js"></script>	
+	<script type="text/javascript" src="https://rawgit.com/tambien/TERP/master/TERP.js"></script>	
+</head>
+<body>
+	<style type="text/css">
+	[nx="multislider"]{
+		width: 300px;
+		height: 200px;
+	}
+	</style>
+	<!-- <canvas id="kickProbability" nx="multislider"></canvas>
+	<canvas id="snareProbability" nx="multislider"></canvas>
+	<canvas id="hhProbability" nx="multislider"></canvas> -->
+	<canvas id="positionSlider" nx="slider"></canvas>
+	<script type="text/javascript">
+
+
+	var presetA = {
+		"portamento" : 0.0,
+		"filter" : {
+			"Q" : 6,
+		},
+		"envelope" : {
+			"attack" : 0.025,
+			"decay" : 0.3,
+			"sustain" : 0.9,
+			"release" : 2
+		},
+		"filterEnvelope" : {
+			"attack" : 0.245,
+			"decay" : 0.131,
+			"sustain" : 0.5,
+			"release" : 2,
+			"min" : 20,
+			"max" : 3000
+		}
+	};
+
+	var presetB = {
+		"portamento" : 0.0001,
+		"filter" : {
+			"Q" : 6,
+		},
+		"envelope" : {
+			"attack" : 0.005,
+			"decay" : 3,
+			"sustain" : 0,
+			"release" : 0.45
+		},
+		"filterEnvelope" : {
+			"attack" : 0.001,
+			"decay" : 0.32,
+			"sustain" : 0.9,
+			"release" : 3,
+			"min" : 700,
+			"max" : 3500
+		}
+	};
+
+	nx.onload = function(){
+		positionSlider.on("*", function(val){
+			interpolationPosition = val.value;
+		});
+
+		Tone.Transport.start();
+	};
+
+	var step = 0;
+
+	var synth = new Tone.MonoSynth().toMaster();
+
+	var interpolationPosition = 0.5;
+
+	Tone.Transport.setInterval(function(time){
+		var setting = interpolate(interpolationPosition);
+		synth.set(setting);
+		synth.triggerAttackRelease("C4", "16n", time);
+
+		step++;
+		step = step % 16;
+	}, "8n");
+
+
+	function interpolate(position){
+		var ret = {};
+		for (var attr in presetA){
+			var param = presetA[attr];
+			if (isFinite(param)){
+				ret[attr] = TERP.scale(position, 0, 1, presetA[attr], presetB[attr]);
+			} else {
+				ret[attr] = {};
+				for (var innerAttr in param){
+					ret[attr][innerAttr] = TERP.scale(position, 0, 1, presetA[attr][innerAttr], presetB[attr][innerAttr]);
+				}
+			}
+		}
+		return ret;
+	}
+
+
+
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

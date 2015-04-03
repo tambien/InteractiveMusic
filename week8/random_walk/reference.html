@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Walk</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script> 
+	<script type="text/javascript" src="http://cdn.tonejs.org/r4/Tone.min.js"></script>
+	<script type="text/javascript" src="https://rawgit.com/lsu-emdm/nexusUI/master/dist/nexusUI.js"></script>	
+</head>
+<body>
+	<canvas id="direction" nx="slider"></canvas>
+	<script type="text/javascript">
+
+		var synth = new Tone.MonoSynth({
+			"oscillator" : {
+				"type" : "square"
+			},
+			"envelope" : {
+				"attack" : "0.01",
+				"decay" : "0",
+				"susain" : "1",
+				"release" : "0.01",
+			}
+		}).toMaster();
+
+		var scale = ["C", "D", "Eb", "F", "G", "A", "B"];
+		var octave = 4;
+
+		//start at a random note
+		var currentNote = Math.floor(Math.random() * scale.length);
+
+		//the callback to play the next note
+		Tone.Transport.setInterval(function(time){
+			pickNextNote();
+			synth.triggerAttackRelease(scale[currentNote] + octave, "8n", time);
+		}, "4n");
+
+		//pick the next note by taking a random step
+		function pickNextNote(){
+			if (Math.random() < direction.val.value){ //move up
+				currentNote++;
+				if (currentNote >= scale.length){
+					currentNote = 0; 
+					octave++;
+				}
+			} else { //move down
+				currentNote--;
+				if (currentNote < 0){
+					currentNote = scale.length - 1; 
+					octave--;
+				}
+			}
+		}
+
+		Tone.Transport.start();
+
+		nx.onload = function(){
+			direction.val.value = 0.5;
+			direction.draw();
+		};
+
+	</script>
+</body>
+</html>

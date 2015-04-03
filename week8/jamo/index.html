@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Markov Melody</title>
+	<script type="text/javascript" src="http://cdn.tonejs.org/r4/Tone.min.js"></script>
+	<script type="text/javascript" src="https://rawgit.com/lsu-emdm/nexusUI/master/dist/nexusUI.js"></script>	
+</head>
+<body>
+	<canvas id="up" nx="slider"></canvas>
+	<style type="text/css">
+		[nx="multislider"]{
+			width: 300px;
+			height: 200px;
+		}
+	</style>
+	<canvas id="kickSliders" nx="multislider"></canvas>
+	<canvas id="snareSliders" nx="multislider"></canvas>
+	<canvas id="hhSliders" nx="multislider"></canvas>
+
+	<script type="text/javascript">
+
+		var currentNote = (function(){
+
+			var Gmaj = {
+				notes : ["G3", "B3", "D4"],
+			};
+
+			var Fmaj = {
+				notes : ["F3", "A3", "C4"],
+			};
+
+			var Amin = {
+				notes : ["A3", "C4", "E4"]
+			};
+
+			var Cmaj = {
+				notes : ["C4", "E4", "G4"],
+			};
+
+			Cmaj[0] = Amin;
+			Cmaj[1] = Fmaj;
+			Amin[0] = Cmaj;
+			Amin[1] = Fmaj;
+			Fmaj[0] = Gmaj;
+			Fmaj[1] = Cmaj;
+			Gmaj[0] = Cmaj;
+			Gmaj[1] = Amin;
+
+			return Cmaj;
+		})();
+
+		var synth = new Tone.PolySynth(3, Tone.MonoSynth, {
+			"oscillator" : {
+				"type" : "triangle"
+			},
+			"envelope" : {
+				"attack" : "0.3",
+				"decay" : "1",
+				"susain" : "0",
+				"release" : "0.01",
+			}
+		}).toMaster();
+
+		var bass = new Tone.MonoSynth({
+			"oscillator" : {
+				"type" : "square"
+			},
+			"envelope" : {
+				"attack" : "0.01",
+				"decay" : "0.1",
+				"susain" : "0.01",
+				"release" : "1.8",
+			},
+			"filterEnvelope" : {
+				"attack" : 0.001,
+				"decay" : 0.2,
+				"max" : 600,
+				"min" : 100
+			}
+		}).toMaster();
+
+		var upiness = 0.5;
+
+		//the callback to play the next note
+		Tone.Transport.setInterval(function(time){
+			synth.triggerAttackRelease(currentNote.notes, "1m", time);
+			bass.triggerAttackRelease(currentNote.notes[0].charAt(0) + "2", "2n", time);
+			if (Math.random() < upiness){
+				currentNote = currentNote[0];
+			} else {
+				currentNote = currentNote[1];
+			}
+		}, "1m");
+
+	/*	nx.onload = function(){
+			Tone.Transport.start();
+
+			up.on("*", function(val){
+				upiness = val.value;
+			});
+		};*/
+
+		//setup the sliders
+		nx.onload = function(){
+			up.on("*", function(val){
+				upiness = val.value;
+			});
+			kickSliders.sliders = 16;
+			snareSliders.sliders = 16;
+			hhSliders.sliders = 16;
+			kickSliders.init();
+			snareSliders.init();
+			hhSliders.init();
+			//0 everything out
+			for (var i = 0; i < 16; i++){
+				kickSliders.val[i] = 0;
+				snareSliders.val[i] = 0;
+				hhSliders.val[i] = 0;
+			}
+			kickSliders.draw();
+			snareSliders.draw();
+			hhSliders.draw();
+		};
+
+		//make the players
+		var kick = new Tone.Player("../audio/kick.mp3").toMaster();
+		kick.retrigger = true;
+		var snare = new Tone.Player("../audio/snare.mp3").toMaster();
+		snare.retrigger = true;
+		var hh = new Tone.Player("../audio/hh.mp3").toMaster();
+		hh.retrigger = true;
+
+		var step = 0;
+		Tone.Transport.setInterval(function(time){
+			step++;
+			step = step % 16;
+			//get the kick status on that step
+			if (Math.random() < kickSliders.val[step]){
+				kick.start(time);
+			}
+			if (Math.random() < snareSliders.val[step]){
+				snare.start(time);
+			}
+			if (Math.random() < hhSliders.val[step]){
+				hh.start(time);
+			}
+		}, "16n");
+
+		Tone.Buffer.onload = function(){
+			Tone.Transport.start();
+		};
+
+	</script>
+</body>
+</html>
