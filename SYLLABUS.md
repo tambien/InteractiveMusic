@@ -91,7 +91,7 @@ Assignment: package up some class/feature from your midterm with documentation a
 * Probabilistic drum loops
 * Functions
 
-### WEEK 9: Hardware
+### [WEEK 9: Hardware](week9/)
 
 * Guest: Luisa Pereira
 * Instrument Design
