@@ -60,10 +60,7 @@ The above models, but add in another feedback loop in which the audience listeni
 
 Helps articulating control. 
 Active Engagement. 
-
-Feedforward - Guides user by providing information about the internal state of
-the system (as opposed to information from output) 
-
+Clarity of intent.
 
 ## Mappings
 
