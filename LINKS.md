@@ -72,7 +72,9 @@
 
 [Infinite String Quartet](http://www.infinitestringquartet.com/)
 
-[Tristan Perich 1-bit symphony]
+[Tristan Perich 1-bit symphony](https://vimeo.com/12244413)
+
+[::vtol:: oil](https://vimeo.com/117032507)
 
 ## Javascript
 

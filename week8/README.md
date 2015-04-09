@@ -81,3 +81,5 @@ It becomes really interesting when you interpolate between multiple probability 
 [A Panoply of Stochastic 'Cannons'](http://www.jstor.org/stable/3679442?seq=2#page_scan_tab_contents)
 [Music and Probability](http://www.amazon.com/Music-Probability-David-Temperley/dp/0262515199)
 [The Algorithmic Composer](http://www.amazon.com/Algorithmic-Composer-Computer-Digital-Series/dp/0895794543)
+
+[Luke DuBois' Markov Projects and Resources](http://sites.bxmc.poly.edu/~lukedubois/yotam_class.zip)

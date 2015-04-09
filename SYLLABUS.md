@@ -80,7 +80,7 @@ Assignment: package up some class/feature from your midterm with documentation a
 * Gesture mapping
 * Musical Installation Paper Prototyping
 
-### WEEK 8: Processes
+### [WEEK 8: Processes](week8/)
 
 * Guest: Luke Dubois
 * Randomness and Noise
@@ -93,19 +93,29 @@ Assignment: package up some class/feature from your midterm with documentation a
 
 ### WEEK 9: Hardware
 
-* Guest: Luisa Periera
-* Musical Hardware
+* Guest: Luisa Pereira
 * Instrument Design
+	* Expressivity
+	* Responsiveness
+	* Mapping
 * Speakers and Amplification
+	* Mixers
+	* A/D & D/A Converters
+	* Microphones
+	* Speakers
+* Misc JS
+	* Javascript Inheritance
+	* `bind`, `apply`, `call`
 
 ### WEEK 10: Visuals / Game Audio
 
-* Javascript Inheritance
-* `bind`, `apply`, `call`
+* Audio Analysis
+	* FFT
+	* MFCC
+	* Meyda
 * Visuals Libraries
 	* Three.js
 	* Two.js
-* Game Audio
 * Live Coding guest: Kyle Stetz
 
 ### WEEK 11: Final Presentation
