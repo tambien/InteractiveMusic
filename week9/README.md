@@ -46,11 +46,11 @@ The interaction model is how people use the interface and how it responds to the
 
 ### Basic Interaction Model
 
-![Basic Interaction Model](./images/washington-interfaces.png)
+![Improvisatory Interaction Model](./images/wessel-improvisation.png)
 
 ### Improvisatory Interaction Model
 
-![Improvisatory Interaction Model](./images/wessel-improvisation.png)
+![Basic Interaction Model](./images/washington-interfaces.png)
 
 ### Performative Interaction Model
 
