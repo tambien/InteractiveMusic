@@ -107,7 +107,7 @@ Assignment: package up some class/feature from your midterm with documentation a
 	* Javascript Inheritance
 	* `bind`, `apply`, `call`
 
-### WEEK 10: Visuals / Game Audio
+### [WEEK 10: Visuals / Analysis / Live Coding](week10/)
 
 * Audio Analysis
 	* FFT

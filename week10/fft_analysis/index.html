@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Audio Analysis</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script> 
+	<script type="text/javascript" src="http://cdn.tonejs.org/r4/Tone.min.js"></script>
+</head>
+<body>
+	<style type="text/css">
+	#AnalysisCanvas {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	</style>
+	<canvas id="AnalysisCanvas"></canvas>
+	<script type="text/javascript">
+	//create an analyser node
+	var analyser = Tone.context.createAnalyser();
+	analyser.fftSize = 2048;
+	//this is the data structure that we'll put our analysis in
+	var dataArray = new Uint8Array(analyser.frequencyBinCount);
+
+	//create a microphone and connect it up
+	var microphone = new Tone.Microphone().start().connect(analyser);
+
+	//a drawing context
+	var context = $("#AnalysisCanvas")[0].getContext("2d");
+	var canvasWidth = $("#AnalysisCanvas").width();
+	var canvasHeight = $("#AnalysisCanvas").height();
+	context.canvas.width = canvasWidth;
+	context.canvas.height = canvasHeight;
+
+
+	//the animation loop
+	function draw() {
+		requestAnimationFrame(draw);
+
+		//get the frequency data
+		analyser.getByteFrequencyData(dataArray);
+
+		//clear the canvas
+		context.clearRect(0, 0, canvasWidth, canvasHeight);
+
+		//draw a bar at each of hte frequency bins. 
+		//the height is equal to the amplitude
+		var barWidth = (canvasWidth / dataArray.length) - 1;
+		context.fillStyle = "red";
+
+		for(var i = 0; i < dataArray.length; i++) {
+			var x = (i / dataArray.length) * canvasWidth;
+			var barHeight = (dataArray[i]/255) * canvasHeight;
+			context.fillRect(x,canvasHeight - barHeight, barWidth, canvasHeight);
+		}
+	}
+	//start the loop
+	draw();
+
+
+	</script>
+</body>
+</html>
