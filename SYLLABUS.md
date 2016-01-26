@@ -1,36 +1,76 @@
 # SYLLABUS
 
+## CLASS RULES AND ETIQUETTE
+
+* Come to class on time (or early! especially if you need to set something up).
+* Let me know in advance if you need to be excused for an absence (emergencies only!).
+* **Lids down** while your classmates are presenting. 
+* If you don't understand something, please ask. If you think it's a complex and specific question, come to office hours or email me.
+* Most importantly, be an engaged student. Listen to your classmates, create for them, give compliments, give feedback, share references and knowledge.
+
+## GRADING
+
+* 33% Final
+* 33% Assignments 
+* 33% Participation
+* 1% Extra Credit
+
 ## OVERVIEW
 
-The first part of the course will cover the tools and techniques of interactive music. We will focus mostly on JavaScript and the browser as the platform for interactive engagement with listeners/players. The second part of the course will focus on the aesthetic and artistic considerations of interaction: mappings, interfaces, and interactions. 
+The course covers the tools and techniques of interactive music. This is a 12 week class with 2 incremental assignments and one culminating final project.
 
-### [WEEK 0: Why Interactive Music?](week0/)
+## SCHEDULE
+
+### WEEK 0
 
 * History / Context
-* Discussion
-* Jam - Cobra Snake
+* _Thought Music_ Experiment
+* _Cobra_ Experiement
+* Organizing Sound
+* "Notes"
 
-### [WEEK 1: Analog/Digital Synthesis](week1/)
+ASSIGNMENT: Create/Select 3 Notes
+
+
+### WEEK 1
 
 * Sound
+* Audio Basics
 * Synthesis
-* Analog Synth Components - w/guest Jonathan Baken
-* DAWs
 * Digital Audio
-* Spectromorphology
+* Spectromorophology
 
-### [WEEK 2: Making Sound in the Browser](week2/)
+ASSIGNMENT: Sculpt your 3 Notes
 
-* Getting up and running in Javascript. 
+
+### WEEK 2
+
+* Up and running
 * Developer Tools
 	* debugger
-* Basics of Web Audio API. 
-* Intro to Tone.js
-* Mouse and keyboard events
-* Musical interactivity: Group improvisation, in C. 
+* Intro Web Audio API / Tone.js
+* Realization
 
-### [WEEK 3: Sonic Objects](week3/)
+ASSIGNMENT: Realize your 3 Notes.
 
+
+### WEEK 3
+
+* Present Realizations
+* Randomness and Noise
+* Random Melody Walk
+	* Interactive Melody Walk
+* Markov Melodies
+	* Interactive Markov Melodies
+* Probabilistic drum loops
+
+ASSIGNMENT: Create a random process for your 3 Notes.
+
+
+### WEEK 4
+
+* Random Cont.
+* Motif / Phrase
 * Object Oriented Javascript
 	* function prototype objects
 	* `new`
@@ -38,76 +78,65 @@ The first part of the course will cover the tools and techniques of interactive 
 	* members
 	* methods
 	* `this`
-* Interfaces
-	* private/public
-* Dependencies
-* JSDocs
 
-### [WEEK 4: Sonic Objects Continued](week4/)
+ASSIGNMENT: Encapsulate a Motif from your 3 Notes.
 
-* Look at peoples objects and APIs
-* `prototype`
-* `this`
-* Inheritance
-* Tone
+### WEEK 5
 
-### [WEEK 5: Musical Architecture](week5/).
-
+* Development Techniques
+	* Aleatoric
+	* Stochastic
+	* Process Music
+	* Open Form
 * Conceptual Clarity
+
+ASSIGNMENT: Develop your Motif
+
+### WEEK 6
+
+* Interaction
+* Dimensionality
 * Coupling
 	* Modules
 	* Mediator
 	* Channels
 	* Buses
+
+ASSIGNMENT: Make your Motif interactive.
+
+### WEEK 7
+
+* Present Realizations
+* Gesture
+* Instrument Design
+	* Expressiveness
+	* Responsiveness
+	* Mapping
+
+ASSIGNMENT: Design a gesture for your Material
+
+### WEEK 8
+
+* Final Proposals
 * Scores
-* Sampler
-* WebSockets
-
-### [WEEK 6: Mid Terms](week6/).
-
-* In class presentation/performance of an interactive instrument/composition using the sonic objects that you've been developing for yourself to use as well as each other. 
-* Data Sonification
+* API Design
+	* public/private
 * Refactoring
 * Documentation
 * Extensibility
 
-Assignment: package up some class/feature from your midterm with documentation and at least one example of how to use it. We are creating a library of sonic objects from people's assignments which can be used, combined and remixed for the final assignment. 
+ASSIGNMENT: Design a musical API (Sound Object) to give to someone else in the class.
 
-### [WEEK 7: Musical Installations](week7/)
+### WEEK 9
 
-* Final Proposals
-* Interactive Music Installations
-* Gesture mapping
-* Musical Installation Paper Prototyping
+* Musical Installations
+	* Paper Prototyping
+* Extended Technique
+* Share your APIs with another student
 
-### [WEEK 8: Processes](week8/)
+ASSIGNMENT: Develop Final
 
-* Guest: Luke Dubois
-* Randomness and Noise
-* Random Melody Walk
-	* Interactive Melody Walk
-* Markov Melodies
-	* Interactive Markov Melodies
-* Probabilistic drum loops
-* Functions
-
-### [WEEK 9: Hardware](week9/)
-
-* Guest: Luisa Pereira
-* Instrument Design
-	* Expressivity
-	* Responsiveness
-	* Mapping
-* Speakers and Amplification
-	* Mixers
-	* A/D & D/A Converters
-	* Microphones
-	* Speakers
-* Misc JS
-	* Javascript Inheritance
-	* `bind`, `apply`, `call`
-
-### [WEEK 10: Visuals / Analysis / Live Coding](week10/)
+### WEEK 10
 
 * Audio Analysis
 	* FFT
@@ -116,14 +145,10 @@ Assignment: package up some class/feature from your midterm with documentation a
 * Visuals Libraries
 	* Three.js
 	* Two.js
-* Live Coding guest: Kyle Stetz
+* Live Coding / Improvisation
 
-### WEEK 11: Final Presentation
+ASSIGNMENT: Develop Final
 
-PROMPT: A 9 minute performance / presentation of a piece of Interactive Music. It can take the form of an installation, game, instrument, interactive song, sonification, etc (if what you want to do is not on this list, just ask). 
+### WEEK 11
 
-CONSIDERATIONS: 
-* What is the interplay/cohesion/tension between music, interaction and visuals? 
-* How does interaction heighten the experience of the music?
-* Who is your audience? How much are you asking of them?
-* What is the setting/environment of your piece?
+* Final Presentations
