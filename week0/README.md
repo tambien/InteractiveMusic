@@ -2,7 +2,6 @@
 
 * Listening-centric
 * Jamming
-* No GUIs (at least in the beginning)
 * Javascript / Web Audio / Tone.js
 
 # WEEK 0
@@ -12,6 +11,13 @@
 * Implementations
 * Constraints
 * Jam
+
+## THEMES
+
+* Grain / Cell
+* Modularity
+* Indeterminacy
+* Cohesion
 
 ## TECHNIQUES
 
@@ -118,7 +124,6 @@ Some of the above examples include defining a process to generate pitches and du
 | Person Composed  | Traditional Music.                 | Interactive Music / Video Game Music / DAWs? |
 | Process Composed | Aleatoric/Stochastic/Process Music | Data Sonification?                   |
 
-
 ### Music Creation Software
 
 How does the system we use to make music dictate the music we make with it?
@@ -162,6 +167,18 @@ Why make interactive music?
 Why NOT make interactive music?
 
 ## PLAY
+
+### LAURIE SPEIGEL
+
+> I automate whatever can be automated to be freer to focus on those aspects of music that can't be automated. The challenge is to figure out which is which.
+
+[Music Mouse](https://www.youtube.com/watch?v=zIqS5_bh4nM)
+
+## NOTES/MOMENTS
+
+> When certain characteristics remain constant for a while -- in musical terms, when sounds occupy a particular region, a certain register, or stay within a particular dynamic, or maintain a certain average speed -- then a moment is going on: these constant characteristics determine the moment.
+> 
+> STOCKHAUSEN ON MUSIC
 
 ### Performing Cobra: 
 
