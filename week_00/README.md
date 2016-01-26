@@ -1,20 +1,26 @@
 ## COURSE GOALS
 
 * Listening-centric
-* Jamming
+* Deep engagement with sound
 * Javascript / Web Audio / Tone.js
 
 # WEEK 0
+
+* History / Context
+* _Thought Music_ Experiment
+* _Cobra_ Experiement
+* Organizing Sound
+* "Notes"
+
 
 * Intros
 * Techniques / History / Context
 * Implementations
 * Constraints
-* Jam
 
 ## THEMES
 
-* Grain / Cell
+* Grain / Cell / Note
 * Modularity
 * Indeterminacy
 * Cohesion
@@ -166,7 +172,23 @@ Why make interactive music?
 
 Why NOT make interactive music?
 
-## PLAY
+## EXPERIMENTS
+
+### THOUGHT MUSIC
+
+[Background Sound]()
+
+An experiment to see if we can [entrainment](https://en.wikipedia.org/wiki/Entrainment) the rate of our thoughts using sound. 
+
+>Close your eyes. Let your thoughts wander for about 30 seconds. Tap your desk with your pencil each time your thoughts change _direction_. 
+
+_This experiment is described in [Stockhausen on Music](http://www.amazon.com/Stockhausen-Music-Karlheinz/dp/0714529184)_.
+
+## Organized Sound
+
+>"Music is organized sound."
+>
+> Edgard Varese
 
 ### LAURIE SPEIGEL
 
