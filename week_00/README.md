@@ -14,19 +14,20 @@
 # WEEK 0
 
 * Intros
-* History / Context
 * Organized Sound
+* History / Context
 * Implementations
 * _Thought Music_ Experiment
 * _Cobra_ Experiement
-* "Notes"
+* ASSIGNMENT: "Notes"
 
 ## WHAT IS MUSIC?
 
-> "the science or art of ordering tones or sounds in succession, in combination, and in temporal relationships to produce a composition having unity and continuity" 
+> "the science or art of ordering tones or sounds in succession, in combination, and in temporal relationships to produce a composition having unity and continuity" \*
 > 
 > Webster's Collegiate Dictionary
 
+\*I don't like this definition. 
 
 >"Music is organized sound."
 >
@@ -42,7 +43,7 @@
 >
 > [Wikipedia](https://en.wikipedia.org/wiki/Definition_of_music)
 
-### Xenakis
+### Xenakis - Formalized Music
 
 1. It is a sort of comportment necessary for whoever thinks it and makes it.
 2. It is an individual pleroma, a realization.
@@ -52,7 +53,6 @@
 6. It is the gratuitous play of a child.
 7. It is a mystical (but atheistic) asceticism. Consequently, expressions of sadness, joy, love and dramatic situations are only very limited particular instances.
 
-- Xenakis - Formalized Music
 
 ## PROCESS
 
@@ -68,7 +68,7 @@ Realization - a process of music production.
 
 Starting from the bottom...
 
-A musical ["cell"](http://en.wikipedia.org/wiki/Cell_%28music%29) is the smallest germ of an idea. Cells can be developed 
+A musical ["cell"](http://en.wikipedia.org/wiki/Cell_%28music%29) is the smallest germ of an idea. Cells can be developed into Motifs and musical Material. Always try to find more in what you already have. A "pregnant" cell might be all the stuff you need to develop a piece of music.
 
 [Beethoven's 5th](https://www.youtube.com/watch?v=rRgXUFnfKIY)
 
@@ -80,11 +80,17 @@ A musical ["cell"](http://en.wikipedia.org/wiki/Cell_%28music%29) is the smalles
 >
 > Wikipedia - [Aleatoric Music](http://en.wikipedia.org/wiki/Aleatoric_music)
 
-#### [Music of Changes](https://www.youtube.com/watch?v=B_8-B2rNw7s) - John Cage - 1951
+#### [Variations I](https://www.youtube.com/watch?v=d8DiCEfa7ME) - John Cage - 1958
 
-* Early fully-indeterminate work by John Cage.
-* Uses _I Ching_, an ancient divination text, to generate random numbers.
-* Segments are composed by consulting the _I Ching_ on which sound event to choose from a sound chart.
+
+* Points representing sound characteristics are placed on a board
+* Lines are dropped on the board and the sound is interpreted by the proximity to the points.
+
+> Six transparent sheets having single straight lines. Five having points. The sheets are to be superimposed partially or wholly separated on a suitable surface. Drop perpendiculars by means of any rule obtaining readings thereby for (1) frequency, (2) amplitude, (3) timbre, (4)duration, (5) point of occurrence in an established period of time, (6) structure of event (number of sounds making up an aggregate or constellation). A single use of all sheets yields thirty determinations. 
+> 
+> Instructions - _Variations II_
+
+![Score Recreation](http://williambrent.conflations.com/graphics/variations-ii-still-1.jpg)
 
 ### Stochastic
 
@@ -99,6 +105,8 @@ Stochastic music typically models a process (physical or otherwise) and leaves e
 * Mathematical processes based on probability that generate stochastic elements.
 * Piece is based on statistical mechanics of gasses, Guassian distribution and Brownian Motion.
 * Each instrument is conceived as a molecule obeying the Maxwell–Boltzmann distribution law, with Gaussian distribution of temperature fluctuation.
+
+![Pithoprakta Score](http://www.cavvia.net/images/pithoprakta2.jpeg)
 
 ### Process Music
 
@@ -169,9 +177,11 @@ Thoughts?
 
 [Music Mouse](https://www.youtube.com/watch?v=zIqS5_bh4nM)
 
+[Laurie Spiegel - East River Dawn](https://www.youtube.com/watch?v=zIqS5_bh4nM)
+
 #### ROBERT HENKE
 
-Composer and codeveloper of Ableton Live. 
+Composer and co-developer of Ableton Live. 
 
 His views on composition and music have effected TONS of music producers and millions of music listeners. 
 
@@ -216,7 +226,7 @@ How does the system we use to make music dictate the music we make with it?
 
 #### QUESTION?
 
-How much of the music are you creating (Poiesis) and how much of it are you just realizing (Anapoiesis)? 
+How much of the music are you creating (Poiesis) and how much of it are you just recreating (Anapoiesis)? 
 
 ### Digital Interactives
 
