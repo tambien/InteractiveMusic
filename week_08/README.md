@@ -1,4 +1,4 @@
-* Guest: Luke DuBois
+
 * Randomness
 	* Limited Randomness
 * Functions

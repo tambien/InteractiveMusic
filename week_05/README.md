@@ -1,3 +1,7 @@
+## TECHNIQUES
+
+
+
 * Conceptual Clarity
 * Coupling
 	* Modules
@@ -175,15 +179,10 @@ Then to play a specific sample, call that sample by its name in `triggerAttack`
 sampler.triggerAttack("A1");
 ```
 
-## WebSockets
-
-Check out [websocket_echo](./websocket_echo/) for examples and a simple echo server application. 
-
 ## RESOURCES
 
 [Learning Advanced JavaScript - John Resig](http://ejohn.org/apps/learn/)
 
-[Web Audio API O'Reilly](http://chimera.labs.oreilly.com/books/1234000001552/index.html)
 
 [Recorder.js](https://github.com/mattdiamond/Recorderjs) - This is useful for recording the output of your audio nodes. It's pretty straightforward to use. If you want to record your master output, you could do something like this: 
 

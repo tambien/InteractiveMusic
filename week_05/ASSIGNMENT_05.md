@@ -1,0 +1,1 @@
+Develop your Motif into phrases and sections. You can develop your material by process or intuition. Be purposeful and conherent in your development. Focus on incremental change. See how much you can get out of your motif.

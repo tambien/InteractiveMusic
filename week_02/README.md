@@ -262,28 +262,13 @@ Why use these events instead of the browsers native timing?
 
 Sample-accuracy. [A tale of two clocks](http://www.html5rocks.com/en/tutorials/audio/scheduling/)
 
-## BROWSER INTERACTION
-
-### [nexusUI](http://nexusosc.com/)
-
-All canvas musical GUI elements.
-
-#### `mouse`
-
-Gives you absolute position of x and y between 0-1 as well as the delta of the movement. 
-
-[inC](http://yotammann.info/ITP/inC/)
-
-#### `typewriter`
-
-gives you keydown/keyup events and the letter of the key. 
-
 ## REFERENCES
 
 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) 
 	* watch out because some of the things they reference are speculative or unimplemented. They usually put a little icon next to those things. 
 
-[Tone.js r4-dev docs](http://yotammann.info/Tone.js/r4-dev/doc/index.html)
+[Tone.js docs](http://tonejs.org/docs/)
+[Web Audio API O'Reilly](http://chimera.labs.oreilly.com/books/1234000001552/index.html)
 
 ## ASSIGNMENT
 

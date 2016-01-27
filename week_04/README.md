@@ -1,40 +1,108 @@
-* Look at peoples objects and APIs
-* `this`
-* Tone
-* Inheritance
+## Intuitive Music
 
-## ASSIGNMENT REVIEW
+> Play a sound
+> Play it for so long
+> until you feel
+> that you should stop
+> 
+> Again play a sound
+> Play it for so long
+> until you feel
+> that you should stop
+> 
+> And so on
+> 
+> Stop
+> When you feel
+> that you should stop
+> 
+> But whether you play or stop:
+> Keep listeneing to the others
+> 
+> At best
+> play when people are listening
+> 
+> Do not rehearse
 
-## JAVASCRIPT CLASSES RECAP
+- Stockhausen On Music. 
 
-## TONE
+## OOP
 
-### Architecture
+Object Oriented Programming is a way of designing applications by breaking down the functional components into "objects" each with their own state and functionality. 
 
-Architecture is broken down hierarchically. Top-level groupings: Core, Source, Signal, Component, Effect, Instrument.
+In Javascript there are a few ways of doing OOP
 
-#### [Sources](https://github.com/TONEnoTONE/Tone.js/wiki/Sources)
+### Function Objects
 
-#### [Signals](https://github.com/TONEnoTONE/Tone.js/wiki/Signals)
+[Function objects](./0_functionObjects/)
 
-[Signal Math](https://github.com/TONEnoTONE/Tone.js/wiki/Signal-Math)
+By convention, if you're defining a class, use a capitol letter and instances of that class will be lowercase or camelcase. 
 
-#### [Components](https://github.com/TONEnoTONE/Tone.js/wiki/Components)
+```javascript
+var MyClass = function(){
+	//this is where the constructor stuff of your class happens	
+};
+```
 
-#### Core
+#### Methods
 
-[Transport](https://github.com/TONEnoTONE/Tone.js/wiki/Transport)
+Method's are defined on the function's prototype: 
 
-[Time](https://github.com/TONEnoTONE/Tone.js/wiki/Time)
+```javascript
+MyClass.prototype.method = function(parameter){
+	//do something with the parameters
+};
+```
 
-#### [Effects](https://github.com/TONEnoTONE/Tone.js/wiki/Effects)
+#### Attributes
 
-#### [Instruments](https://github.com/TONEnoTONE/Tone.js/wiki/Instruments)
+Attributes are defined in the constructor and attached to `this`.
 
-## ASSIGNMENT
+```javascript
+/** @constructor */
+var MyClass = function(){
+	this.myAttribute = "something Here";
+};
+```
 
-Continue working on your sound making objects with the goal of the midterm and library in mind. Think about what you want to do for your midterm and figure out a useful piece of that application. Keep it simple! See how expressive and musical you can be with as little as possible. 
+#### `this`
 
-Think about the Beethoven example of a ["cell"](http://en.wikipedia.org/wiki/Cell_%28music%29) or motif which you can apply in a number of ways and let a user interact with.
+As we talked about last week, functions create scope. `this` always refers to the current scope.
 
-Make music!
+In the console scope, if you type `this`, it will return the current scope which in the browser is the `window`. 
+
+Inside of a function or function object, `this` will refer to that object. If you attach attributes to `this`, those will be accessible from within the object using `this.attribute` or from outside the object using `yourObject.attribute`.
+
+#### `new`
+
+The `new` operator causes the function to be called with `this` bound to a newly created Object, and whose `prototype` is bound to the function's `prototype`. 
+
+### Prototypes
+
+There are not very many popular prototype-based languages. Most languages are class-based. 
+
+Prototype's are attributes and methods which are shared to all objects which point to that prototype. The prototype is an object. 
+
+Efficient : everyone shares the same reference to the object's prototype. Good for runtime languages. 
+
+#### Prototype lookup
+
+If you request an attribute/method with the dot operator (`myObject.method`), or brackets (`myObject["methodName"]`), the first place the runtime will look for that attribute is on the object's `this`. 
+
+So if you're object looks like this:
+
+```javascript
+var FunkyObj = function(){
+	this.attr = "something"
+};
+
+FunkyObj.prototype.funkyMethod = function(){
+	return this.attr;
+}
+
+var funk = new FunkyObj();
+```
+
+Then accessing `funk.attr` will find that attribute on funk's `this` object. 
+
+If it does not find the attribute, it will start crawling up the prototype chain. First to the FunkyObj's prototype, and then to the prototype of whatever class FunkyObj extends, until it finds something, or returns `undefined`. 
