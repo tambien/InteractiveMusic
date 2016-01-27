@@ -1,6 +1,6 @@
 # SYLLABUS
 
-## CLASS RULES AND ETIQUETTE
+## CLASS ETIQUETTE
 
 * Come to class on time (or early! especially if you need to set something up).
 * Let me know in advance if you need to be excused for an absence (emergencies only!).
