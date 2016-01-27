@@ -4,9 +4,13 @@
 
 * Come to class on time (or early! especially if you need to set something up).
 * Let me know in advance if you need to be excused for an absence (emergencies only!).
-* **Lids down** while your classmates are presenting. 
 * If you don't understand something, please ask. If you think it's a complex and specific question, come to office hours or email me.
-* Most importantly, be an engaged student. Listen to your classmates, create for them, give compliments, give feedback, share references and knowledge.
+* **Lids down** while your classmates are presenting/talking. You can use your computers the rest of the time to supplement/research/dive deeper into what we're discussing in class. Please don't mindlessly flip through your feed or email. 
+* Most importantly, be an engaged student. Listen to your classmates, create for them and with them, give compliments, give feedback, share references and knowledge.
+
+## OVERVIEW
+
+The course covers the tools and techniques of interactive music. This is a 12 week class with **2 incremental** assignments and one culminating **final project**.
 
 ## GRADING
 
@@ -15,24 +19,27 @@
 * 33% Participation
 * 1% Extra Credit
 
-## OVERVIEW
+## ASSIGNMENT DEVELOPMENT
 
-The course covers the tools and techniques of interactive music. This is a 12 week class with 2 incremental assignments and one culminating final project.
+The assignments are designed to incrementally combine into a final assignment. We will be following a process, starting at a unit of sound and working our way up to Interactive Music. 
+
+**Note->Motif->Material->Piece** 
+
 
 ## SCHEDULE
 
-### WEEK 0
+### WEEK 0 (1/27)
 
+* Intros
 * History / Context
+* Organizing Sound
 * _Thought Music_ Experiment
 * _Cobra_ Experiement
-* Organizing Sound
 * "Notes"
 
-ASSIGNMENT: Create/Select 3 Notes
+ASSIGNMENT: Create/Select 2-5 Notes
 
-
-### WEEK 1
+### WEEK 1 (1/27)
 
 * Sound
 * Audio Basics
@@ -40,21 +47,21 @@ ASSIGNMENT: Create/Select 3 Notes
 * Digital Audio
 * Spectromorophology
 
-ASSIGNMENT: Sculpt your 3 Notes
+ASSIGNMENT: Sculpt your Notes
 
 
-### WEEK 2
+### WEEK 2 (2/3)
 
-* Up and running
+* Up and running in JS
 * Developer Tools
 	* debugger
 * Intro Web Audio API / Tone.js
 * Realization
 
-ASSIGNMENT: Realize your 3 Notes.
+ASSIGNMENT: Realize your Notes.
 
 
-### WEEK 3
+### WEEK 3 (2/10)
 
 * Present Realizations
 * Randomness and Noise
@@ -64,12 +71,11 @@ ASSIGNMENT: Realize your 3 Notes.
 	* Interactive Markov Melodies
 * Probabilistic drum loops
 
-ASSIGNMENT: Create a random process for your 3 Notes.
+ASSIGNMENT: Create a random process for your Notes.
 
 
-### WEEK 4
+### WEEK 4 (2/17)
 
-* Random Cont.
 * Motif / Phrase
 * Object Oriented Javascript
 	* function prototype objects
@@ -78,33 +84,40 @@ ASSIGNMENT: Create a random process for your 3 Notes.
 	* members
 	* methods
 	* `this`
+* API Design
+	* public/private
+* Create and share an API for a classmate
 
-ASSIGNMENT: Encapsulate a Motif from your 3 Notes.
+ASSIGNMENT: Encapsulate a Motif from your Notes.
 
-### WEEK 5
+### WEEK 5 (2/24)
 
 * Development Techniques
 	* Aleatoric
 	* Stochastic
 	* Process Music
 	* Open Form
+* Intuitive Music
 * Conceptual Clarity
-
-ASSIGNMENT: Develop your Motif
-
-### WEEK 6
-
-* Interaction
-* Dimensionality
 * Coupling
 	* Modules
 	* Mediator
 	* Channels
 	* Buses
 
-ASSIGNMENT: Make your Motif interactive.
+ASSIGNMENT: Develop your Motif into Material
 
-### WEEK 7
+### WEEK 6 (2/24)
+
+* Interaction
+* Meaning
+* Dimensionality
+* Musical Installations
+* Paper Prototyping Musical Interaction
+
+ASSIGNMENT: Make your Material interactive.
+
+### WEEK 7 (3/2)
 
 * Present Realizations
 * Gesture
@@ -112,32 +125,29 @@ ASSIGNMENT: Make your Motif interactive.
 	* Expressiveness
 	* Responsiveness
 	* Mapping
+* Design a gesture for your Material
 
-ASSIGNMENT: Design a gesture for your Material
-
-### WEEK 8
+### WEEK 8 (3/9)
 
 * Final Proposals
 * Scores
-* API Design
-	* public/private
 * Refactoring
 * Documentation
 * Extensibility
 
-ASSIGNMENT: Design a musical API (Sound Object) to give to someone else in the class.
+ASSIGNMENT: Develop Final
 
-### WEEK 9
+### WEEK 9 (3/23)
 
-* Musical Installations
-	* Paper Prototyping
+* Final updates
 * Extended Technique
-* Share your APIs with another student
+* Guest? TBD
 
 ASSIGNMENT: Develop Final
 
-### WEEK 10
+### WEEK 10 (3/30)
 
+* Final updates
 * Audio Analysis
 	* FFT
 	* MFCC
@@ -149,6 +159,6 @@ ASSIGNMENT: Develop Final
 
 ASSIGNMENT: Develop Final
 
-### WEEK 11
+### WEEK 11 (4/6)
 
 * Final Presentations
