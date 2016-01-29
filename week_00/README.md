@@ -100,7 +100,7 @@ Stochastic music typically models a process (physical or otherwise) and leaves e
 >
 > Wikipedia - [Stochastic](http://en.wikipedia.org/wiki/Stochastic)
 
-#### [Pithoprakta](https://www.youtube.com/watch?v=sWdQBblec0M) - Iannis Xenakis - 1956
+#### [Pithoprakta](https://www.youtube.com/watch?v=AE1M2iwjTsM) - Iannis Xenakis - 1956
 
 * Mathematical processes based on probability that generate stochastic elements.
 * Piece is based on statistical mechanics of gasses, Guassian distribution and Brownian Motion.
