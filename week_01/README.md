@@ -1,5 +1,3 @@
-# WEEK 1 - Implementations
-
 * Review of Notes
 * Sound
 * Analog Synth Components
@@ -47,7 +45,9 @@ When two waves are in phase, their amplitudes sum. If they are out of phase, the
 
 ## ANALOG AUDIO
 
-When translating sound waves into electrical signals, synthesizers use voltage. A typical range would be ±15V. 
+When translating sound waves into electrical signals, synthesizers use voltage. A typical range would be ±15V or ±5V. 
+
+For demonstration, I will be using modular synths made with [BEAP](https://github.com/stretta/BEAP/wiki/BEAP-Modular---Overview-and-Install) for Max/MSP. 
 
 ## Sources
 
@@ -98,7 +98,7 @@ Voltage Controlled Amplifier. Applying an LFO to VCA would make a tremolo.
 
 ### Noise
 
-Multiple types of noise: white, pink, brown. 
+[Multiple types of noise](https://en.wikipedia.org/wiki/Colors_of_noise): white, pink, brown, violet, blue...
 
 ### Envelope Generator
 
@@ -158,6 +158,10 @@ Subtractive Synthesis uses filters to subtract sound from a harmonically rich so
 
 ## DIGITAL AUDIO
 
+### Mixers (+)
+
+When two signals meet at a junction, the resulting signal is the sum of the inputs. 
+
 ### Gain (*)
 
 Gain is the ratio between the input and the output signal. 
@@ -167,6 +171,10 @@ Gain is the ratio between the input and the output signal.
 Continuous, analog values are converted to discrete digital events through sampling. The Nyquist Theorem states that the sampling rate needs to be at least twice the highest frequency to be reproduced. 
 
 Nyquist worked at Bell Labs and so did Max Matthews. 
+
+### ALIASING
+
+Aliasing is an effect that causes different signals to become indistinguishable when sampled. When taking a video of a moving ceiling fan or car wheel you can get it to appear like it's going backwards or much slower because the oscillation of the fan/wheel combined with the frame rate (sampling rate) of the camera. 
 
 ### Buffers
 
@@ -198,35 +206,35 @@ Play/Pause/Stop/Rewind/Loop
 
 Most DAWs let you automate nearly every parameter. A volume automation might be used to make an envelope or fade in/out. 
 
-## DIGITAL AUDIO
-
-### Mixers (+)
-
-When two signals meet at a junction, the resulting signal is the sum of the inputs. 
-
 ## [Spectromorphology](https://github.com/igoumeninja/ofSpectrograph/blob/master/bibliography/Spectromorphology%20Explaining%20Sound%20Shapes_%20D.%20Smalley.pdf)
 
 First published in 1986 by Denis Smally. 
 
-Addresses the inadequacy of traditional notation in capturing the endless sound-generating possibilities of computers. 
+Addresses the inadequacy of traditional notation in capturing the endless sound-generating possibilities of computers or [Acousmatic music](https://www.youtube.com/watch?v=N9pOq8u6-bA). 
 
 If we can't abstract them into instruments/notes/rhythms, how can we compose and reason about them?
 
 > Until the electroacoustic medium arrived, all music was created either through forms of vocal utterance or through instrumental gesture. A human agent produces spectromorphologies via the motion of gesture, using the sense of touch or an implement to apply energy to a sounding body. A gesture is therefore an energy–motion trajectory which excites the sounding body, creating spectromorphological life. 
 
-Onset, Continuant and Termination
+### Source Bonding
 
-* attack-impulse. Modeled on the single detached note: a sudden onset which is immediately terminated.
-* attack-decay (closed and open) - modeled on sounds in which the attack-onset is extended by a resonance that quickly or gradually decays towards termination. The closed form represents a quick decay which is strongly attack-determined. 
-* graduated continuant - Modeled on sustained sounds. The onset is graduated, settling into a continuant phase which eventually closes in a graduated termination. 
+Associating sounds sources with what is perceived to have created that sound. 
 
 #### Ligeti - [Artikulation](https://www.youtube.com/watch?v=71hNl_skTZQ)
 
 Score created by Rainer Wehinger after the piece was composed.
 
-### Source Bonding
+### Gesture and Its Surrogates
 
-Associating sounds sources with what is perceived to have created that sound. 
+Before electroacoustic music, all sound was produced through sound-making gestures. From the perspective of the sound-creator and listener, the musical gesture process is tactile, visual and aural. 
+
+
+### Onset, Continuant and Termination
+
+* attack-impulse. Modeled on the single detached note: a sudden onset which is immediately terminated.
+* attack-decay (closed and open) - modeled on sounds in which the attack-onset is extended by a resonance that quickly or gradually decays towards termination. The closed form represents a quick decay which is strongly attack-determined. 
+* graduated continuant - Modeled on sustained sounds. The onset is graduated, settling into a continuant phase which eventually closes in a graduated termination. 
+
 
 ## DIMENSIONS
 
@@ -236,14 +244,14 @@ Dimensionality and parameterization are important concepts for interactive music
 
 Given a parameter curve, conceive a high-level dimension with your group and realize a short (30-60 second) piece of audio which follows that curve. 
 
-You can use any medium or software from live performance to Garage Band. 
+You can use any medium or software from live performance to GarageBand. 
 
-Groups of 3. 20 minutes prep. 15 minutes presentation. 
+Groups of 3. 15 minutes presentation. 
 
 ## REFERENCES
 
 * [Introduction to Computer Music: Digital Audio](http://www.indiana.edu/~emusic/etext/digital_audio/chapter5_digital.shtml)
-* [Spectromorphology](http://www.jaimeoliver.pe/courses/ci/pdf/smalley-1997.pdf)
+* [Spectromorphology](https://github.com/igoumeninja/ofSpectrograph/blob/master/bibliography/Spectromorphology%20Explaining%20Sound%20Shapes_%20D.%20Smalley.pdf)
 * [Intro to Synthesis](http://beausievers.com/synth/synthbasics/)
 
 ## READING
