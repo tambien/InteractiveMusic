@@ -1,11 +1,13 @@
 # WEEK 1 - Implementations
 
+* Review of Notes
 * Sound
-* Synthesis
 * Analog Synth Components
-* DAWs
+* Synthesis
 * Digital Audio
+* DAWs
 * Spectromorphology
+* Dimensions and Parameters
 
 ## BASICS OF SOUND
 
@@ -14,6 +16,8 @@ Sound is a vibration that propagates as an audible mechanical wave of pressure a
 #### Frequency
 
 The number of occurrences of a repeating oscillation per unit time. 1 hertz is 1 cycle per second. 
+
+Frequency vs Pitch...
 
 #### Wavelength
 
@@ -24,7 +28,7 @@ The length of 1 cycle.
 
 #### Amplitude
 
-The magnitude of the wave. The difference between extreme values. 
+The magnitude of the wave. The difference between extreme values. DIFFERENT than volume.
 
 #### Phase
 
@@ -39,6 +43,7 @@ When two waves are in phase, their amplitudes sum. If they are out of phase, the
 * Octave - the interval between one musical pitch and another with half or double its frequency.
 * Decibel - a logarithmic scale used to measure sound level. 
 * Fundamental Frequency - the lowest frequency of a periodic waveform. 
+* Attenuation - decrease/increase in a signal. loudness. 
 
 ## ANALOG AUDIO
 
@@ -65,27 +70,31 @@ In 1822, Joseph Fourier, a French mathematician, discovered that sinusoidal wave
 
 Amplitude alternates at a steady frequency between fixed minimum and maximum values, with the same duration at minimum and maximum. The transition between minimum to maximum is instantaneous for an ideal square wave; this is not realizable in physical systems. Can be represented as an infinite summation of sinusoidal waves
 
-[approximation with sine waves](http://en.wikipedia.org/wiki/Square_wave#mediaviewer/File:SquareWave.gif)
+![approximation with sine waves](https://upload.wikimedia.org/wikipedia/commons/b/bc/Fourier_series_for_square_wave.gif)
 
 #### Triangle
 
 The triangle wave contains only odd harmonics, due to its odd symmetry. However, the higher harmonics roll off much faster than in a square wave. 
 
-[approximation with sine waves](http://en.wikipedia.org/wiki/Triangle_wave#mediaviewer/File:Synthesis_triangle.gif)
+![approximation with sine waves](https://upload.wikimedia.org/wikipedia/commons/b/bb/Synthesis_triangle.gif)
 
 #### Sawtooth
 
 While a square wave is constructed from only odd harmonics, a sawtooth wave's sound is harsh and clear and its spectrum contains both even and odd harmonics of the fundamental frequency. Because it contains all the integer harmonics, it is one of the best waveforms to use for subtractive synthesis of musical sounds, particularly bowed string instruments like violins and cellos. 
 
-[approximation with sine waves](http://en.wikipedia.org/wiki/Sawtooth_wave#mediaviewer/File:Synthesis_sawtooth.gif)
+![approximation with sine waves](https://upload.wikimedia.org/wikipedia/commons/d/d4/Synthesis_sawtooth.gif)
+
+#### Control Voltage 
+
+Signal which is used to control a parameter. i.e. Feeding an LFO into the frequency control of a VCO would create a frequency vibrato in which the frequency of the VCO warbles at the rate of the LFO. 
 
 ### LFO
 
 Low Frequency Oscillator - slow cycles anywhere from a fortieth of a second to several minutes. Applied as control voltage since it's not audible. 
 
-#### Control Voltage 
+### VCA
 
-Signal which is used to control a parameter. i.e. Feeding an LFO into the frequency control of a VCO would create a frequency vibrato in which the frequency of the VCO warbles at the rate of the LFO. 
+Voltage Controlled Amplifier. Applying an LFO to VCA would make a tremolo.
 
 ### Noise
 
@@ -127,11 +136,19 @@ How quickly the frequency attenuates. Measured as drop in db over octaves.
 * High/Low shelf
 * Peak
 
-### VCA
-
-Voltage Controlled Amplifier. Applying an LFO to VCA would make a tremolo.
-
 ### Effects
+
+#### Delay
+
+Delay is an audio effect which records an input signal to an audio storage medium, and then plays it back after a period of time. When this signal is fed back into itself (with some attenuation usually) you get a feedback delay 
+
+#### Chorus
+
+Chorus is an effect created with a delay which delays and detunes the input audio to thicken the sound. 
+
+#### Compressor
+
+Compressors narrow the dynamic range (difference between the loud parts and the soft parts) of an audio signal. Typical controls are threshold (above which point the attenuation will occur) and ratio (the amount of attenuation to apply to signal above the threshold value). 
 
 ## Subtractive and Additive Synthesis
 
@@ -139,39 +156,7 @@ Additive Synthesis combines sound generating elements (such as oscillators).
 
 Subtractive Synthesis uses filters to subtract sound from a harmonically rich sound source. 
 
-## GUEST
-
-### Jonathan Baken
-
-Music: 
-
-[George & Jonathan](http://www.georgeandjonathan.com/)
-
-### Modular
-
-Making some sounds. Dissecting those patches. 
-
-### Sunvox
-
-## DIGITAL AUDIO WORKSTATION
-
-### Channels
-
-Audio layers are arranged into channels with their own volume and pan controls. You can add effects to each channel. 
-
-### Transport
-
-Play/Pause/Stop/Rewind/Loop
-
-### Automation
-
-Most DAWs let you automate nearly every parameter. A volume automation might be used to make an envelope or fade in/out. 
-
 ## DIGITAL AUDIO
-
-### Mixers (+)
-
-When two signals meet at a junction, the resulting signal is the sum of the inputs. 
 
 ### Gain (*)
 
@@ -199,9 +184,29 @@ When audio is converted back into analog sound (like out your speaker), smoothin
 
 The noise introduced by quantization error, including rounding errors and loss of precision introduced during audio processing, can be mitigated by adding a small amount of random noise, called dither, to the signal before quantizing. Dithering eliminates the granularity of quantization error, giving very low distortion, but at the expense of a slightly raised noise floor. 
 
-## Spectromorphology
+## DAWs
 
-First published in 1986. 1997 Paper by Denis Smally. 
+### Channels
+
+Audio layers are arranged into channels with their own volume and pan controls. You can add effects to each channel. 
+
+### Transport
+
+Play/Pause/Stop/Rewind/Loop
+
+### Automation
+
+Most DAWs let you automate nearly every parameter. A volume automation might be used to make an envelope or fade in/out. 
+
+## DIGITAL AUDIO
+
+### Mixers (+)
+
+When two signals meet at a junction, the resulting signal is the sum of the inputs. 
+
+## [Spectromorphology](https://github.com/igoumeninja/ofSpectrograph/blob/master/bibliography/Spectromorphology%20Explaining%20Sound%20Shapes_%20D.%20Smalley.pdf)
+
+First published in 1986 by Denis Smally. 
 
 Addresses the inadequacy of traditional notation in capturing the endless sound-generating possibilities of computers. 
 
@@ -223,16 +228,25 @@ Score created by Rainer Wehinger after the piece was composed.
 
 Associating sounds sources with what is perceived to have created that sound. 
 
-## ASSIGNMENT RECAP
+## DIMENSIONS
+
+Dimensionality and parameterization are important concepts for interactive music. Often times users are given an interaction an a specific dimension. The higher-level the dimension (i.e. "energy" vs "loudness", "dance-ability" vs "tempo"), the more engaging and approachable the interaction.
+
+### IN CLASS EXERCISE
+
+Given a parameter curve, conceive a high-level dimension with your group and realize a short (30-60 second) piece of audio which follows that curve. 
+
+You can use any medium or software from live performance to Garage Band. 
+
+Groups of 3. 20 minutes prep. 15 minutes presentation. 
 
 ## REFERENCES
 
 * [Introduction to Computer Music: Digital Audio](http://www.indiana.edu/~emusic/etext/digital_audio/chapter5_digital.shtml)
 * [Spectromorphology](http://www.jaimeoliver.pe/courses/ci/pdf/smalley-1997.pdf)
+* [Intro to Synthesis](http://beausievers.com/synth/synthbasics/)
 
 ## READING
 
 * [Web Audio - O'Reilly](http://chimera.labs.oreilly.com/books/1234000001552/index.html)
 * [Javascript: The Good Parts - Crockford, Chapters 2-4](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?s=books&ie=UTF8&qid=1417638918&sr=1-1&keywords=javascript+the+good+parts)
-
-## [ASSIGNMENT](ASSIGNMENTS.md)
