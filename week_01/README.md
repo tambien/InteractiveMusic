@@ -251,10 +251,10 @@ Groups of 3. 15 minutes presentation.
 ## REFERENCES
 
 * [Introduction to Computer Music: Digital Audio](http://www.indiana.edu/~emusic/etext/digital_audio/chapter5_digital.shtml)
-* [Spectromorphology](https://github.com/igoumeninja/ofSpectrograph/blob/master/bibliography/Spectromorphology%20Explaining%20Sound%20Shapes_%20D.%20Smalley.pdf)
 * [Intro to Synthesis](http://beausievers.com/synth/synthbasics/)
+* [Web Audio - O'Reilly](http://chimera.labs.oreilly.com/books/1234000001552/index.html)
+* [Javascript: The Good Parts - Crockford, Chapters 2-4](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?s=books&ie=UTF8&qid=1417638918&sr=1-1&keywords=javascript+the+good+parts)
 
 ## READING
 
-* [Web Audio - O'Reilly](http://chimera.labs.oreilly.com/books/1234000001552/index.html)
-* [Javascript: The Good Parts - Crockford, Chapters 2-4](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?s=books&ie=UTF8&qid=1417638918&sr=1-1&keywords=javascript+the+good+parts)
+* [Spectromorphology](https://github.com/igoumeninja/ofSpectrograph/blob/master/bibliography/Spectromorphology%20Explaining%20Sound%20Shapes_%20D.%20Smalley.pdf)
