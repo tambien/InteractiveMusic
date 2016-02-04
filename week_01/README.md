@@ -210,7 +210,7 @@ Most DAWs let you automate nearly every parameter. A volume automation might be 
 
 First published in 1986 by Denis Smally. 
 
-Addresses the inadequacy of traditional notation in capturing the endless sound-generating possibilities of computers or [Acousmatic music](https://www.youtube.com/watch?v=N9pOq8u6-bA). 
+Addresses the inadequacy of traditional notation in capturing the endless sound-generating possibilities of computers.
 
 If we can't abstract them into instruments/notes/rhythms, how can we compose and reason about them?
 
