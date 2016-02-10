@@ -1,5 +1,3 @@
-# WEEK2
-
 * Getting up and running in Javascript. 
 * Developer Tools
 	* debugger
@@ -7,9 +5,6 @@
 * Intro to Tone.js
 * Mouse and keyboard events
 
-## ASSIGNMENT RECAP
-
-How did the implementation change the mood/nature/affect/intention of the sound/music/gesture?
 
 ## JAVASCRIPT
 
@@ -69,8 +64,6 @@ What would you hold in an array?
 Defining an Object:
 
 ```
-var obj = new Object();
-// or
 var objTwo = {};
 ```
 
@@ -162,11 +155,12 @@ function scopes(){
 
 What do servers do?
 
-Client/Server communication
+* Client/Server communication
+* AJAX
+* Store things
+* Synchronize multiple pages
 
-AJAX
-
-Spinning up a simple file server
+#### Spinning up a simple file server
 
 ```
 python -m SimpleHTTPServer
@@ -206,23 +200,19 @@ First there were two specs. Web Audio API (pushed by Google) won out over Audio 
 
 The AudioContext controls the processing graph. All notes which need to be connected to each other need to be constructed from the same AudioContext. 
 
-There is also an OfflineAudioContext.
+There is also an OfflineAudioContext which lets you render audio offline faster than real time. 
 
 ### Components
 
-#### Sources
+#### Nodes
 
-Web Audio includes sources such as oscillators and buffer players. The oscillator has four basic types: sine, square, triangle, and sawtooth.
+Web Audio includes nodes such as an oscillator, buffer player, filter, delay, compressor. 
 
-Buffer players can play any sound that you load can load from a URL. 
-
-### AudioParams
+#### AudioParams
 
 AudioParams are like the knobs on an audio module or effect in that they let you adjust and control the parameters of the components. Unlike a knob, you can schedule it to ramp and change in precise ways. 
 
 ## Tone.js
-
-You are all encouraged to use r4-dev. This is the version of Tone.js which i am currently developing. You would help me by catching potential bugs, etc. The problem is the documentation currently online is for Tone.js r3. If i don't make another release soon and generate new docs, i might just post r4-dev's docs online somewhere you can find them. 
 
 ### AudioContext
 
@@ -232,35 +222,71 @@ Tone.js generates an AudioContext for you. If you want to set your own so that y
 
 Aside from the oscillator (Tone.Oscillator) and buffer player (Tone.Player) there is also a noise source, PWM oscillator, pulse oscillator and microphone input. 
 
+### [Time](https://github.com/TONEnoTONE/Tone.js/wiki/Time)
+
+Time can be represented in a number of ways in Tone.js. 
+
+### Notes
+
+Notes can either be represented as frequencies or by note names: pitch+octave
+
+[Scientific Pitch Notation](https://en.wikipedia.org/wiki/Scientific_pitch_notation)
+
 ### Instruments
 
-These sources combine into a number of instruments each with their own character and presets. 
+These sources combine into a number of instruments each with their own character and settings.
 
-#### Tone.MonoSynth
+#### Tone.SimpleSynth
 
-is a single oscillator, run through an envelope filter, and then a filter with an additional envelope to control the cutoff frequency of the filter. 
+A single oscillator with an amplitude envelope. 
+
+Each instrument has the same API for triggering the attack and release portions of the note. 
+
+`synth.triggerAttack({Frequency}, {Time});`
+
+`synth.triggerRelease({Time});`
+
+or combined
+`synth.triggerAttack({Frequency}, {Duration}, {Time});`
+
+#### EXAMPLE:
+```javascript
+synth.triggerAttack("C4");
+```
+
+[Basic Example](https://jsfiddle.net/yotammann/o387e7d7/)
+
+### Player
+
+Tone.Player takes a buffer as it's first argument. It can be started, stopped, looped, and change the playback rate. 
+
+Wait until the buffer is loaded using `Tone.Buffer.on("load", callback);`
+
+[Player Example](http://jsfiddle.net/yotammann/hzc9yzbn/6/)
+
+#### with jsfiddle or codepen
+
+You'll need to host your audio files somewhere (preferably with https). For this you can use dropbox if you "get public link". This link should start with `https://dl.dropboxusercontent.com/`. You should be able to feed this link directly into the first argument of Player. 
+
+### Scheduling
+
+The last argument is the time you want something to happen:
+
+[Scheduling Example](https://jsfiddle.net/yotammann/pxxz7b0h/)
 
 ### Signals
 
 Signals are like AudioParams in that you can use them to change values like a knob. They also let you schedule automated events and smoothly ramp between values. 
 
-A signal's value is set using signal.value and it can be automated by scheduling a value at a specific time: 
+A signal's value is set using signal.value and it can be automated by scheduling a value at a specific time.
 
-### [Tone.Time](https://github.com/TONEnoTONE/Tone.js/wiki/Time)
+[Frequency ramping example](https://jsfiddle.net/yotammann/8mmfcw4v/)
 
-Time can be represented in a number of ways in Tone.js. 
+### Interaction
 
-### Transport
+This simple example uses jquery to listen for button presses and triggers the note using the "id" of the button element.
 
-The transport synchronizes all of the events along a shared timeline called Tone.Transport. You can schedule events along the transport and it will 
-
-#### setInterval
-
-This function passes in the time that the event is supposed to occur right before it happens. Useful for scheduling repeated events. 
-
-Why use these events instead of the browsers native timing?
-
-Sample-accuracy. [A tale of two clocks](http://www.html5rocks.com/en/tutorials/audio/scheduling/)
+[Triggering with buttons](https://jsfiddle.net/yotammann/Ln07tnwg/)
 
 ## REFERENCES
 
@@ -269,7 +295,3 @@ Sample-accuracy. [A tale of two clocks](http://www.html5rocks.com/en/tutorials/a
 
 [Tone.js docs](http://tonejs.org/docs/)
 [Web Audio API O'Reilly](http://chimera.labs.oreilly.com/books/1234000001552/index.html)
-
-## ASSIGNMENT
-
-Make something interactive in the browser that makes sound using only mouse and/or keyboard. Please add your link to the assignments page.
