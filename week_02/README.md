@@ -3,7 +3,6 @@
 	* debugger
 * Basics of Web Audio API. 
 * Intro to Tone.js
-* Mouse and keyboard events
 
 
 ## JAVASCRIPT
@@ -164,6 +163,14 @@ What do servers do?
 
 ```
 python -m SimpleHTTPServer
+```
+
+or if you have node and http-server installed: 
+
+to install http-server: `npm install -g http-server`
+
+```
+http-server
 ```
 
 `ctrl + c` to kill the server
