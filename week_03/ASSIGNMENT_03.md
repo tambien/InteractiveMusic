@@ -4,4 +4,4 @@ Experiment with applying the same random process to multiple parameters or chara
 
 Work with the probability to make it musical. Why or how did you choose the probabilities you did? When does randomness become noise? What is noise to you?
 
-Document your process or create some artifact.
+Document your process and/or create some artifact.

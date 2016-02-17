@@ -1,8 +1,5 @@
-# OVERVIEW
-
 * Randomness
-	* Limited Randomness
-* Functions
+	* Constrained Randomness
 * Random Melody Walk
 	* Interactive Melody Walk
 * Markov Melodies
@@ -10,35 +7,37 @@
 * Probabilistic drum loops
 * Interpolation
 
+## Randomness
+
+#### Play (or don't) with some probability
+
+[Basic Probability](https://jsfiddle.net/yotammann/oLbot2ce/)
+
 ## Random Melody Generator
 
 #### Generate Material by randomly selecting from an array of notes.
 
 * Make the synth
 * Make the array of notes
-* In the callback function randomly select a note from the scale
+* Schedule a series of random notes. 
 
-#### Not terribly musical. Let's Constrain the movement. 
+[Random Note Choice](https://jsfiddle.net/yotammann/ythk1ttr/)
+
+What kind of music does this make? What sort of musical decisions is there to make with this technique? Where can you take it from here? 
+
+#### Let's Constrain the movement. 
 
 * Pick the next note based on the current note.
-* Allow it to move only +/- some interval value based on a distribution
+	* When a random value is above 0.5, move to the next note up
+	* When below, move one note down
 * Constrain the values to the length of our array
 
-#### Adding Interaction
+[Stepwise Note Choice](https://jsfiddle.net/yotammann/rto6hvwx/)
 
-* Make the distribution controlled by a slider
-
-## Random Melody Walker
-
-* Similar to the above example. 
-* Have a scale, but not the octave controls
-* When a random value is above 0.5, move to the next note up
-	* When below, move one note down
 * Handle the case where you've reached the top or the bottom of the scale
 
-#### Make it interactive
+[Jumping Note Choice](https://jsfiddle.net/yotammann/eq2f6kyy/)
 
-* Instead of the direction probability being equally up or down (i.e. 0.5), put that number in the hands of the user. 
 
 ## Markov Chords
 
@@ -51,9 +50,7 @@ Markov chains define states and probability of moving from one state to another.
 * Play those chords on a PolySynth
 * Maybe even add a bass part. 
 
-#### Make it interactive
-
-* Instead of using a coin flip, let the user control the probability of the direction is goes in. 
+[Markov Chord Progression](https://jsfiddle.net/yotammann/b5s9ept2/)
 
 ## Probability Drums
 
@@ -64,15 +61,15 @@ On every step of our sequencer, we will decide whether or not to play a drum par
 	* zero them out
 * On every step, generate a random number and compare it to the probability at that step
 
-### Interpolated Probabilities
+[Chord Probability](https://jsfiddle.net/yotammann/b5s9ept2/)
 
-It becomes really interesting when you interpolate between multiple probability tables. 
+#### Interpolated Probabilities
 
-* Let's make two probability tables that we like.
-* Create a function which will interpolate between two values on an instrument at a particular step. 
-* Use that probability to decide if the note gets played or not. 
-* Given the user control over that interpolation. 
+By adjusting the probability over time can add interesting progression to music. 
 
+[Change Probability over time](https://jsfiddle.net/yotammann/Laaw23de/)
+
+[Interpolating Probability](https://jsfiddle.net/yotammann/ukuv49p9/)
 
 ## REFERENCES
 
