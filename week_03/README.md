@@ -13,6 +13,8 @@
 
 [Basic Probability](https://jsfiddle.net/yotammann/oLbot2ce/)
 
+[Basic Probability from Click](https://jsfiddle.net/yotammann/pxhkoejg/)
+
 ## Random Melody Generator
 
 #### Generate Material by randomly selecting from an array of notes.
@@ -22,6 +24,8 @@
 * Schedule a series of random notes. 
 
 [Random Note Choice](https://jsfiddle.net/yotammann/ythk1ttr/)
+
+[Random Note Choice with Rests](https://jsfiddle.net/yotammann/4gad97n1/)
 
 What kind of music does this make? What sort of musical decisions is there to make with this technique? Where can you take it from here? 
 
@@ -34,10 +38,7 @@ What kind of music does this make? What sort of musical decisions is there to ma
 
 [Stepwise Note Choice](https://jsfiddle.net/yotammann/rto6hvwx/)
 
-* Handle the case where you've reached the top or the bottom of the scale
-
-[Jumping Note Choice](https://jsfiddle.net/yotammann/eq2f6kyy/)
-
+[Stepwise with wrapping](https://jsfiddle.net/yotammann/b1y94b8j/)
 
 ## Markov Chords
 
@@ -61,7 +62,7 @@ On every step of our sequencer, we will decide whether or not to play a drum par
 	* zero them out
 * On every step, generate a random number and compare it to the probability at that step
 
-[Chord Probability](https://jsfiddle.net/yotammann/b5s9ept2/)
+[Chord Probability](https://jsfiddle.net/yotammann/qy5wfkxh/)
 
 #### Interpolated Probabilities
 
