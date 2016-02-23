@@ -39,7 +39,7 @@ The assignments are designed to incrementally combine into a final assignment. W
 
 ASSIGNMENT: Create/Select 2-5 Notes
 
-### WEEK 1 (1/27)
+### WEEK 1 (2/3)
 
 * Sound
 * Audio Basics
@@ -50,7 +50,7 @@ ASSIGNMENT: Create/Select 2-5 Notes
 ASSIGNMENT: Sculpt your Notes
 
 
-### WEEK 2 (2/3)
+### WEEK 2 (2/10)
 
 * Up and running in JS
 * Developer Tools
@@ -61,7 +61,7 @@ ASSIGNMENT: Sculpt your Notes
 ASSIGNMENT: Realize your Notes.
 
 
-### WEEK 3 (2/10)
+### WEEK 3 (2/17)
 
 * Present Realizations
 * Randomness and Noise
@@ -74,7 +74,7 @@ ASSIGNMENT: Realize your Notes.
 ASSIGNMENT: Create a random process for your Notes.
 
 
-### WEEK 4 (2/17)
+### WEEK 4 (2/24)
 
 * Motif / Phrase
 * Object Oriented Javascript
@@ -90,7 +90,7 @@ ASSIGNMENT: Create a random process for your Notes.
 
 ASSIGNMENT: Encapsulate a Motif from your Notes.
 
-### WEEK 5 (2/24)
+### WEEK 5 (3/2)
 
 * Development Techniques
 	* Aleatoric
@@ -107,7 +107,7 @@ ASSIGNMENT: Encapsulate a Motif from your Notes.
 
 ASSIGNMENT: Develop your Motif into Material
 
-### WEEK 6 (2/24)
+### WEEK 6 (3/9)
 
 * Interaction
 * Meaning
@@ -117,7 +117,7 @@ ASSIGNMENT: Develop your Motif into Material
 
 ASSIGNMENT: Make your Material interactive.
 
-### WEEK 7 (3/2)
+### WEEK 7 (3/23)
 
 * Present Realizations
 * Gesture
@@ -127,7 +127,7 @@ ASSIGNMENT: Make your Material interactive.
 	* Mapping
 * Design a gesture for your Material
 
-### WEEK 8 (3/9)
+### WEEK 8 (3/30)
 
 * Final Proposals
 * Scores
@@ -137,7 +137,7 @@ ASSIGNMENT: Make your Material interactive.
 
 ASSIGNMENT: Develop Final
 
-### WEEK 9 (3/23)
+### WEEK 9 (4/6)
 
 * Final updates
 * Extended Technique
@@ -145,7 +145,7 @@ ASSIGNMENT: Develop Final
 
 ASSIGNMENT: Develop Final
 
-### WEEK 10 (3/30)
+### WEEK 10 (4/13)
 
 * Final updates
 * Audio Analysis
@@ -159,6 +159,6 @@ ASSIGNMENT: Develop Final
 
 ASSIGNMENT: Develop Final
 
-### WEEK 11 (4/6)
+### WEEK 11 (4/20)
 
 * Final Presentations
