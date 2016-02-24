@@ -76,7 +76,11 @@ ASSIGNMENT: Create a random process for your Notes.
 
 ### WEEK 4 (2/24)
 
-* Motif / Phrase
+* _Fundamentals of Music Composition_
+	* Phrase
+	* Motif
+	* Variation
+	* Form
 * Object Oriented Javascript
 	* function prototype objects
 	* `new`
@@ -86,7 +90,6 @@ ASSIGNMENT: Create a random process for your Notes.
 	* `this`
 * API Design
 	* public/private
-* Create and share an API for a classmate
 
 ASSIGNMENT: Encapsulate a Motif from your Notes.
 
@@ -105,7 +108,7 @@ ASSIGNMENT: Encapsulate a Motif from your Notes.
 	* Channels
 	* Buses
 
-ASSIGNMENT: Develop your Motif into Material
+ASSIGNMENT: Develop your Motif
 
 ### WEEK 6 (3/9)
 
@@ -133,7 +136,7 @@ ASSIGNMENT: Make your Material interactive.
 * Scores
 * Refactoring
 * Documentation
-* Extensibility
+* Inheritence
 
 ASSIGNMENT: Develop Final
 

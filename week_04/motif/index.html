@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Motif</title>
+	<script type="text/javascript" src="./Motif.js"></script>
+	<script type="text/javascript" src="https://tonejs.github.io/CDN/r6/Tone.min.js"></script>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		var motif = new Motif(["C4", "D2", "E4", "C2", "F#4", "A2", "F2", "A4"]);
+
+		var rest = 1.1;
+		var phraseEnd = motif.start();
+		//dominant
+		motif.dominant();
+		phraseEnd = motif.start(phraseEnd + rest);
+
+		motif.tonic();
+		phraseEnd = motif.start(phraseEnd + rest);
+
+		motif.doubleTime();
+		phraseEnd = motif.start(phraseEnd + rest);
+		phraseEnd = motif.start(phraseEnd);
+
+		motif.doubleTime();
+		phraseEnd = motif.start(phraseEnd + rest);
+		phraseEnd = motif.start(phraseEnd);
+		phraseEnd = motif.start(phraseEnd);
+
+		motif.halfTime();
+		motif.halfTime();
+		motif.reverse();
+		phraseEnd = motif.start(phraseEnd + rest);
+
+		motif.dominant();
+		phraseEnd = motif.start(phraseEnd + rest);
+
+		motif.reverse();
+		motif.tonic();
+		phraseEnd = motif.start(phraseEnd + rest);
+	</script>
+</body>
+</html>
