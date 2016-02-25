@@ -174,9 +174,9 @@ MyClass.prototype._privateMethod = function(){
 
 ## In Class
 
-In groups of 2, create a (non-functional) function object. Sketch out an interface for what kinds of methods you would want to have. Think about what sorts of private methods or attributes your class might need. 
+In groups of 2, create a (non-functional) function object _Motif_ class. Sketch out an interface for what kinds of methods you would want to have. Think about what sorts of private methods or attributes your class might need. Take a look at [the motif class](motif/Motif.js) for reference. 
 
-You don't need to implement any of it, just the interface. 
+You don't need to implement any of it, just the interface. Focus on the expressiveness of your interface.
 
 ## References
 
@@ -184,7 +184,7 @@ You don't need to implement any of it, just the interface.
 
 ## Links
 
-[Tone CDN](https://tonejs.github.io/CDN/r6/Tone.min.js)
-[p5.Tone CDN](https://tonejs.github.io/CDN/r6/p5.Tone.min.js)
-[p5.Tone Wiki](https://github.com/Tonejs/Tone.js/wiki/p5.Tone)
-[Tone.js Presets](http://tonejs.github.io/Presets/listen/)
+* [Tone CDN](https://tonejs.github.io/CDN/r6/Tone.min.js)
+* [p5.Tone CDN](https://tonejs.github.io/CDN/r6/p5.Tone.min.js)
+* [p5.Tone Wiki](https://github.com/Tonejs/Tone.js/wiki/p5.Tone)
+* [Tone.js Presets](http://tonejs.github.io/Presets/listen/)
