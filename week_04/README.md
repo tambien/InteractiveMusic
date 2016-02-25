@@ -181,3 +181,10 @@ You don't need to implement any of it, just the interface.
 ## References
 
 [Fundamentals of Music Composition](http://www.amazon.com/Fundamentals-Musical-Composition-Arnold-Schoenberg/dp/0571196586)
+
+## Links
+
+[Tone CDN](https://tonejs.github.io/CDN/r6/Tone.min.js)
+[p5.Tone CDN](https://tonejs.github.io/CDN/r6/p5.Tone.min.js)
+[p5.Tone Wiki](https://github.com/Tonejs/Tone.js/wiki/p5.Tone)
+[Tone.js Presets](http://tonejs.github.io/Presets/listen/)
