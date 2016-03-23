@@ -95,60 +95,58 @@ ASSIGNMENT: Encapsulate a Motif from your Notes.
 
 ### WEEK 5 (3/2)
 
-* Development Techniques
-	* Aleatoric
-	* Stochastic
-	* Process Music
-	* Open Form
-* Intuitive Music
-* Conceptual Clarity
-* Coupling
-	* Modules
-	* Mediator
-	* Channels
-	* Buses
+* Interactive Music Programming
 
 ASSIGNMENT: Develop your Motif
 
-### WEEK 6 (3/9)
+### WEEK 6 (3/23)
 
-* Interaction
-* Meaning
+* Framing Interaction
 * Dimensionality
-* Musical Installations
-* Paper Prototyping Musical Interaction
-
-ASSIGNMENT: Make your Material interactive.
-
-### WEEK 7 (3/23)
-
-* Present Realizations
+* Conceptual Clarity
 * Gesture
 * Instrument Design
 	* Expressiveness
 	* Responsiveness
 	* Mapping
-* Design a gesture for your Material
+* Paper Prototyping Musical Interaction
 
-### WEEK 8 (3/30)
+ASSIGNMENT: Make your Material interactive.
+
+### WEEK 7 (3/30)
+
+* Present Realizations
+* JS Context
+	* this
+	* bind
+	* apply
+	* call
+* Inheritence
+
+### WEEK 8 (4/6)
 
 * Final Proposals
-* Scores
-* Refactoring
-* Documentation
-* Inheritence
+* Musical Installations
 
 ASSIGNMENT: Develop Final
 
-### WEEK 9 (4/6)
+### WEEK 9 (4/13)
 
+* Coupling
+	* Modules
+	* Mediator
+	* Channels
+	* Buses
+* Scores
+* Refactoring
+* Documentation
 * Final updates
 * Extended Technique
 * Guest? TBD
 
 ASSIGNMENT: Develop Final
 
-### WEEK 10 (4/13)
+### WEEK 10 (4/20)
 
 * Final updates
 * Audio Analysis
@@ -162,6 +160,6 @@ ASSIGNMENT: Develop Final
 
 ASSIGNMENT: Develop Final
 
-### WEEK 11 (4/20)
+### WEEK 11 (4/27)
 
 * Final Presentations
