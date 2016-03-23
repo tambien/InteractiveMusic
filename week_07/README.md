@@ -1,109 +1,100 @@
-* Interactive Music Installations
-* Gesture mapping
-* Musical Installation Paper Prototyping
+* Present Realizations
+* JS Context
+	* this
+	* bind
+	* apply
+	* call
+* Inheritence
 
-## Final Proposals - 1 minute each
+## JS Context
 
-PROMPT: A 9 minute performance / presentation of a piece of Interactive Music. It can take the form of an installation, game, instrument, interactive song, sonification, etc (if what you want to do is not on this list, just ask). 
+### `bind`, `call`, `apply`
 
-CONSIDERATIONS: 
-* What is the interplay/cohesion/tension between music, interaction and visuals? 
-* How does interaction heighten the experience of the music?
-* Who is your audience? How much are you asking of them?
-* What is the setting/environment of your piece?
+`bind`, `call`, and `apply` all fall under the category of context (s)witchery. These are used in situations where you want apply a different context. 
 
-## Modular
+#### `bind`
 
-[This friday and Saturday](https://www.facebook.com/events/1559524397651445/)
+`bind` comes up the most often. The problem that `bind` solves is that you want to create a callback (say using jquery on a mouse event). The callback, by its very nature, is going to be invoked in a different context than you made it in, so how do you make sure the value of `this` is the one you want it to be? `bind`. 
 
-## Installations
+`bind` takes a function and returns that function with the context bound to the function. 
 
-### Spatialization
+```javascript
+var MyClass = function(){
+	//listen for mouse events using jquery
+	$("#element").on("mousedown", this.onmousedown.bind(this));
+}
 
-A simple way to create interesting and engaging interaction is simply using the physical properties of sound spatialized around a room. 
+MyClass.prototype.onmousedown = function(event){
+	console.log("i was invoked with the correct context");
+}
+```
 
-#### [Dream House - La Monte Young, Marian Zazeela](https://www.youtube.com/watch?v=Lh6pAiAXqAo)
+bind is not just about setting the context, you can also preset the arguments which will be invoked with the function. 
 
-Dream House is simply a handful of specially-tuned sine wave generators. As you move around in the space, the waves collide with each other in different waves changing the spectral content of what you hear. It's extremely responsive, interactive and uses entirely analog and passive electronics. 
+```javascript
+function printToTheConsole(stuff){
+	console.log(stuff);
+}
 
-#### [Microtonal Wall - Tristan Perich, Sarah Rara](https://vimeo.com/45225412)
+var alwaysPrintHi = printToTheConsole.bind(window, "HELLO!");
 
-Similar to the Dream House, Microtonal Wall is an installation which the listener experiences by exploring a space.
+alwaysPrintHi(); //prints "HELLO!"
 
-#### [Forty Part Motet - Janet Cardiff](https://www.youtube.com/watch?v=OxIeulpigws)
+```
 
-Janet Cardiff's work often employs the technique of using speakers to embody people or characters. Her work is immersive and the interaction is simply moving around the space. 
+#### `call`
 
-#### [Zimoun](https://vimeo.com/7235817)
+`call` is like bind in that it applies a context to a function, but `call` invokes that function right away instead of returning a function like `bind` does. 
 
-Zimoun uses materials and motors to create aleatoric musical installations. 
+`call` is useful for "stealing" methods from other classes. 
 
-### Tracking
+```javascript
+//here is a basic class
+var AClass = function(){
+	this.name = "Henry";
+}
 
-#### [Firewall - Aaron Sherwood, Mike Allison](https://vimeo.com/54882144)
+AClass.prototype.greeting = function(){
+	console.log("hi my name is "+this.name);
+};
 
-Great example of mapping pressure and dynamics in an interesting way. 
+//here is another class
+var AnotherClass = function(){
+	this.name = "Harriet";	
+}
 
-#### [Trechery Of Sanctuary - Chris Milk](https://www.youtube.com/watch?v=_2kZdl8hs_s)
+var anInstance = new AClass();
+var anotherInstance = new AnotherClass();
 
-Chris Milk's piece effectively employs sound to heighten the experience of the piece. The forceful sound of the flapping wings slows the user down and makes them embody the bird.  
+//say the greeting
+anInstance.greeting(); //prints "hi my name is Henry"
+//use anInstance's greeting method with anotherInstances's data
+anInstance.greeting.call(anotherInstance); //prints "hi my name is Harriet"
+```
 
-### Instrument
+### Inheritance
 
-#### [Blow Up - Scott Snibbe](http://www.snibbe.com/index.php/projects/interactive/blowup/)
+The way to do inheritance in javascript is through the prototype. The concept is to have the prototype of the child also refer to the parent (that you want to inherit from). When a method or attribute is not available in the child, it will look up the prototype chain to the parent. 
 
-Augments the users breath using large fans.
+```javascript
+Child.prototype = new Parent();.
+//and remember to set the constructor back to the Child
+Child.prototype.constructor = Child;
+```
 
-#### [CrossFader - Luisa Periera](https://vimeo.com/41999322)
+The problem is that the above example can have hidden side effects. What if the `Parent` constructor adds some elements to the DOM or console logs some things? Using this inheritance technique, those actions would happen prematurely, before you intend to actually construct the object. 
 
-Super simple, no-tech, conceptual cross fader between two performers. 
+Here is an example of an extend method without side effects
 
-#### [Reactable - Sergi Jordà, Marcos Alonso, Martin Kaltenbrunner and Günter Geiger](https://www.youtube.com/watch?v=Mgy1S8qymx0)
+```javascript
+function extend(Child, Parent){
+	function TempConstructor(){}
+	TempConstructor.prototype = Parent.prototype;
+	Child.prototype = new TempConstructor();
+	Child.prototype.constructor = Child;
+}
+```
 
-A table with a camera underneath tracks fiducial markers on blocks. The placement and rotation of the blocks controls music music or sound effects.
+## RESOURCES
 
-#### [Playing the Building - David Byrne](https://www.youtube.com/watch?v=Gea9SYUdJeY)
-
-Byrne connected a piano keyboard to trigger motors and actuators around the building. Great use of space and materials. 
-
-### Environmental
-
-#### [Subway Symphony - James Murphy](http://pitchfork.com/news/54088-james-murphy-previews-music-for-new-york-city-subway-stations/)
-
-A proposed project which puts a lot of musical attention to the sound design of the New York Subway system. 
-
-#### [Strings - Monica Bate, Johann Diedrick, Luisa Pereira Hors](https://vimeo.com/84474194)
-
-Very architecturally striking design. Maps string plucks / stretches to samples and synthesis. 
-
-#### [21 Balançoires (21 Swings) -  Daily tous les jours](https://vimeo.com/40980676)
-
-Playful public installation where swinging on swings generates music. Clear mapping and lots of variation in rhythm and melody. 
-
-#### [Piano Stairs - Remo Saraceni](https://www.youtube.com/watch?v=FOVHNGeDxKE)
-
-Not great sound design / composition (IMO), but very clear mapping. 
-
-#### [Voice Array - Rafael Lozano-Hemmer](http://www.trendhunter.com/trends/voice-array-by-rafael-lozanohemmer)
-
-Responsive visuals
-
-## Installation Prototyping
-
-### MakeyMakey
-
-Dead simple gesture controller. Uses any sensor to trigger keyboard and mouse events. Makes it very easy to use with a browser / jquery. 
-
-### Synth - Stewart Smith
-
-Very simple way to use key/mouse events to trigger notes. Quick way to make interactive melodies. 
-
-[example](./synth/index.html)
-
-### Group work
-
-Get into small groups. Make a "paper prototype" of an interactive musical installation. 
-
-* What is the story? 
-* What is the context? 
-* How can you prototype the idea quickly?
+[Learning Advanced JavaScript - John Resig](http://ejohn.org/apps/learn/)
