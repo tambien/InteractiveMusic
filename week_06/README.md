@@ -231,7 +231,7 @@ How do sounds interact with visuals?
 
 How do you create cohesion between color/sound/form/movement/concept?
 
-[Xennakis - Artikulation](https://www.youtube.com/watch?v=71hNl_skTZQ)
+[Ligeti - Artikulation](https://www.youtube.com/watch?v=71hNl_skTZQ)
 
 [Synchromy - Norm McLaren](https://www.youtube.com/watch?v=UmSzc8mBJCM)
 
@@ -258,7 +258,17 @@ Music exists in time, so perhaps clear mappings have to do more with movement an
 
 Groups of 3 or 4. Design a musical interaction and mock up a paper prototype. 
 
+* Introduction which explains the mapping/metaphor
+* Exposition
+* Ending
+
 ## References
 
+[Designing musical instruments that privilege improvisation - David Wessel](https://www.youtube.com/watch?v=uGASpqTXz4g)
+[Design choices for computer instruments and computer compositional tools - Miller Puckette](https://www.youtube.com/watch?v=ZLACjtOpe0Q)
+[Problems and Prospects for Intimate Musical Control of Computers - David Wessel, Matt Wright](http://xenia.media.mit.edu/~mbb/bid_www_class/readings/wessel.pdf)
+[Composing Instruments: Inventing and Performing with Generative Computer-based Instruments - Ali Momeni](http://alimomeni.net/files/documents/ali-momeni-dissertation.pdf)
+[Interfacing with sound; Design of music controllers - Washington State Univ.](http://courses.cs.washington.edu/courses/cse481i/14wi/pdfs/Q-interfaces.pdf)
+[Principles for Designing Computer Music Controllers - Perry Cook](http://soundlab.cs.princeton.edu/publications/prc_chi2001.pdf)
 [Jazz Theory Book - Mark Levine](http://www.amazon.com/Jazz-Theory-Book-Mark-Levine/dp/1883217040)
 
