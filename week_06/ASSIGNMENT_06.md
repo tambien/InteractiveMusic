@@ -1,4 +1,4 @@
-Open up the development of your Motif from last week with interaction. 
+Design and realize an interaction for your musical material.
 
 Be intentional with your interaction. How/why does it match your Material. Consider what are you asking of your users to do. Who is using this? 
 
