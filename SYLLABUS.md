@@ -127,6 +127,7 @@ ASSIGNMENT: Make your Material interactive.
 
 * Final Proposals
 * Musical Installations
+* Visual Cohesion
 
 ASSIGNMENT: Develop Final
 
@@ -142,7 +143,7 @@ ASSIGNMENT: Develop Final
 * Documentation
 * Final updates
 * Extended Technique
-* Guest? TBD
+* Guest - [Luisa Pereira](http://www.luisaph.com/)
 
 ASSIGNMENT: Develop Final
 
