@@ -1,0 +1,40 @@
+body {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.Star {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	background-color: #aaa;
+	cursor: pointer;
+}
+
+.Star.Active {
+	background-color: #f0f;
+	transition: background-color 0.1s;
+}
+
+.Star.Active.Flash {
+	background-color: #fff;
+}
+
+.Star.WarpStar {
+	background-color: #00f;
+}
+
+.Star.WarpStar.Active {
+	background-color: #a0a;
+}
+
+.Star.WarpStar.Active.Flash {
+	background-color: #fff;
+}
