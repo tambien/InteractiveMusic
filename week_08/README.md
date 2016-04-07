@@ -1,198 +1,129 @@
+## WAC 2016
 
-## JSDOCS
+[Conference Proceedings](https://docs.google.com/spreadsheets/d/1hk_P0ZMNRwY0lEU6EmF_InCAfjd0g3X-AUOGQ1YjdO0/pubhtml#)
 
-JSDocs is a way of annotating the source code such that documentation can automatically be generated from it. There are systems which will do additional safety checks using JSDoc notation such as Google's Closure Compiler. 
+[Keynote: Start, Stop, Begin Again - Helen Thorington](https://youtu.be/_FHzCzL-VUw?t=2m47s)
 
-Docs are always inside of comments which begin like this: `/**` and end with `*/`. 
+[Live Writing: Shatter - Sang Won Lee, Pain Lee, Georg Essl, & Mari Martinez](https://youtu.be/6rM4DruuDco?t=11h)
 
-If you use Sublime, I recommend installing DocBlockr which helps with writing JSDoc style code. 
+[The Last Cloud - Ben Taylor](https://youtu.be/6rM4DruuDco?t=11h35m)
 
-```
-/**
- * Here is a JSDoc comment block
- */
-```
+[Cross Town Traffic - Brian Billet, Bill Walker](https://youtu.be/_FHzCzL-VUw?t=7h30m11s)
 
-### @type
+[Crowd In Cloud - Sang Won Lee](https://youtu.be/_FHzCzL-VUw?t=7h44m15s)
 
-To describe the type of an attribute, use the @type tag. The type can be any of the primitives such as `string`, `number`, `boolean`, etc, or the name of a class
+## Installations
 
-```
-/**
- * @type {string} this is a description of this string
- */
-var thisString = "thisstring";
-```
+### Spatialization
 
-### @class
+A simple way to create interesting and engaging interaction is simply using the physical properties of sound spatialized around a room. 
 
-The class tag should go above your function class definitions. 
+#### [Dream House - La Monte Young, Marian Zazeela](https://www.youtube.com/watch?v=WC6bhnu5Luc&nohtml5=False)
 
-```
-/**
- * @class here you can give a short overview about your class
- * 		  and then describe your constructor
- */
-```
+Dream House is simply a handful of specially-tuned sine wave generators. As you move around in the space, the waves collide with each other in different waves changing the spectral content of what you hear. It's extremely responsive, interactive and uses entirely analog and passive electronics. 
 
-### @param
+#### [Microtonal Wall - Sarah Rara, Tristan Perich](https://vimeo.com/45225412)
 
-The @param tag is for describing the arguments to a function or method. 
+Similar to the Dream House, Microtonal Wall is an installation which the listener experiences by exploring a space.
 
-```
-/**
- * @param {type} parameterName a short description of the parameter
- */
-```
+#### [Forty Part Motet - Janet Cardiff](https://www.youtube.com/watch?v=OxIeulpigws)
 
-Some additional syntax is that you can use an equal sign after the type to signify that the parameter is optional. 
+Janet Cardiff's work often employs the technique of using speakers to embody people or characters. Her work is immersive and the interaction is simply moving around the space. 
 
-```
-/**
- * @param {type=} optionalParam this parameter is not necessary
- */
-```
+#### [Zimoun](https://vimeo.com/7235817)
 
-### @returns
+Zimoun uses materials and motors to create aleatoric musical installations. 
 
-Describe the return type of a function using @returns
+#### [77 Million Paintings - Brian Eno](https://www.youtube.com/watch?v=YQllM0qx3c0)
 
-### @private
+### Tracking
 
-@private notifies the reader that this variable is for internal use only. 
+Camera tracking is useful way to create unencumbered interfaces where users are free to move and explore easily. It typically affords whole-body or body-scale interaction over fine-tuned manual interaction.
 
+#### [Delqa - Music by Mathew Dear](http://www.daveandgabe.care/delqa-1)
 
-#### Prototype lookup
+#### [Firewall - Aaron Sherwood, Mike Allison](https://vimeo.com/54882144)
 
-If you request an attribute/method with the dot operator (`myObject.method`), or brackets (`myObject["methodName"]`), the first place the runtime will look for that attribute is on the object's `this`. 
+Great example of mapping pressure and dynamics in an interesting way. 
 
-So if you're object looks like this:
+#### [Trechery Of Sanctuary - Chris Milk](https://www.youtube.com/watch?v=_2kZdl8hs_s)
 
-```javascript
-var FunkyObj = function(){
-	this.attr = "something"
-};
+Chris Milk's piece effectively employs sound to heighten the experience. The forceful sound of the flapping wings slows the user down and makes them embody the bird.  
 
-FunkyObj.prototype.funkyMethod = function(){
-	return this.attr;
-}
+### Instrument
 
-var funk = new FunkyObj();
-```
+Abstracted instruments are another way of creating interactive music. A challenge here is to create instruments that are accessible and immediately understandable. 
 
-Then accessing `funk.attr` will find that attribute on funk's `this` object. 
+#### [Blow Up - Scott Snibbe](http://www.snibbe.com/projects/interactive/blowup/)
 
-If it does not find the attribute, it will start crawling up the prototype chain. First to the FunkyObj's prototype, and then to the prototype of whatever class FunkyObj extends, until it finds something, or returns `undefined`. 
+Augments the users breath using large fans.
 
+#### [Reactable - Sergi Jordà, Marcos Alonso, Martin Kaltenbrunner and Günter Geiger](https://www.youtube.com/watch?v=0h-RhyopUmc&nohtml5=False)
 
-## Inheritance
+A table with a camera underneath tracks fiducial markers on blocks. The placement and rotation of the blocks controls music music or sound effects.
 
-#### Prototype lookup
+#### [Playing the Building - David Byrne](https://www.youtube.com/watch?v=Gea9SYUdJeY)
 
-If you request an attribute/method with the dot operator (`myObject.method`), or brackets (`myObject["methodName"]`), the first place the runtime will look for that attribute is on the object's `this`. 
+Byrne connected a piano keyboard to trigger motors and actuators around the building. Great use of space and materials. 
 
-So if you're object looks like this:
+### Environmental
 
-```javascript
-var FunkyObj = function(){
-	this.attr = "something"
-};
+#### [Subway Symphony - James Murphy](http://pitchfork.com/news/54088-james-murphy-previews-music-for-new-york-city-subway-stations/)
 
-FunkyObj.prototype.funkyMethod = function(){
-	return this.attr;
-}
+A proposed project which puts a lot of musical attention to the sound design of the New York Subway system. Reappropriation of everyday objects/sounds.
 
-var funk = new FunkyObj();
-```
+#### [Strings - Monica Bate, Johann Diedrick, Luisa Pereira](https://vimeo.com/84474194)
 
-Then accessing `funk.attr` will find that attribute on funk's `this` object. 
+Very architecturally striking design. Maps string plucks / stretches to samples and synthesis. 
 
-If it does not find the attribute, it will start crawling up the prototype chain. First to the FunkyObj's prototype, and then to the prototype of whatever class FunkyObj extends, until it finds something, or returns `undefined`. 
+#### [21 Balançoires (21 Swings) -  Daily tous les jours](https://vimeo.com/40980676)
 
+Playful public installation where swinging on swings generates music. Clear mapping and lots of variation in rhythm and melody. 
 
-### Extending Classes
+#### [Piano Stairs - Remo Saraceni](https://www.youtube.com/watch?v=FOVHNGeDxKE)
 
-The way to do inheritance in javascript is through the prototype. The concept is to have the prototype of the child also refer to the parent (that you want to inherit from). When a method or attribute is not available in the child, it will look up the prototype chain to the parent. 
+Not great sound design / composition (IMO), but very clear mapping. 
 
-```javascript
-Child.prototype = new Parent();.
-//and remember to set the constructor back to the Child
-Child.prototype.constructor = Child;
-```
+#### [Voice Array - Rafael Lozano-Hemmer](http://www.trendhunter.com/trends/voice-array-by-rafael-lozanohemmer)
 
-The problem is that the above example can have hidden side effects. What if the `Parent` constructor adds some elements to the DOM or console logs some things? Using this inheritance technique, those actions would happen prematurely, before you intend to actually construct the object. 
+# Cohesion with Visual Music
 
-Here is an example of an extend method without side effects
+How do sounds interact with visuals? 
 
-```javascript
-function extend(Child, Parent){
-	function TempConstructor(){}
-	TempConstructor.prototype = Parent.prototype;
-	Child.prototype = new TempConstructor();
-	Child.prototype.constructor = Child;
-}
-```
+How do you create cohesion between color/sound/form/movement/concept?
 
-### `bind`, `call`, `apply`
+[Ligeti - Artikulation](https://www.youtube.com/watch?v=71hNl_skTZQ)
 
-`bind`, `call`, and `apply` all fall under the category of context (s)witchery. These are used in situations where you want apply a different context. 
+[Synchromy - Norm McLaren](https://www.youtube.com/watch?v=UmSzc8mBJCM)
 
-#### `bind`
+[Dots - Norm McLaren](https://www.youtube.com/watch?v=E3-vsKwQ0Cg)
 
-`bind` comes up the most often. The problem that `bind` solves is that you want to create a callback (say using jquery on a mouse event). The callback, by its very nature, is going to be invoked in a different context than you made it in, so how do you make sure the value of `this` is the one you want it to be? `bind`. 
+[Matrix III - John Whitney](https://www.youtube.com/watch?v=ZrKgyY5aDvA)
 
-`bind` takes a function and returns that function with the context bound to the function. 
+What is an intuitive mapping between sound and visuals? 
 
-```javascript
-var MyClass = function(){
-	//listen for mouse events using jquery
-	$("#element").on("mousedown", this.onmousedown.bind(this));
-}
+Music exists in time, so perhaps clear mappings have to do more with movement and gesture (Spectromorphology) than with shape and color.
 
-MyClass.prototype.onmousedown = function(event){
-	console.log("i was invoked with the correct context");
-}
-```
+### Conceptual Clarity / Cohesion with Interactive Music
 
-bind is not just about setting the context, you can also preset the arguments which will be invoked with the function. 
+[BubbleHarp](https://www.youtube.com/watch?v=ly8tgaswRo8)
 
-```javascript
-function printToTheConsole(stuff){
-	console.log(stuff);
-}
+[OscilloScoop - Scott Snibbe Studio](https://www.youtube.com/watch?v=ymW-_RENMKY)
 
-var alwaysPrintHi = printToTheConsole.bind(window, "HELLO!");
+[Thicket - Morgan Packard & Josh Ott](https://www.youtube.com/watch?v=4Xr9ELZSOnc)
 
-alwaysPrintHi(); //prints "HELLO!"
+### Environmental Cohesion
 
-```
+[National Mall - BlueBrain](https://vimeo.com/25374903)
 
-#### `call`
+[n - Drexler](http://www.wakeapp.com/n/en/)
 
-`call` is like bind in that it applies a context to a function, but `call` invokes that function right away instead of returning a function like `bind` does. 
+## IN CLASS
 
-`call` is useful for "stealing" methods from other classes. 
+3 Short (5 minute) drawing exercises. Listen to these short samples and draw shapes which you feel represent. The exploration here is to see if we have some kind of shared mapping between/gesture/form/color. 
 
-```javascript
-//here is a basic class
-var AClass = function(){
-	this.name = "Henry";
-}
+[Nico Muhly - Mothertongue - I](https://youtu.be/cB46mn8Exd8?t=8s)
 
-AClass.prototype.greeting = function(){
-	console.log("hi my name is "+this.name);
-};
+[Tristan Perich - 1-Bit Symphony Movement 1](https://soundcloud.com/cantaloupemusic/04-tristan-perich-1-bit)
 
-//here is another class
-var AnotherClass = function(){
-	this.name = "Harriet";	
-}
-
-var anInstance = new AClass();
-var anotherInstance = new AnotherClass();
-
-//say the greeting
-anInstance.greeting(); //prints "hi my name is Henry"
-//use anInstance's greeting method with anotherInstances's data
-anInstance.greeting.call(anotherInstance); //prints "hi my name is Harriet"
-```
+[Kaija Saariaho - Lichtbogen](https://www.youtube.com/watch?v=xufJp8kHzOQ)
