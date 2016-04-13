@@ -1,174 +1,95 @@
 * Guest: Luisa Pereira
-* Instrument Design
-	* Expressivity
-	* Responsiveness
-	* Mapping
-* Speakers and Amplification
-	* Mixers
-	* A/D & D/A Converters
-	* Microphones
-	* Speakers
-* Misc JS
-	* Javascript Inheritance
-	* `bind`, `apply`, `call`
+* Audio Analysis
+	* FFT
+	* Waveform
+	* MFCC
+	* Meyda
 
+## Audio Analysis
 
-## Musical Interfaces
+Real-time audio analysis can be useful for coupling visuals to audio in interactive applications. There are a lot of libraries and acronyms when it comes to audio analysis, we'll run through some of the most common analysis techniques and what sort of data they provide. 
 
-### Acoustic vs Electric
+### RMS - Root Mean Square
 
-#### Acoustic Interfaces
+RMS is statistical measure defined as the square root of the mean of the squares of a sample. It is often in audio because it easily approximates loudness. 
 
-* Sound source and interface are the same. 
-* Fixed mapping. 
-* Haptic Feedback. 
+RMS gives you a single number which you can use to see about how loud the signal is. 
 
-#### Electronic Instruments
+[Here's](https://jsfiddle.net/yotammann/y9jpr0L3/) a simple example getting the loudness of the microphone. 
 
-* Sound and interface are seperated by Mapping
-* No built in feedback. 
-* Indirect / Abstract mapping possible. 
+### FFT - Fast Fourier Transform
 
-### Purpose / Context
+The principle of Fourier Analysis is that all waves, no matter how complex can be decomposed into a collection of sine-tones at different frequencies and amplitudes. The "fast" part of FFT has to do with an efficient algorithm which makes it possible to do this type analysis in real time. 
 
-The purpose / context of the interface is extremely important. 
+[Mechanical Fourier Analysis](https://www.youtube.com/watch?v=6dW6VYXp9HM)
 
-* Is the user an expert of amateur?
-* What sort of music is created with the instrument?
-* How might an interface for composition be different than an instrument for improvisation?
-* Ergonomics?
-* Relationship between performer and audience. 
-	* This is something that we talk about a lot, especially pertaining to interactive music which might not have an audience. 
+#### AnalyserNode
 
-## Interaction Model
+FFT is found in Web Audio's AnalyzerNode. 
 
-The interaction model is how people use the interface and how it responds to them (and importantly, how they respond back to it responding). Feedback!
+[example](https://jsfiddle.net/yotammann/ojL3fnye/)
 
-### Basic Interaction Model
+The Analyser node is also capable of producing a waveform. A waveform just shows samples over time. 
 
-![Improvisatory Interaction Model](./images/wessel-improvisation.png)
+[waveform](https://jsfiddle.net/yotammann/p5e6zw75/)
 
-### Improvisatory Interaction Model
+#### Analysis/Resynthesis
 
-![Basic Interaction Model](./images/washington-interfaces.png)
+So if you can decompose any sound into sine tones and amplitudes, then you should be able to recreate any sound from this analysis. That is the principle of Analysis/Resynthsis. 
 
-### Performative Interaction Model
+Full-blown Analysis/Resynthsis is pretty complicated because it requires many many oscillators (it might be a little too much for the Web Audio API to handle at the moment), but there is commercial software which does this sort of thing. One common one is called [Spear](http://www.klingbeil.com/spear/)
 
-The above models, but add in another feedback loop in which the audience listening affects the performer. 
+[Analysis / Resynthesis Sculpture](https://www.youtube.com/watch?v=itAAezyj6wM)
 
-### Feedback / Feedforward
+### MFCC - Mel-frequency cepstrum
 
-Helps articulating control. 
-Active Engagement. 
-Clarity of intent.
+MFCC is a representation of the short-term power spectrum of a sound on a nonlinear mel scale of frequency.
 
-## Mappings
+The mel scale, named by Stevens, Volkmann, and Newman in 1937, is a perceptual scale of pitches judged by listeners to be equal in distance from one another. 
 
-* Complexity / Transparency
-* Feedback
+This means that the unlike the FFT, the Mel Scale is based on our perception of pitch which makes is why it's often used in speech recognition and timbre analysis.
 
-* Complexity to stimulate creativity
-* Transparency to keep link between input and resulting
-sound (otherwise, danger of loosing the audience) 
+[Meyda.js](http://hughrawlinson.github.io/meyda/)
 
-#### One to One
+### Measurement vs Perception
 
-Each gesture / input is mapped directly to one output. Clear and simple. Not terribly exciting. 
+We are very good at hearing. We can perceive complex harmonic sounds as having a "pitch" and find the beat in a clip of noisy music. Machine's are not quite there. Remember there are big gaps between how the computer hears music and the way that we hear music. It cannot pick out instruments in a score and beat detection is difficult even with very complex algorithms.
 
-#### One to Many
+#### Pitch vs Frequency
 
-One input controls multiple outputs. Higher level control but less control over details. Powerful. 
+Pitch = perception
+Frequency = absolute
 
-#### Many to One
+Objects often vibrate in harmonic multiples of a fundamental. Us humans would probably perceive that as a single pitch (and most likely we would hear the fundamental frequency as that pitch) while an FFT or oscilloscope would recognize the frequencies and energies of all the components of that note. 
 
-Many inputs coupled to produce one musical parameter. Allows for greater expressive control and mastery. Finer degree of control. 
+##### Pitch Detection
 
-### Levels of indeterminancy
+Some of you have tried a few techniques already. It's not so trivial. A (somewhat) simple algorithm to do pitch detection which can run in Javascript/Web Audio is [autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation)
 
-* Control vs. randomness (interactive improvisation)
-* Total predeterminancy: push play -> deterministic output. 
-* Total undeterminancy: random machines. 
+[pitch detect example](https://webaudiodemos.appspot.com/pitchdetect/)
 
-### Continuous vs. discrete control 
+#### Beat Detection
 
+Onset is another things which humans are good at which is much harder for a machine. It's easy to tap your foot to a song even when there is a lot of noise in the recording while a computer would have a hard time differentiating the beats from the rest of the noises. 
 
-* Micro- to macro-level control: sound spectrum to details of
-articulation to overall structure
+[Here's one way to do it](http://tech.beatport.com/2014/web-audio/beat-detection-using-web-audio/)
 
-### Instruments
+## Recording Output
 
-[The Hands - Michel Waisvisz](https://www.youtube.com/watch?v=U1L-mVGqug4)
+If you're interested in recording the output of your projects, there's a few ways to do it:
 
-Ergonomic controller
+### [Soundflower](http://soundflower.en.softonic.com/mac)
 
-[Global String by Atau Tanaka (2000)](https://vimeo.com/46800992)
+Soundflower lets you route audio from one part of your computer to another. Set the output of your system audio to be Soundflower (2 Channel) and then set the input of some recording software (like Audacity / Live / Logic) to Soundflower (2 Channel). Then when you play the audio out your browser it will come in through the input of your DAW. You can then record and edit your audio.
 
-connected via the Internet. real time sound synthesis.
+### JS
 
-[Princeton Laptop Orchestra](https://www.youtube.com/watch?v=gOsaANAfZcw)
+Javascript approaches have the benefit of being able to put the recording capabilities in the user's hands. And let the users have an artifact of their experience. Another consideration is how the listeners might play/respond differently when they are recording. 
 
-[Musical Jean Jacket](http://web.media.mit.edu/~strickon/projects.html)
+[Recorder.js](https://github.com/mattdiamond/Recorderjs)
 
-[Keith McMillen - K-Bow](http://www.keithmcmillen.com/products/k-bow/)
+[Media Recorder API](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder_API)
 
-[Jazzmutant - LEMUR](https://www.youtube.com/watch?v=X_BMnwIbWJw)
+## References
 
-[Radio Baton - Max Matthews](https://www.youtube.com/watch?v=3ZOzUVD4oLg&feature=youtu.be&t=6m16s)
-
-[Blendie - Kelly Dobson's sitet](https://www.youtube.com/watch?v=6DDkwdPaYmk)
-
-## A/D & D/A
-
-### D/A
-
-Convert the digital audio signals inside your computer to an analog signal. 
-
-![DAC Wikipedia](http://upload.wikimedia.org/wikipedia/commons/1/15/Zeroorderhold.signal.svg)
-
-### A/D
-
-Takes analog signal from a microphone or instrument and samples it into a digital signal. 
-
-#### Sampling Rate
-
-Any sampling rate above CD Quality (44.1k) is sufficient for the majority of audio applications. Remember that bit depth plays a much bigger role in signal-to-noise ratio than the sampling rate. Very high sampling rates such as 96k or 192k are useful only in a handful of cases such as when you need to be able to slow the audio down significantly or for certain audio processing plugins. 
-
-### Audio Interface
-
-An audio interface (somtimes called a Sound Card) is an important piece of equipment to understand for doing audio I/O for a concert, installation or instruments. The job of an audio interface is ADC and DAC. 
-
-A typically audio interface will have at least 2 outputs. Many have up up to 16 or more. These are the outputs which you connect to your speakers
-
-### Speakers
-
-Speakers come in a range of sizes and types. The primary metric of speakers is their cone-size which is proportional to the frequency they can produce. Larger cones can produce lower frequencies. 
-
-#### Active
-
-Active speakers are very easy to work with. They are self powered (i.e. have an "on" switch in the back) and have their own volume know typically. 
-
-#### Passive
-
-Passive speakers have no built in amplifier and require a powered amplifier for them to make any sound. They are much less expensive than Active speakers. 
-
-### Microphone
-
-Microphones are defined by their transducer type (dynamic, condenser) and their directional pattern (cardioid, omni, shotgun). 
-
-A dynamic microphone will only pick up signal which is very close to it. This is useful for loud and live situations to avoid feedback. 
-
-If working with microphones and amplification, it's important to match the type and directional pattern of the microphones to the placement and gain of the speakers. 
-
-
-## In Class
-
-Think carefully about what you believe to be a "natural mapping" (like force to dynamics). Pair up and make a list of illogical mappings, ones that you don't think make sense or feel natural. What doesn't work?
-
-## REFERENCES
-
-[Designing musical instruments that privilege improvisation - David Wessel](https://www.youtube.com/watch?v=uGASpqTXz4g)
-[Design choices for computer instruments and computer compositional tools - Miller Puckette](https://www.youtube.com/watch?v=ZLACjtOpe0Q)
-[Problems and Prospects for Intimate Musical Control of Computers - David Wessel, Matt Wright](http://xenia.media.mit.edu/~mbb/bid_www_class/readings/wessel.pdf)
-[Composing Instruments: Inventing and Performing with Generative Computer-based Instruments - Ali Momeni](http://alimomeni.net/files/documents/ali-momeni-dissertation.pdf)
-[Interfacing with sound; Design of music controllers - Washington State Univ.](http://courses.cs.washington.edu/courses/cse481i/14wi/pdfs/Q-interfaces.pdf)
-[Principles for Designing Computer Music Controllers - Perry Cook](http://soundlab.cs.princeton.edu/publications/prc_chi2001.pdf)
+[MDN - AnalyzerNode](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API)

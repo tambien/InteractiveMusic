@@ -133,16 +133,11 @@ ASSIGNMENT: Develop Final
 
 ### WEEK 9 (4/13)
 
-* Coupling
-	* Modules
-	* Mediator
-	* Channels
-	* Buses
-* Scores
-* Refactoring
-* Documentation
 * Final updates
-* Extended Technique
+* Audio Analysis
+	* FFT
+	* MFCC
+	* Meyda
 * Guest - [Luisa Pereira](http://www.luisaph.com/)
 
 ASSIGNMENT: Develop Final
@@ -150,13 +145,6 @@ ASSIGNMENT: Develop Final
 ### WEEK 10 (4/20)
 
 * Final updates
-* Audio Analysis
-	* FFT
-	* MFCC
-	* Meyda
-* Visuals Libraries
-	* Three.js
-	* Two.js
 * Live Coding / Improvisation
 
 ASSIGNMENT: Develop Final
