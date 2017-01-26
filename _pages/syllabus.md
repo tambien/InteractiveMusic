@@ -3,53 +3,52 @@ title : syllabus
 layout: default
 ---
 
-# SYLLABUS
-
-## 1 - WHAT IS MUSIC
+## 1 - WHAT IS MUSIC (1/26/17)
 
 * Introductions
 * Overview of [syllabus]({{site.baseurl}}/syllabus) and [expectations]({{site.baseurl}}/expectations)
 * [What is music?]({{site.baseurl}}/module/what_is_music)
 * [listening]({{site.baseurl}}/module/listening)
 * [Why interaction?]({{site.baseurl}}/module/why_interaction)
-* In class: [Cobra]({{site.baseurl}}/activity/cobra)
+* Activity: [Cobra]({{site.baseurl}}/activity/cobra) && [Rhythm Circle]({{site.baseurl}}/activity/rhythm_circle)
 * Assignment: [Manifesto]({{site.baseurl}}/assignment/manifesto)
 
 
-## 2 - SCORE AS CODE, CODE AS SCORE
+## 2 - SCORE AS CODE, CODE AS SCORE (2/2/17)
 
 * Intro to programming sound
 * Scores
-* In class: [Artikulation]({{site.baseurl}}/activity/artikulation)
-* Assignment: [score]({{site.baseurl}}/assignment/score)
+* Activity: [Artikulation]({{site.baseurl}}/activity/artikulation)
+* Assignment: [Score]({{site.baseurl}}/assignment/score)
 
-## 3 - REALIZATION
+## 3 - REALIZATION (2/9/17)
 
 * more Tone.js programming
-* assignment: realize your score
-* in class: work on midterm - 45 min
+* Activity: In class time to work on midterm + programming questions
+* Assignment: [Realize your score]({{site.baseurl}}/assignment/midterm_1)
 
-## 4 - MIDTERM
+## 4 - MIDTERM (2/16/17)
 
-* present compositions (midterm 1)
-* developer tools
-* in class assignment: developer tools
+* Present compositions (midterm 1)
+* Developer tools
+* Activity: Developer tools scavenger hunt
 
-## 5 - SOUND
+## 5 - SOUND (2/23/17)
 
-* Sound
+* Sound / Acoustics
 * Digital Audio
 * Synthesis
-* In class: make some sounds - presets, what not
+* Spectromorophology
+* Activity: Make Tone.js Presets
 
-## 6 - PROCESS
+## 6 - PROCESS (3/2/17)
 
-* abstraction
-* process
-	* randomization
-	* markov
+* Abstraction
+* Process
+	* Randomization
+	* Markov
 
-## 7 - GESTURE
+## 7 - GESTURE (3/9/17)
 
 * Framing Interaction
 * Dimensionality
@@ -59,25 +58,21 @@ layout: default
 	* Expressiveness
 	* Responsiveness
 	* Mapping
-* Paper Prototyping Musical Interaction
-* Spectromorophology
-* ASSIGNMENT: Compose a piece of music around a gesture
+* Activity: Paper Prototyping Musical Interaction
+* Assignment: [Midterm 2 - Gesture]({{site.baseurl}}/assignment/midterm_2)
 
-## 8 - SEEING
+## 8 - FUNDAMENTALS OF MUSIC (3/23/17)
 
 * MIDTERM 2
-* Visual Cohesion
-* Guest
-
-## 9 - ABSTRACTION
-
+* Either:
 * _Fundamentals of Music Composition_
+	* Cell
 	* Phrase
 	* Motif
 	* Variation
 	* Form
-Schockhausen critique
-
+* Stockhausen critique
+* OR:
 * Object Oriented Javascript
 	* function prototype objects
 	* `new`
@@ -88,12 +83,18 @@ Schockhausen critique
 * API Design
 	* public/private
 
-## 10 - LIVE CODING WORKSHOP
+## 9 - SEEING (3/30/17)
+
+* Visual Cohesion
+* Guest - [Sarah Rothberg](http://sarahrothberg.com/)
+* Activity: [Drawing Music]({{site.baseurl}}/activity/drawing_music)
+
+## 10 - LIVE CODING (4/6/17)
 
 * live coding
 * guest - [Kate Sicchio](http://blog.sicchio.com/)	
 
-## 11 - JS
+## 11 - JS (4/13/17)
 
 * Musical Installations
 * JS Context
@@ -102,7 +103,7 @@ Schockhausen critique
 	* apply
 	* call
 * Inheritence
-in class: do something with 
+* Activity: Sound Making Objects
 
-## 12 - FINAL
+## 12 - FINAL (4/20/17)
 
