@@ -93,7 +93,7 @@ Schockhausen critique
 * live coding
 * guest - [Kate Sicchio](http://blog.sicchio.com/)	
 
-## 11 - LIVE CODING WORKSHOP
+## 11 - JS
 
 * Musical Installations
 * JS Context
