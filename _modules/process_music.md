@@ -3,23 +3,11 @@ title : Process in 20th Century Music
 layout: default
 ---
 
-Poietic vs Realization
-
-> "By 'poietic' I understand describing the link among the composer's intentions, his [or her] creative procedures, his [or her] mental schemas, and the result of this collection of strategies; that is, the components that go into the work's material embodiment. Poietic description thus also deals with a quite special form of hearing (Varese called it 'the interior ear'): what the composer hears while imagining the work's sonorous results, or while experimenting at the piano, or with tape."
-> 
-> Jean-Jacques Nattiez
-
-Realization - a process of music production. 
-
-## CELLS
-
-Starting from the bottom...
-
-A musical ["cell"](http://en.wikipedia.org/wiki/Cell_%28music%29) is the smallest germ of an idea. Cells can be developed into Motifs and musical Material. Always try to find more in what you already have. A "pregnant" cell might be all the stuff you need to develop a piece of music.
-
-[Beethoven's 5th](https://www.youtube.com/watch?v=rRgXUFnfKIY)
+Process-based music lends itself well to interaction and computer music because rules can be coded and then realized through software. Consistent systems are also important for creating understandable listener interaction. 
 
 ## 20th CENTURY TECHNIQUES
+
+Here's a few techniques drawn from 20th century music which can be applied to Interactive Music. 
 
 ### Aleatoric
 
@@ -38,6 +26,8 @@ A musical ["cell"](http://en.wikipedia.org/wiki/Cell_%28music%29) is the smalles
 > Instructions - _Variations II_
 
 ![Score Recreation](http://williambrent.conflations.com/graphics/variations-ii-still-1.jpg)
+
+{% include youtube.html video="m1InCrzGIPU" %}
 
 ### Stochastic
 
