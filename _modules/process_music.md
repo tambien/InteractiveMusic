@@ -107,6 +107,15 @@ The technique is a means of ensuring that all 12 notes of the chromatic scale ar
 * Interactive performance system listens and responds to musical input. 
 * Output is a transformation of the input material.
 
+# Roles: Human / Process
+
+Some of the above examples include defining a process to generate pitches and durations and then having a human player perform these sounds. Others use a player to affect a process which realizes the music. 
+
+|                  | Human Performed                   | Process Performed                    |
+|:----------------:|------------------------------------|--------------------------------------|
+| Human Composed  | Traditional Music.                 | Interactive Music / Video Game Music / DAWs? |
+| Process Composed | Aleatoric/Stochastic/Process Music | Data Sonification?                   |
+
 
 ## REFERENCES
 
