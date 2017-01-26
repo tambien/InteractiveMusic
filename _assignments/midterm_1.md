@@ -1,5 +1,5 @@
 ---
-title : Midterm 1: Score
+title : Midterm 1 - Score
 layout: default
 ---
 

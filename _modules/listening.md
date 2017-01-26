@@ -26,4 +26,4 @@ By the time we have attempted to understand the sound, it is long gone. Sound is
 
 ## Activity
 
-[Rhythm Circle](/activity/rhythm_circle) or [Thought Music](/activity/thought_music)
+[Rhythm Circle]({{base}}/activity/rhythm_circle) or [Thought Music]({{base}}/activity/thought_music)

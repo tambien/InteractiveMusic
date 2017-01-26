@@ -1,5 +1,5 @@
 ---
-title : Midterm 2: Gesture
+title : Midterm 2 - Gesture
 layout: default
 ---
 

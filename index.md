@@ -7,10 +7,10 @@ Wed 6:30pm to 9:25pm
 
 Office Hours by appointment. I also typically arrive 20-30 minutes before class. Happy to discuss any questions/comments/issues at that time. 
 
-[Syllabus](/syllabus)
+[Syllabus]({{base}}/syllabus)
 
-[Expectations](/expectations)
+[Expectations]({{base}}/expectations)
 
-[Goals](/goals)
+[Goals]({{base}}/goals)
 
 email: [ypm206@nyu.edu](mailto:ypm206@nyu.edu)
