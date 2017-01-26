@@ -8,20 +8,20 @@ layout: default
 ## 1 - WHAT IS MUSIC
 
 * Introductions
-* Overview of [syllabus](/syllabus) and [expectations](/expectations)
-* [What is music?](/module/what_is_music)
-* [listening](/module/listening)
-* [Why interaction?](/module/why_interaction)
-* In class: [Cobra](/activity/cobra)
-* Assignment: [Manifesto](/assignment/manifesto)
+* Overview of [syllabus]({{site.baseurl}}/syllabus) and [expectations]({{site.baseurl}}/expectations)
+* [What is music?]({{site.baseurl}}/module/what_is_music)
+* [listening]({{site.baseurl}}/module/listening)
+* [Why interaction?]({{site.baseurl}}/module/why_interaction)
+* In class: [Cobra]({{site.baseurl}}/activity/cobra)
+* Assignment: [Manifesto]({{site.baseurl}}/assignment/manifesto)
 
 
 ## 2 - SCORE AS CODE, CODE AS SCORE
 
 * Intro to programming sound
 * Scores
-* In class: [Artikulation](/activity/artikulation)
-* Assignment: [score](/assignment/score)
+* In class: [Artikulation]({{site.baseurl}}/activity/artikulation)
+* Assignment: [score]({{site.baseurl}}/assignment/score)
 
 ## 3 - REALIZATION
 

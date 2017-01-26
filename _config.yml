@@ -1,6 +1,8 @@
 sass:
     sass_dir: style
 
+baseurl: '/InteractiveMusic'
+
 markdown: kramdown
 
 kramdown:

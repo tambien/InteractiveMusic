@@ -65,7 +65,7 @@ In his own words:
 
 The piece represented a huge shift and was/is very controversial. It changed the definition to not requiring sound at all. Silence is music also. 
 
-<img src="{{base}}/images/fountain.jpg" width="300px">
+<img src="{{site.baseurl}}/images/fountain.jpg" width="300px">
 
 4'33" is often compared to Duchamp's _Fountain_. 
 
