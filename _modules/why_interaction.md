@@ -29,7 +29,7 @@ Why NOT make interactive music?
 
 **How does the system we use to make music dictate the music we make with it?**
 
-**How important is that level of control?**
+**How important is that level of control to you?**
 
 #### [Live](https://www.ableton.com/en/live/) - Ableton
 
@@ -64,5 +64,13 @@ Robert Henke is the composer and co-developer of Ableton Live. His views on comp
 
 ## Why Web?
 
-The browser affords many interactive oppertunities which are being expanded all the time. Browsers
+The browser affords many interactive opportunities such as touch, gyro, location, microphone, camera, keyboard, outside APIs, and more. The list is constantly expanding. 
+
+The web is (for now) free and open!
+
+The browser is the means for production and distribution in one. So you are creating with the same tools as other people are using to view what you are creating. This lends itself easily to remixin and forking and the dialogues created through those things. 
+
+Low barrier for distributing software. Programming in other languages requires compiling for specific architectures, download and install scripts, additional security measures. Javascript on the other hand is executed as soon as someone lands on your page. 
+
+**what are the down sides to working on the web?**
 
