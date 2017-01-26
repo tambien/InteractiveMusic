@@ -3,14 +3,19 @@ layout: default
 title : Interactive Music Course
 ---
 
-Wed 6:30pm to 9:25pm
+Thursdays 3:20p-6:15
 
 Office Hours by appointment. I also typically arrive 20-30 minutes before class. Happy to discuss any questions/comments/issues at that time. 
 
-[Syllabus]({{ site.baseurl }}/syllabus)
+[Goals]({{ site.baseurl }}/goals)
 
 [Expectations]({{ site.baseurl }}/expectations)
 
-[Goals]({{ site.baseurl }}/goals)
+[Syllabus]({{ site.baseurl }}/syllabus)
+
 
 email: [ypm206@nyu.edu](mailto:ypm206@nyu.edu)
+
+## License
+
+Unless otherwise stated, all material is released under [Creative Commons License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
