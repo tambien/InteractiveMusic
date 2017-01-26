@@ -6,10 +6,12 @@ layout: default
 ## 1 - WHAT IS MUSIC (1/26/17)
 
 * Introductions
-* Overview of [syllabus]({{site.baseurl}}/syllabus) and [expectations]({{site.baseurl}}/expectations)
+* Overview of [syllabus]({{site.baseurl}}/syllabus), [expectations]({{site.baseurl}}/expectations) and [goals]({{site.baseurl}}/goals)
 * [What is music?]({{site.baseurl}}/module/what_is_music)
-* [listening]({{site.baseurl}}/module/listening)
+* [Listening]({{site.baseurl}}/module/listening)
+* [Music as commodity]({{site.baseurl}}/module/commodity)
 * [Why interaction?]({{site.baseurl}}/module/why_interaction)
+* [Music as process]({{site.baseurl}}/module/process_music)
 * Activity: [Cobra]({{site.baseurl}}/activity/cobra) && [Rhythm Circle]({{site.baseurl}}/activity/rhythm_circle)
 * Assignment: [Manifesto]({{site.baseurl}}/assignment/manifesto)
 
