@@ -1,0 +1,65 @@
+---
+---
+@import "common.scss";
+
+$margin: 30px;
+
+body {
+	position: relative;
+	width: 90%;
+	min-width: 310px;
+	max-width: 900px;
+	font-size: 16px;
+	margin: 0px auto 30px auto;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: sans-serif;
+	margin-top: $margin;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+p, li{
+	margin-top: $margin;
+	font-family: monospace;
+	line-height: 1.5em;
+	word-spacing: 0.15em;
+	letter-spacing: 0.01em;
+}
+
+li {
+	margin-top: 5px;
+	margin-left: $margin;
+}
+
+blockquote, .highlight  { 
+	background: #eee; 
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px;
+	margin-top: $margin;
+
+	p {
+		margin: 0px;
+	}
+}
+
+iframe, img{
+	margin: $margin*2 auto $margin*2 auto;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: $purple;
+	font-weight: bold;
+
+	&:hover {
+		color: $pink;
+
+		&:active {
+			color: $teal;
+		}
+	}
+}

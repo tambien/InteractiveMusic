@@ -49,7 +49,7 @@ The mel scale, named by Stevens, Volkmann, and Newman in 1937, is a perceptual s
 
 This means that the unlike the FFT, the Mel Scale is based on our perception of pitch which makes is why it's often used in speech recognition and timbre analysis.
 
-[Meyda.js](http://hughrawlinson.github.io/meyda/)
+[Meyda.js](https://hughrawlinson.github.io/meyda/)
 
 ### Measurement vs Perception
 

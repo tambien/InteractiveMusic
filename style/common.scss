@@ -1,0 +1,23 @@
+$blue: #3833ED;
+$green: #1EDF3E;
+$red: #ED3333;
+$purple: #7F33ED;
+$teal : #22DBC0;
+$pink : #ED33CF;
+$yellow : #FFFC0C;
+$darkGrey : #8C8C8C;
+$lightGrey : #ECECEC;
+$orange : #f5871f;
+
+$margin: 30px;
+
+@mixin full {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+$copy-font: monospace;
+$title-font : sans-serif;

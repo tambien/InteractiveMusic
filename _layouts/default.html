@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{page.title | upcase}}</title>
+	<link rel="stylesheet" type="text/css" href="/style/main.css">
+	<link rel="stylesheet" type="text/css" href="/style/highlighter.css">
+	<script type="text/javascript" src="/scripts/prefixfree.min.js"></script>
+</head>
+<body>
+
+	{% include topbar.html %}
+
+	<h1>{{page.title}}</h1>
+
+	{{content}}
+
+	{% include footer.html %}
+	
+	{% include analytics.html %}
+</body>
+</html>

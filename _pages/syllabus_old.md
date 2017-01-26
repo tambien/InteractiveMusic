@@ -1,29 +1,110 @@
+---
+title : syllabus
+layout: default
+---
+
 # SYLLABUS
 
-## CLASS ETIQUETTE
+## 1 - WHAT IS MUSIC
 
-* Come to class on time (or early! especially if you need to set something up).
-* Let me know in advance if you need to be excused for an absence (emergencies only!).
-* If you don't understand something, please ask. If you think it's a complex and specific question, come to office hours or email me.
-* **Lids down** while your classmates are presenting/talking. You can use your computers the rest of the time to supplement/research/dive deeper into what we're discussing in class. Please don't mindlessly flip through your feed or email. 
-* Most importantly, be an engaged student. Listen to your classmates, create for them and with them, give compliments, give feedback, share references and knowledge.
+* Introductions
+* Overview of [syllabus](/syllabus) and [expectations](/expectations)
+* [What is music?](/module/what_is_music)
+* [listening](/module/listening)
+* [Why interaction?](/module/why_interaction)
+* In class: [Cobra](/activity/cobra)
+* Assignment: [Manifesto](/assignment/manifesto)
 
-## OVERVIEW
 
-The course covers the tools and techniques of interactive music. This is a 12 week class with **2 incremental** assignments and one culminating **final project**.
+## 2 - SCORE AS CODE, CODE AS SCORE
 
-## GRADING
+* Intro to programming sound
+* Scores
+* In class: [Artikulation](/activity/artikulation)
+* Assignment: [score](/assignment/score)
 
-* 33% Final
-* 33% Assignments 
-* 33% Participation
-* 1% Extra Credit
+## 3 - REALIZATION
 
-## ASSIGNMENT DEVELOPMENT
+* more Tone.js programming
+* assignment: realize your score
+* in class: work on midterm - 45 min
 
-The assignments are designed to incrementally combine into a final assignment. We will be following a process, starting at a unit of sound and working our way up to Interactive Music. 
+## 4 - MIDTERM
 
-**Note->Motif->Material->Piece** 
+* present compositions (midterm 1)
+* developer tools
+* in class assignment: developer tools
+
+## 5 - SOUND
+
+* Sound
+* Digital Audio
+* Synthesis
+* In class: make some sounds - presets, what not
+
+## 6 - PROCESS
+
+* abstraction
+* process
+	* randomization
+	* markov
+
+## 7 - GESTURE
+
+* Framing Interaction
+* Dimensionality
+* Conceptual Clarity
+* Gesture
+* Instrument Design
+	* Expressiveness
+	* Responsiveness
+	* Mapping
+* Paper Prototyping Musical Interaction
+* Spectromorophology
+* ASSIGNMENT: Compose a piece of music around a gesture
+
+## 8 - SEEING
+
+* MIDTERM 2
+* Visual Cohesion
+* Guest
+
+## 9 - ABSTRACTION
+
+* _Fundamentals of Music Composition_
+	* Phrase
+	* Motif
+	* Variation
+	* Form
+Schockhausen critique
+
+* Object Oriented Javascript
+	* function prototype objects
+	* `new`
+* Encapsulation
+	* members
+	* methods
+	* `this`
+* API Design
+	* public/private
+
+## 10 - LIVE CODING WORKSHOP
+
+* live coding
+* guest - [Kate Sicchio](http://blog.sicchio.com/)	
+
+## 11 - LIVE CODING WORKSHOP
+
+* Musical Installations
+* JS Context
+	* this
+	* bind
+	* apply
+	* call
+* Inheritence
+in class: do something with 
+
+## 12 - FINAL
 
 
 ## SCHEDULE

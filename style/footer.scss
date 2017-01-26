@@ -1,0 +1,17 @@
+---
+---
+
+@import "common.scss";
+
+#footer {
+	margin-top: $margin * 2;
+	margin-bottom: $margin;
+	text-align: center;
+	font-size: 0.8em;
+	font-family: $copy-font;
+
+	a {
+		margin-top: 5px;
+		display: inline-block;
+	}
+}

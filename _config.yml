@@ -1,0 +1,33 @@
+sass:
+    sass_dir: style
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+collections:
+    modules:
+      output: true
+      permalink: module/:path
+    references:
+      output: false
+      permalink: ref/:path
+    assignments:
+      output: true
+      layout: assignment
+      permalink: assignment/:path
+    activities:
+      output: true
+      permalink: activity/:path
+    pages:
+      output: true
+      permalink: :path
+
+exclude:
+  - .DS_Store
+  - Gemfile.lock
+  - node_modules
+  - images/original
+  - images/scripts

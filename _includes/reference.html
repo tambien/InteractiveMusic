@@ -1,0 +1,9 @@
+<div>
+	{% for reference in site.references %}
+		{% capture url %}/ref/{{ include.ref }}{% endcapture %}
+		{% if reference.url == url %}
+			<div>{{reference.title}}</div>
+			<div>{{include.link}}</div>
+		{% endif %}
+	{% endfor %}
+</div>

@@ -1,0 +1,60 @@
+---
+---
+
+@import "common.scss";
+
+
+$scale : 0.3;
+
+@keyframes highlight {
+	#{0% * $scale}   { 
+		background-color: $red; 
+	}
+	#{10% * $scale} {
+		background-color: $orange;
+	}
+	#{20% * $scale} {
+		background-color: $green;
+	}
+	#{30% * $scale} {
+		background-color: $blue;
+	}
+	#{40% * $scale} {
+		background-color: $pink;
+	}
+	#{50% * $scale} {
+		background-color: $purple;
+	}
+	#{60% * $scale} { 
+		background-color: black;
+	}
+}
+
+#topbar {
+
+	margin-top: $margin;
+	margin-bottom: $margin;
+	width: 100%;
+	height: 5px;
+
+	$transitionTime : 50ms;
+	$range : 21;
+
+	@for $i from 1 to $range {
+		span:nth-child(#{$i}) {
+			animation-delay: $transitionTime * $i + 5s;
+		}
+	}
+
+	span {
+		float: left;
+		margin: 0px;
+		display: inline-block;
+		width: percentage(1 / ($range - 1));
+		height: 100%;
+		background-color: black;
+		animation: highlight 8s;
+		animation-fill-mode: forwards;
+		animation-iteration-count: infinite;
+	}
+}

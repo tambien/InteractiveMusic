@@ -1,0 +1,36 @@
+<link rel="stylesheet" type="text/css" href="/style/cite.css">
+<div class='cite'>
+
+	{% if include.author %}
+		{% capture content %}{{include.author}}. <i>{{include.title}}</i>{% endcapture %}
+	{% else %}
+		{% capture content %}{{include.title}}{% endcapture %}
+	{% endif %}
+
+	<!-- if there is a refence to this it, use that -->
+	{% if include.ref %}
+		{% for reference in site.references %}
+			{% capture url %}/ref/{{ include.ref }}{% endcapture %}
+			{% if reference.url == url %}
+				{% capture content %}{{reference.author}}. <i>{{reference.title}}</i>{% endcapture %}
+				{% if reference.link %}
+					{% capture link %}{{reference.link}}{% endcapture %}
+				{% endif %}		
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+
+	{% if include.link %}
+		{% capture link %}{{include.link}}{% endcapture %}
+	{% endif %}
+
+	{% if include.page %}
+		{% capture content %} {{content}}. p {{include.page}}. {% endcapture %}
+	{% endif %}	
+
+	{% if link %}
+		<a target="_blank" href="{{link}}">-{{content}}</a>	
+	{% else %}
+		<span>-{{content}}</span>	
+	{% endif %}
+</div>

@@ -1,0 +1,20 @@
+---
+---
+@import "common.scss";
+
+.cite {
+	font-family: $copy-font;
+	font-size: 0.8em;
+	text-align: right;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: $margin;
+
+	a {
+		color: black;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
