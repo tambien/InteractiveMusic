@@ -48,6 +48,7 @@ blockquote, .highlight  {
 iframe, img{
 	margin: $margin*2 auto $margin*2 auto;
 	display: block;
+	max-width: 100%;
 }
 
 a {
