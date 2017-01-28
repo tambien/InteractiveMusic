@@ -6,7 +6,7 @@ layout: default
 ## 1 - WHAT IS MUSIC (1/26/17)
 
 * Introductions
-* Overview of [syllabus]({{site.baseurl}}/syllabus), [expectations]({{site.baseurl}}/expectations) and [goals]({{site.baseurl}}/goals)
+* Overview of [expectations]({{site.baseurl}}/expectations), [goals]({{site.baseurl}}/goals) and [syllabus]({{site.baseurl}}/syllabus)
 * [What is music?]({{site.baseurl}}/module/what_is_music)
 * [Listening]({{site.baseurl}}/module/listening)
 * [Music as commodity]({{site.baseurl}}/module/commodity)

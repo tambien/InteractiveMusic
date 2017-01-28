@@ -15,7 +15,6 @@ I will be on time or early to class and I expect the same from you. There will b
 
 Let me know in advance if you need to be excused for an absence (emergencies only!).
 
-
 ## GRADING
 
 * 1/3 Final
