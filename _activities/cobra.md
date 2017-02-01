@@ -1,9 +1,7 @@
 ---
-title : cobra
+title : Cobra
 layout: default
 ---
-
-# Cobra
 
 Cobra is a group improvisation technique developed by John Zorn in New York in the 1980s. It is arranged for a group of improvisers and a conductor. 
 

@@ -1,5 +1,5 @@
 ---
-title : manifesto
+title : Manifesto
 layout: default
 ---
 
