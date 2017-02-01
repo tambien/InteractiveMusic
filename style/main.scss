@@ -33,8 +33,10 @@ li {
 	margin-left: $margin;
 }
 
+$grayBackground : #eee;
+
 blockquote, .highlight  { 
-	background: #eee; 
+	background: $grayBackground;
 	border-radius: 10px;
 	padding: 10px;
 	margin: 0px;
@@ -63,4 +65,9 @@ a {
 			color: $teal;
 		}
 	}
+}
+
+code {
+	background: $grayBackground;
+	padding: 2px 5px 2px 5px;
 }
