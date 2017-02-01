@@ -34,27 +34,64 @@ $scale : 0.3;
 
 	margin-top: $margin;
 	margin-bottom: $margin;
-	width: 100%;
+	position: relative;
 	height: 5px;
 
 	$transitionTime : 50ms;
 	$range : 21;
 
-	@for $i from 1 to $range {
-		span:nth-child(#{$i}) {
-			animation-delay: $transitionTime * $i + 5s;
+	#bar {
+
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		display: inline;
+
+		@for $i from 1 to $range {
+			span:nth-child(#{$i}) {
+				animation-delay: $transitionTime * $i + 5s;
+			}
+		}
+
+		span {
+			float: left;
+			margin: 0px;
+			display: inline-block;
+			width: percentage(1 / ($range - 1));
+			height: 100%;
+			background-color: black;
+			animation: highlight 8s;
+			animation-fill-mode: forwards;
+			animation-iteration-count: infinite;
 		}
 	}
 
-	span {
-		float: left;
-		margin: 0px;
+	#links {
+
+		position: absolute;
+		top: -20px;
+		right: 0px;
 		display: inline-block;
-		width: percentage(1 / ($range - 1));
-		height: 100%;
-		background-color: black;
-		animation: highlight 8s;
-		animation-fill-mode: forwards;
-		animation-iteration-count: infinite;
+
+		a, span {
+			margin-left: 2px;
+			float: right; 
+			color: black;
+			font-family: $title-font;
+			position: relative;
+		}
+
+		a {
+			// position: absolute;
+			// right: 0px;
+			// top: -20px;
+
+			&:hover {
+				color: $teal;
+			}
+		}
 	}
+
 }

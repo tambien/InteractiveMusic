@@ -1,6 +1,13 @@
 <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/style/topbar.css">
 <div id="topbar">
-	{% for i in (1..20) %}
-		<span></span>
-	{% endfor %}
+	<div id="links">
+		<a href="{{site.baseurl}}/">home</a>
+		<span>|</span>
+		<a href="{{site.baseurl}}/syllabus">syllabus</a>
+	</div>
+	<div id="bar">
+		{% for i in (1..20) %}
+			<span></span>
+		{% endfor %}
+	</div>
 </div>
