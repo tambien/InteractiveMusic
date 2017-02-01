@@ -9,4 +9,4 @@ All artists have a tacit or explicit "manifesto" of design values/ideas/axioms t
 
 For this assignment, write a short piece on some principles and ideas that motivate and direct your practice. This can be difficult, but clarifying your ideas in writing will help you compose and create with intention and purpose throughout the semester. 
 
-Post your manifesto to your blog or email it to me directly before next week.
+Post your manifesto to your blog and/or email it to me directly before next week.
