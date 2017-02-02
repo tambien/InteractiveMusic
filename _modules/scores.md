@@ -7,32 +7,59 @@ When we talk about scores, we are talking about creating representations and abs
 
 **Audio files are not sound itself, but abstract representations of it. Is an mp3 a score?**
 
+## Abstraction
 
-Scores were another way a composer had to elucidate the underlying concepts of his/her piece. Ideas that may or may not have been obvious by just listening to the music. 
+Common abstractions in scores are "notes", "parts", "tempos". 
 
-![Pithoprakta](http://www.deconcrete.org/wp-content/uploads/2010/09/xenakis-pithoprakta-1955-56.jpg)
+Scores are another way a composer has to elucidate the underlying concepts of their piece. The fields of Musicology and Music Theory rely on this ability to identify, name, and reason about concepts and ideas that are preset in the music.
 
-Looking at a composition done in the [Twelve Tone Technique](http://en.wikipedia.org/wiki/Twelve-tone_technique), it's easier to pick out and verify the prime, retrograde, inversion, etc, than it is to hear those things in the music. 
+### Pithoprakta
+
+![Pithoprakta]({{site.baseurl}}/images/xenakis-pithoprakta-1955-56.jpg)
+
+> Pithoprakta (1955–56) is a piece by Iannis Xenakis for two trombones, 46 string instruments, xylophone, and woodblock, premièred by conductor Hermann Scherchen in Munich on March 1957.
+>
+> The title translates as "actions through probability". In the case of "Pithoprakta," this relates to Jacque Bernoulli's law of large numbers which states that as the number of occurrences of a chance event increases, the more the average outcome approaches a determinate end. The piece is based on the statistical mechanics of gases, Gauss's law, or Brownian motion. Each instrument is conceived as a molecule obeying the Maxwell–Boltzmann distribution law, with Gaussian distribution of temperature fluctuation.
+
+{% include cite.html title="Wikipedia" link="https://en.wikipedia.org/wiki/Pithoprakta" %}
+
+{% include youtube.html video="AE1M2iwjTsM" start=120 %}
+
+Similarly, looking at a composition done in the [Twelve Tone Technique](http://en.wikipedia.org/wiki/Twelve-tone_technique), it's easier to pick out and verify the prime, retrograde, inversion, etc, in the score than it is to hear those things in the realization.
 
 {% include youtube.html video="7A9HSlgDlQE" %}
 
-The fields of Musicology and Music Theory rely on this ability to identify, name, and reason about concepts and ideas that are preset in the music.
+But what about music which is composed/produced with a DAW or through software? How can we discover and reason about the composer's concept? 
 
-But what about music which is composed/produced with a DAW or through software? How can we discover and reason about the composer's concept? Not having the ability to abstract musical concepts with something visual is like not having a word to describe an idea: we can describe a concept, but we would get much further in our description and development of that idea if we had a word for it.
+**What is the purpose a score?**
 
-**If we can somehow manipulate sound itself, is there a reason for a score?**
+**What is assumed? What is left to the discretion of the performer/realizer?**
 
 ## Graphic Notation
 
-[Anthony Braxton Graphic Notation](http://www.criticalimprov.com/article/view/462/992)
+![Braxton 108B]({{site.baseurl}}/images/braxton-108b.jpg)
 
-Artikulation
+> Braxton describes #108B as “a series of possible curve line sounds or curve line dynamic changes” (311), implying that the lines can indicate pitch and/or volume, and he likens the music first to “a continuum of stresses and ‘whispers’
 
-[Cornelius Cardew](https://www.youtube.com/watch?v=JMzIXxlwuCs)
+{% include cite.html title="What I Call a Sound" author="Graham Lock" link="http://www.criticalimprov.com/article/view/462/992" %}
+
+{% include youtube.html video="kaF9Kbksi10" %}
+
+### Artikulation
+
+Unlike most scores which are the source code to the music, Rainer Wehinger ["Hörpartitur"](https://en.wikipedia.org/wiki/Graphic_notation) or "score for listening" to Ligeti's Artikulation was created _after_ the music was published. 
+
+{% include youtube.html video="71hNl_skTZQ" %}
+
+### Scratch Orchestra
+
+The Scratch Orchestra was an experimental musical ensemble founded in the spring of 1969 by Cornelius Cardew, Michael Parsons and Howard Skempton.
+
+The Orchestra reflected Cardew's musical philosophy at that time. This meant that anyone could join, graphic scores were used (rather than traditional sheet music), and there was an emphasis on improvisation.
+
+[Scratch Orchestra Draft Constitution](http://www.kim-cohen.com/Assets/CourseAssets/Texts/Cardew_Scratch%20Constitution.pdf)
 
 [Alternative Music Notation](http://www.smithsonianmag.com/arts-culture/5-12-examples-of-experimental-music-notation-92223646/)
-
-[Earle Brown](https://en.wikipedia.org/wiki/Earle_Brown)
 
 ## Code as score
 
@@ -43,3 +70,9 @@ The "Orchestra" is the part of your code where you create all your instruments, 
 [CSound Score Notation](http://www.csounds.com/manual/html/ScoreTop.html)
 
 [Tidal Notation](https://toplap.org/tidal/)
+
+There is a similarity between code and scores. Neither is the sound itself, but a representation of the sound/music, meant to be interpreted to be realized. The way your code is written and organized, elucidates your conception of the work. 
+
+## Activity
+
+[Cardew - Treatise]({{site.baseurl}}/activity/treatise)

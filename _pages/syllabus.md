@@ -11,16 +11,16 @@ layout: default
 * [Listening]({{site.baseurl}}/module/listening)
 * [Music as commodity]({{site.baseurl}}/module/commodity)
 * [Why interaction?]({{site.baseurl}}/module/why_interaction)
-* [Music as process]({{site.baseurl}}/module/process_music)
 * Activity: [Cobra]({{site.baseurl}}/activity/cobra) && [Rhythm Circle]({{site.baseurl}}/activity/rhythm_circle)
 * Assignment: [Manifesto]({{site.baseurl}}/assignment/manifesto)
 
 
 ## 2 - SCORE AS CODE, CODE AS SCORE (2/2/17)
 
-* Intro to programming sound
-* Scores
-* Activity: [Artikulation]({{site.baseurl}}/activity/artikulation)
+* [Intro to Javascript]({{site.baseurl}}/module/intro_to_javascript)
+* [Intro to Tone.js]({{site.baseurl}}/module/intro_to_tone)
+* [Scores]({{site.baseurl}}/module/scores)
+* Activity: [Treatise]({{site.baseurl}}/activity/treatise)
 * Assignment: [Score]({{site.baseurl}}/assignment/score)
 
 ## 3 - REALIZATION (2/9/17)
@@ -39,12 +39,14 @@ layout: default
 
 * Sound / Acoustics
 * Digital Audio
+* [Web Audio API]({{site.baseurl}}/module/web_audio)
 * Synthesis
 * Spectromorophology
 * Activity: Make Tone.js Presets
 
 ## 6 - PROCESS (3/2/17)
 
+* [Music as process]({{site.baseurl}}/module/process_music)
 * Abstraction
 * Process
 	* Randomization
