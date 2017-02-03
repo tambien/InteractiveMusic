@@ -42,3 +42,5 @@ Read more about [Time encodings](https://github.com/Tonejs/Tone.js/wiki/Time).
 [Tone.Player](http://tonejs.github.io/docs/#Player) loads and schedules mp3, ogg or wav files. Unlike Tone.Synth which is ready as soon as the page loads, there is an additional step in using audio files, which is that you have to wait for them to load. 
 
 <script async src="//jsfiddle.net/yotammann/hzc9yzbn/14/embed/js,result/"></script>
+
+[Docs](https://tonejs.github.io/docs/)
