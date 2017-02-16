@@ -1,5 +1,5 @@
 ---
-title : intro to Tone.js
+title : Intro to Tone.js
 layout: default
 ---
 

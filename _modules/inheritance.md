@@ -1,5 +1,5 @@
 ---
-title : inheritance in javascript
+title : Inheritance in Javascript
 layout: default
 ---
 
