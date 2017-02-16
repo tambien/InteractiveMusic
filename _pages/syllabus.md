@@ -25,7 +25,9 @@ layout: default
 
 ## 3 - REALIZATION (2/9/17)
 
-* more Tone.js programming
+* Activity: Swap scores with a partner, imagine trying to realize the score. What questions do you have? Comments? Critique?
+* [more Tone.js programming]({{site.baseurl}}/module/tone_2)
+* [_Fundamentals of Music Composition_]({{site.baseurl}}/module/fundamentals_of_music_composition)
 * Activity: In class time to work on midterm + programming questions
 * Assignment: [Realize your score]({{site.baseurl}}/assignment/midterm_1)
 
@@ -68,15 +70,6 @@ layout: default
 ## 8 - FUNDAMENTALS OF MUSIC (3/23/17)
 
 * MIDTERM 2
-* Either:
-* _Fundamentals of Music Composition_
-	* Cell
-	* Phrase
-	* Motif
-	* Variation
-	* Form
-* Stockhausen critique
-* OR:
 * Object Oriented Javascript
 	* function prototype objects
 	* `new`
