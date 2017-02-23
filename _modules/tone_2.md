@@ -11,10 +11,12 @@ These include:
 
 * Oscillator \(sawtooth, square, pwm, pulse, sine, triangle, fm, am, fat\)
 * Noise \(white, pink, brown\)
-* Player
+* [Player](https://jsfiddle.net/yotammann/nzz494yw/4/)
 * UserMedia
 
 ## Effects
+
+https://jsfiddle.net/yotammann/5wgyv3w1/3/
 
 Effects modify the incoming signal. 
 
@@ -40,7 +42,10 @@ effect.wet.value = 0.5;
 effect.wet.rampTo(1, 3);
 ```
 
+
 ## Connections
+
+https://jsfiddle.net/yotammann/5wgyv3w1/4/
 
 `connect` is how we move audio data from one node to the next. It's analogous to running a cable from the output of one node to the input of another. You will see the method used all over Tone.js and the Web Audio API, so it's important to know what it does and how to use it. 
 
@@ -55,6 +60,8 @@ The connection is made in the underlying API and NOT "remembered" by Tone.js or 
 ## Signals
 
 [Tone.Signal](https://tonejs.github.io/docs/#Signal) plays an important role in Tone.js by allowing audio-rate control over many attributes. It is similar, but more flexible than the Web Audio API's native [AudioParam](http://webaudio.github.io/web-audio-api/#the-audioparam-interface) and allows sample-accurate control synchronization of a node's attributes.
+
+https://jsfiddle.net/yotammann/5wgyv3w1/8/
 
 ## Setting values
 
@@ -105,6 +112,12 @@ Tone.Transport.schedule(function(time){
 //start the transport to hear the event
 Tone.Transport.start()
 ```
+
+https://jsfiddle.net/yotammann/swwvywvg/5/
+
+https://jsfiddle.net/yotammann/eprvL0nq/1/
+
+https://jsfiddle.net/yotammann/o3d076mz/1/
 
 ## Loop
 
