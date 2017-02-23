@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DEBUGGING</title>
+	<script type="text/javascript" src="https://tonejs.github.io/build/Tone.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+
+		//ANSWER THE FOLLOWING QUESTIONS USING ONLY THE DEVELOPER TOOLS (don't type anything here)
+
+		// 0
+		// What is the type of osc's output?
+		// Whats the value of osc's volume?
+
+		var osc = new Tone.Oscillator().toMaster()
+
+		// 1
+		// start the oscillator
+		// what is the frequency value?
+		// multiply its frequency value by 2
+
+		// 2
+		// What is the type of Tone.context?
+		// What is the value of Tone.context.currentTime?
+		// What is the value of Tone.context.currentTime now?
+
+		// 3
+		// what type is 'gainy'?
+		// List 4 of gainys properties?
+		// List 4 or more of its methods?
+		var gainy = new Tone.Gain()
+
+		// 4
+		// osc has a property called 'output', what type is 'output'?
+		// output has a property called 'volume', what is the value of volume
+		// osc has a property called volume, if you change output.volume, does it change osc.volume?
+
+		// 5
+		// What is the value of freq before the lfo is connected
+		// Step past 'lfo.connect...', what is the value after?
+		// Start oscTwo by calling oscTwo.start()
+		;(function(){
+
+			var lfo = new Tone.LFO("4n", 20, 20000)
+
+			var oscTwo = new Tone.Oscillator().toMaster()
+
+			var freq = oscTwo.frequency.value
+
+			lfo.connect(oscTwo.frequency)
+
+			freq = oscTwo.frequency.value
+
+			lfo.start()
+
+		}())
+
+		function stepIn(){
+			var osc = new Tone.Oscillator(220, "square4").toMaster()
+			// change the value of bool so that the oscillator starts
+			var bool = false
+			if (bool){
+				osc.start()
+			}
+		}
+
+		
+		// 6
+		// create a variable called truthy and set it to true
+		setInterval(function(){
+			if (window.truthy){
+				debugger
+				//step into this function
+				stepIn()
+			}
+		}, 100)
+
+	</script>
+</body>
+</html>
