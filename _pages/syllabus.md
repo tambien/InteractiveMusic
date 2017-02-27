@@ -27,13 +27,11 @@ layout: default
 
 * Activity: Swap scores with a partner, imagine trying to realize the score. What questions do you have? Comments? Critique?
 * [more Tone.js programming]({{site.baseurl}}/module/tone_2)
-* [_Fundamentals of Music Composition_]({{site.baseurl}}/module/fundamentals_of_music_composition)
-* Activity: In class time to work on midterm + programming questions
 * Assignment: [Realize your score]({{site.baseurl}}/assignment/midterm_1)
 
 ## 4 - MIDTERM (2/23/17)
 
-* Present compositions (midterm 1)
+* Present compositions [midterm 1]({{site.baseurl}}/assignment/midterm_1)
 * [Developer tools]({{site.baseurl}}/module/developer_tools)
 * Activity: [Developer tools scavenger hunt]({{site.baseurl}}/activity/debugging.html)
 
@@ -69,7 +67,7 @@ layout: default
 
 ## 8 - FUNDAMENTALS OF MUSIC (3/30/17)
 
-* MIDTERM 2
+* Present [Midterm 2]({{site.baseurl}}/assignment/midterm_2)
 * Object Oriented Javascript
 	* function prototype objects
 	* `new`
