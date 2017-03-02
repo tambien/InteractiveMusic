@@ -7,9 +7,7 @@ layout: default
 
 When translating sound waves into electrical signals, synthesizers use voltage. A typical range would be ±15V or ±5V. 
 
-For demonstration, I will be using modular synths made with [BEAP](https://github.com/stretta/BEAP/wiki/BEAP-Modular---Overview-and-Install) for Max/MSP. 
-
-You can download all of the patches [here]({{site.baseurl}}/assets/modular.zip)
+For demonstration, I will be using modular synths made with [BEAP](https://github.com/stretta/BEAP/wiki/BEAP-Modular---Overview-and-Install) for Max/MSP. You can download all of the patches [here]({{site.baseurl}}/assets/modular.zip)
 
 ## Sources
 
