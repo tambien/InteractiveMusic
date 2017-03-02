@@ -44,16 +44,9 @@ layout: default
 * [Spectromorphology]({{site.baseurl}}/module/spectromorphology)
 * Activity: [Make Tone.js Presets]({{site.baseurl}}/activity/presets)
 
-## 6 - PROCESS (3/9/17)
+## 6 - Gesture (3/9/17)
 
-* [Music as process]({{site.baseurl}}/module/process_music)
-* Abstraction
-* Process
-	* Randomization
-	* Markov
-
-## 7 - GESTURE (3/23/17)
-
+* Mid-semester Survey
 * Framing Interaction
 * Dimensionality
 * Conceptual Clarity
@@ -63,9 +56,17 @@ layout: default
 	* Responsiveness
 	* Mapping
 * Activity: Paper Prototyping Musical Interaction
+
+## 7 - Form and Process (3/23/17)
+
+* [Music as process]({{site.baseurl}}/module/process_music)
+* Abstraction
+* Process
+	* Randomization
+	* Markov
 * Assignment: [Midterm 2 - Gesture]({{site.baseurl}}/assignment/midterm_2)
 
-## 8 - FUNDAMENTALS OF MUSIC (3/30/17)
+## 8 - Object Oriented (3/30/17)
 
 * Present [Midterm 2]({{site.baseurl}}/assignment/midterm_2)
 * Object Oriented Javascript
