@@ -37,12 +37,12 @@ layout: default
 
 ## 5 - SOUND (3/2/17)
 
-* Sound / Acoustics
-* Digital Audio
+* [Sound]({{site.baseurl}}/module/sound)
+* [Synthesis]({{site.baseurl}}/module/synthesis)
+* [Digital Audio]({{site.baseurl}}/module/digital_audio)
 * [Web Audio API]({{site.baseurl}}/module/web_audio)
-* Synthesis
-* Spectromorophology
-* Activity: Make Tone.js Presets
+* [Spectromorphology]({{site.baseurl}}/module/spectromorphology)
+* Activity: [Make Tone.js Presets]({{site.baseurl}}/activity/presets)
 
 ## 6 - PROCESS (3/9/17)
 
