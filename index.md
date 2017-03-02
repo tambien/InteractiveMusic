@@ -13,6 +13,7 @@ Office Hours by appointment. I also typically arrive 20-30 minutes before class.
 
 [Syllabus]({{ site.baseurl }}/syllabus)
 
+[Github](https://github.com/tambien/InteractiveMusic)
 
 email: [ypm206@nyu.edu](mailto:ypm206@nyu.edu)
 
