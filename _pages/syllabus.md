@@ -44,18 +44,15 @@ layout: default
 * [Spectromorphology]({{site.baseurl}}/module/spectromorphology)
 * Activity: [Make Tone.js Presets]({{site.baseurl}}/activity/presets)
 
-## 6 - Gesture (3/9/17)
+## 6 - Interfaces (3/9/17)
 
 * Mid-semester Survey
-* Framing Interaction
-* Dimensionality
-* Conceptual Clarity
-* Gesture
-* Instrument Design
-	* Expressiveness
-	* Responsiveness
-	* Mapping
-* Activity: Paper Prototyping Musical Interaction
+* [Musical Interfaces]({{site.baseurl}}/module/musical_interfaces)
+* [Gesture Mapping]({{site.baseurl}}/module/gesture_mapping)
+* [Improvisation]({{site.baseurl}}/module/improvisation)
+* [API Design]({{site.baseurl}}/module/api_design)
+* [Interface Design]({{site.baseurl}}/module/interface_design)
+* Activity: [Paper Prototyping Musical Interaction]({{site.baseurl}}/activity/paper_prototype)
 
 ## 7 - Form and Process (3/23/17)
 
@@ -64,20 +61,12 @@ layout: default
 * Process
 	* Randomization
 	* Markov
+* Musical Installations
 * Assignment: [Midterm 2 - Gesture]({{site.baseurl}}/assignment/midterm_2)
 
-## 8 - Object Oriented (3/30/17)
+## 8 - Midterm 2 (3/30/17)
 
 * Present [Midterm 2]({{site.baseurl}}/assignment/midterm_2)
-* Object Oriented Javascript
-	* function prototype objects
-	* `new`
-* Encapsulation
-	* members
-	* methods
-	* `this`
-* API Design
-	* public/private
 
 ## 9 - LIVE CODING (4/6/17)
 
@@ -89,9 +78,11 @@ layout: default
 * Visual Cohesion
 * Guest - [Sarah Rothberg](http://sarahrothberg.com/)
 * Activity: [Drawing Music]({{site.baseurl}}/activity/drawing_music)
+* [Visual ]
 
 ## 11 - JS (4/20/17)
 
+* Spatialization
 * Musical Installations
 * JS Context
 	* this
