@@ -25,3 +25,11 @@ Music exists in time, so perhaps clear mappings have to do more with movement an
 [n - Drexler](http://www.wakeapp.com/n/en/)
 
 [Thicket - Morgan Packard & Josh Ott](https://www.youtube.com/watch?v=4Xr9ELZSOnc)
+
+## [Photoplay](https://en.wikipedia.org/wiki/Photoplay_music)
+
+The metaphor here is that the music follows and enhances something else which is going on. The "composed" system is about mirroring interaction which is intended for something else. 
+
+[Chrome Music Lab Kandinsky](https://musiclab.chromeexperiments.com/Kandinsky)
+
+[Le voyage dans la lune](https://www.youtube.com/watch?v=lUAD4lKNDI8)
