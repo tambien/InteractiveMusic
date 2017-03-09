@@ -29,7 +29,7 @@ In Javascript there are a few ways of doing OOP
 
 ### Function Objects
 
-By convention, if you're defining a class, use a capitol letter and instances of that class will be lowercase or camelCase. 
+By convention, if you're defining a class, use a capital letter and instances of that class will be lowercase or camelCase. 
 
 ```javascript
 var MyClass = function(){
