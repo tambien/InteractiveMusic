@@ -71,3 +71,6 @@ Playful public installation where swinging on swings generates music. Clear mapp
 Not great sound design / composition (IMO), but very clear mapping. 
 
 #### [Voice Array - Rafael Lozano-Hemmer](http://www.trendhunter.com/trends/voice-array-by-rafael-lozanohemmer)
+
+
+[Global String by Atau Tanaka (2000)](https://vimeo.com/46800992) connected via the Internet. real time sound synthesis.
