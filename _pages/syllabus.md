@@ -66,8 +66,9 @@ layout: default
 
 ## 9 - LIVE CODING (4/6/17)
 
-* live coding
-* guest - [Kate Sicchio](http://blog.sicchio.com/)	
+* (Yotam OUT)
+* live coding workshop
+* guest instructor - [Kate Sicchio](http://blog.sicchio.com/)	
 
 ## 10 - In Space (4/13/17)
 
@@ -78,9 +79,9 @@ layout: default
 ## 11 - Seeing (4/20/17)
 
 * Visual Cohesion
-* Analysis
 * Guest - [Sarah Rothberg](http://sarahrothberg.com/)
 * Activity: [Drawing Music]({{site.baseurl}}/activity/drawing_music)
+* Analysis
 
 ## 12 - FINAL (4/26/17)
 
