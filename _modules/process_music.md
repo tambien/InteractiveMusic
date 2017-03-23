@@ -78,7 +78,7 @@ Transfer of the phase shifting processes he explored in tape pieces like [It’s
 
 {% include youtube.html video="UmCT69F03wo" %}
 
-![Klavierstuck score]({{site.baseurl}}/images/Stockhausen_klavierstück_XI_Score_Scaled.jpg)
+![Klavierstuck score]({{site.baseurl}}/images/Stockhausen_klavierstuck_XI_Score_Scaled.jpg)
 
 
 ### _The Open Work_ - Umberto Eco - 1964
