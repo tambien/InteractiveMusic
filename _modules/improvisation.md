@@ -42,8 +42,7 @@ Improvised music not constrained to given harmonies/melodies. But is often still
 > Javanese performers have the freedom to "develop" a theme, to edit a piece, to drastically vary the tempo and dynamics...
 > There are many Javanese terms that may be translated loosely as improvisation: kembangan (literally "flowering"), improvisation that adds beauty; isen-isen ("filling"), improvisation that pleasantly fills a vacuum; ngambang ("floating"), improvisation produced by musicians who do not have a clear knowledge of where the music is going; sambang-rapet ("making a tight connection"), covering up a fellow performer's mistake in order to save him or her from embarrassment; and finally, ngawur ("blunder"), an out-of-style or irrelevant improvisation.
 
-> [reference](http://www.gamelan.org/library/susiloessay.html)
-
+{% include cite.html link="http://www.gamelan.org/library/susiloessay.html" author="Hardja Susilo" %}
 
 ### Drum Circle
 
