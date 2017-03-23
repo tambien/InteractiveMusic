@@ -5,64 +5,25 @@ layout : default
 
 Play (or don't) with some probability
 
-[Basic Probability](https://jsfiddle.net/yotammann/3hvokbug/)
+[Basic Probability](https://jsfiddle.net/yotammann/3hvokbug/4/)
 
-[Basic Probability from Click](https://jsfiddle.net/yotammann/pxhkoejg/)
+## Patterns
 
-## Random Melody Generator
+[up](https://jsfiddle.net/yotammann/a1LL0Lz9/4/)
 
-#### Generate Material by randomly selecting from an array of notes.
+[random](https://jsfiddle.net/yotammann/a1LL0Lz9/5/)
 
-* Make the synth
-* Make the array of notes
-* Schedule a series of random notes. 
+[randomWalk](https://jsfiddle.net/yotammann/a1LL0Lz9/11/)
 
-[Random Note Choice](https://jsfiddle.net/yotammann/3hvokbug/1/)
-
-[Random Note Choice with Rests](https://jsfiddle.net/yotammann/o9sLe8w9/1/)
-
-What kind of music does this make? What sort of musical decisions is there to make with this technique? Where can you take it from here? 
-
-#### Let's Constrain the movement. 
-
-* Pick the next note based on the current note.
-	* When a random value is above 0.5, move to the next note up
-	* When below, move one note down
-* Constrain the values to the length of our array
-
-[Stepwise Note Choice](https://jsfiddle.net/yotammann/rto6hvwx/)
-
-[Stepwise with wrapping](https://jsfiddle.net/yotammann/b1y94b8j/)
-
-## Markov Chords
+## Markov
 
 Markov chains define states and probability of moving from one state to another. We'll use chords as our states and define a way of moving from one state to another. 
 
 ![Basic Markov Chain](http://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Markovkate_01.svg/220px-Markovkate_01.svg.png)
 
-* First make the possible chord paths from one chord to the next. 
-* Given there are only two choices between either state, flip a coin and choose one or the other. 
-* Play those chords on a PolySynth
-* Maybe even add a bass part. 
-
-[Markov Chord Progression](https://jsfiddle.net/yotammann/b5s9ept2/)
+[Markov Melody](https://jsfiddle.net/yotammann/zjxL4jtr/2/)
 
 ## Probability Drums
-
-On every step of our sequencer, we will decide whether or not to play a drum part on that step given a probability table. 
-
-* Make a drum kit. 
-* Make some sliders with 16 steps. 
-	* zero them out
-* On every step, generate a random number and compare it to the probability at that step
-
-[Chord Probability](https://jsfiddle.net/yotammann/qy5wfkxh/)
-
-#### Interpolated Probabilities
-
-By adjusting the probability over time can add interesting progression to music. 
-
-[Change Probability over time](https://jsfiddle.net/yotammann/Laaw23de/)
 
 [Interpolating Probability](https://jsfiddle.net/yotammann/w16c4koL/)
 
