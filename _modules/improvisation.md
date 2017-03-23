@@ -3,8 +3,6 @@ layout: default
 title : Improvisation
 ---
 
-## Improvisation
-
 Composing for improvisation is one way to frame writing music for interaction. You create the framework over which your listeners can explore and create over.
 
 There is nearly always a "vocabulary" to improvisation - a style of playing which fits within the context/genre of the piece.
