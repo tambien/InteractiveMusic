@@ -3,7 +3,7 @@ title : Randomization
 layout : default
 ---
 
-#### Play (or don't) with some probability
+Play (or don't) with some probability
 
 [Basic Probability](https://jsfiddle.net/yotammann/3hvokbug/)
 
@@ -17,9 +17,9 @@ layout : default
 * Make the array of notes
 * Schedule a series of random notes. 
 
-[Random Note Choice](https://jsfiddle.net/yotammann/ythk1ttr/)
+[Random Note Choice](https://jsfiddle.net/yotammann/3hvokbug/1/)
 
-[Random Note Choice with Rests](https://jsfiddle.net/yotammann/4gad97n1/)
+[Random Note Choice with Rests](https://jsfiddle.net/yotammann/o9sLe8w9/1/)
 
 What kind of music does this make? What sort of musical decisions is there to make with this technique? Where can you take it from here? 
 
@@ -64,13 +64,13 @@ By adjusting the probability over time can add interesting progression to music.
 
 [Change Probability over time](https://jsfiddle.net/yotammann/Laaw23de/)
 
-[Interpolating Probability](https://jsfiddle.net/yotammann/ukuv49p9/)
+[Interpolating Probability](https://jsfiddle.net/yotammann/w16c4koL/)
 
 ## REFERENCES
 
-[Algorithmic Composition](http://algocomp.blogspot.com/)
-[Cellular automata and music](http://www.ibm.com/developerworks/java/library/j-camusic/)
-[Shiffman on Markov Chains](http://shiffman.net/teaching/a2z/generate/#ngrams)
-[A Panoply of Stochastic 'Cannons'](http://www.jstor.org/stable/3679442?seq=2#page_scan_tab_contents)
-[Music and Probability](http://www.amazon.com/Music-Probability-David-Temperley/dp/0262515199)
-[The Algorithmic Composer](http://www.amazon.com/Algorithmic-Composer-Computer-Digital-Series/dp/0895794543)
+* [Algorithmic Composition](http://algocomp.blogspot.com/)
+* [Cellular automata and music](http://www.ibm.com/developerworks/java/library/j-camusic/)
+* [Shiffman on Markov Chains](http://shiffman.net/teaching/a2z/generate/#ngrams)
+* [A Panoply of Stochastic 'Cannons'](http://www.jstor.org/stable/3679442?seq=2#page_scan_tab_contents)
+* [Music and Probability](http://www.amazon.com/Music-Probability-David-Temperley/dp/0262515199)
+* [The Algorithmic Composer](http://www.amazon.com/Algorithmic-Composer-Computer-Digital-Series/dp/0895794543)
