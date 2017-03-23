@@ -23,7 +23,7 @@ Here's a few techniques drawn from 20th century music which can potentially be a
 
 {% include cite.html title="Instructions - Variations II" link="" %}
 
-![Score Recreation](http://williambrent.conflations.com/graphics/variations-ii-still-1.jpg)
+![Score Recreation]({{site.baseurl}}/images/variations-ii-still-1.jpg)
 
 {% include youtube.html video="d8DiCEfa7ME" %}
 
