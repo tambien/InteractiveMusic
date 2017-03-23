@@ -49,19 +49,15 @@ layout: default
 * Mid-semester Survey
 * [Musical Interfaces]({{site.baseurl}}/module/musical_interfaces)
 * [Gesture Mapping]({{site.baseurl}}/module/gesture_mapping)
-* [Improvisation]({{site.baseurl}}/module/improvisation)
 * [API Design]({{site.baseurl}}/module/api_design)
 * [Interface Design]({{site.baseurl}}/module/interface_design)
 * Activity: [Paper Prototyping Musical Interaction]({{site.baseurl}}/activity/paper_prototype)
 
-## 7 - Form and Process (3/23/17)
+## 7 - Process (3/23/17)
 
 * [Music as process]({{site.baseurl}}/module/process_music)
-* Abstraction
-* Process
-	* Randomization
-	* Markov
-* Musical Installations
+* [Improvisation]({{site.baseurl}}/module/improvisation)
+* [Generating music]({{site.baseurl}}/module/randomization)
 * Assignment: [Midterm 2 - Gesture]({{site.baseurl}}/assignment/midterm_2)
 
 ## 8 - Midterm 2 (3/30/17)
@@ -73,24 +69,18 @@ layout: default
 * live coding
 * guest - [Kate Sicchio](http://blog.sicchio.com/)	
 
-## 10 - Seeing (4/13/17)
-
-* Visual Cohesion
-* Guest - [Sarah Rothberg](http://sarahrothberg.com/)
-* Activity: [Drawing Music]({{site.baseurl}}/activity/drawing_music)
-* [Visual ]
-
-## 11 - JS (4/20/17)
+## 10 - In Space (4/13/17)
 
 * Spatialization
+* Guest - [Gabe + Dave](http://www.daveandgabe.care/)
 * Musical Installations
-* JS Context
-	* this
-	* bind
-	* apply
-	* call
-* Inheritence
-* Activity: Sound Making Objects
+
+## 11 - Seeing (4/20/17)
+
+* Visual Cohesion
+* Analysis
+* Guest - [Sarah Rothberg](http://sarahrothberg.com/)
+* Activity: [Drawing Music]({{site.baseurl}}/activity/drawing_music)
 
 ## 12 - FINAL (4/26/17)
 
