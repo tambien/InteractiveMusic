@@ -48,3 +48,10 @@ function extend(Child, Parent){
 	Child.prototype.constructor = Child;
 }
 ```
+
+## RESOURCES
+
+* [Learning Advanced JavaScript - John Resig](http://ejohn.org/apps/learn/)
+* [Crockford - Prototypal Inheritance](http://javascript.crockford.com/prototypal.html)
+* [Crockford - Classical Inheritance](http://javascript.crockford.com/inheritance.html)
+* [Inheritance Patterns in JavaScript (Response to Crockford)](http://www.bolinfest.com/javascript/inheritance.php)
