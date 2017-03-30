@@ -82,6 +82,7 @@ layout: default
 * Guest - [Sarah Rothberg](http://sarahrothberg.com/)
 * Activity: [Drawing Music]({{site.baseurl}}/activity/drawing_music)
 * Analysis
+* Special Bonus Guest [Tamara Jafar](http://cultfever.com/)
 
 ## 12 - FINAL (4/26/17)
 
