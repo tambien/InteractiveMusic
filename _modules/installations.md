@@ -1,4 +1,7 @@
-## Installations
+---
+layout: default
+title : Installations
+---
 
 ### Spatialization
 
@@ -20,10 +23,6 @@ Janet Cardiff's work often employs the technique of using speakers to embody peo
 
 Zimoun uses materials and motors to create aleatoric musical installations. 
 
-#### [Market Symphony - Emeka Ogboh](http://africa.si.edu/exhibitions/current-exhibitions/market-symphony-by-emeka-ogboh/)
-
-Spatialized sound system + field recording to create the sounds of a marketplace in Lagos.
-
 ### Tracking
 
 #### [Firewall - Aaron Sherwood, Mike Allison](https://vimeo.com/54882144)
@@ -35,14 +34,6 @@ Great example of mapping pressure and dynamics in an interesting way.
 Chris Milk's piece effectively employs sound to heighten the experience of the piece. The forceful sound of the flapping wings slows the user down and makes them embody the bird.  
 
 ### Instrument
-
-#### [Blow Up - Scott Snibbe](http://www.snibbe.com/index.php/projects/interactive/blowup/)
-
-Augments the users breath using large fans.
-
-#### [CrossFader - Luisa Periera](https://vimeo.com/41999322)
-
-Super simple, no-tech, conceptual cross fader between two performers. 
 
 #### [Reactable - Sergi Jordà, Marcos Alonso, Martin Kaltenbrunner and Günter Geiger](https://www.youtube.com/watch?v=Mgy1S8qymx0)
 
@@ -72,5 +63,6 @@ Not great sound design / composition (IMO), but very clear mapping.
 
 #### [Voice Array - Rafael Lozano-Hemmer](http://www.trendhunter.com/trends/voice-array-by-rafael-lozanohemmer)
 
+#### [Global String by Atau Tanaka (2000)](https://vimeo.com/46800992) 
 
-[Global String by Atau Tanaka (2000)](https://vimeo.com/46800992) connected via the Internet. real time sound synthesis.
+Connected via the Internet. real time sound synthesis.
