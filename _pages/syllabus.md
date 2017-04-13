@@ -72,9 +72,10 @@ layout: default
 
 ## 10 - In Space (4/13/17)
 
-* Spatialization
 * Guest - [Gabe + Dave](http://www.daveandgabe.care/)
-* Musical Installations
+* [Musical Installations]({{site.baseurl}}/module/installations)
+* [Interaction Concept]({{site.baseurl}}/module/interaction_concept)
+* [3D Sound]({{site.baseurl}}/module/3d_sound)
 
 ## 11 - Seeing (4/20/17)
 
