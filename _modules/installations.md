@@ -7,7 +7,7 @@ title : Installations
 
 A simple way to create interesting and engaging interaction is simply using the physical properties of sound spatialized around a room. 
 
-#### [Dream House - La Monte Young, Marian Zazeela](https://www.youtube.com/watch?v=Lh6pAiAXqAo)
+#### [Dream House - La Monte Young, Marian Zazeela](https://www.youtube.com/watch?v=WC6bhnu5Luc)
 
 Dream House is simply a handful of specially-tuned sine wave generators. As you move around in the space, the waves collide with each other in different waves changing the spectral content of what you hear. It's extremely responsive, interactive and uses entirely analog and passive electronics. 
 
