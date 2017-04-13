@@ -63,6 +63,16 @@ Not great sound design / composition (IMO), but very clear mapping.
 
 #### [Voice Array - Rafael Lozano-Hemmer](http://www.trendhunter.com/trends/voice-array-by-rafael-lozanohemmer)
 
+Participants record a short audio segment which is stored for later listeners. 
+
 #### [Global String by Atau Tanaka (2000)](https://vimeo.com/46800992) 
 
 Connected via the Internet. real time sound synthesis.
+
+## Affordances/Constraints
+
+Musical installations will often give you a captive audience which is great for more in depth interaction. 
+
+A timed experience (especially one with a beginning and end) can be a little more difficult with an installation since people will often come and go. 
+
+Speaker placement is very important for clarity of the sound and for listeners to understand the source/sound mapping. 
