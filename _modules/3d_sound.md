@@ -1,21 +1,7 @@
 ---
 layout: default
-title: Sound for VR
+title: 3D Sound
 ---
-
-Outline: 
-
-* me
-	* Tone.js
-	* Google Creative Lab
-* WebVR
-* Sound Perception
-* Encoding/Decoding
-* Creating Ambisonic Video in Reaper. 
-
-
-
-There are many ways to create spatial audio. 
 
 ## Spatial Perception of Sound
 
@@ -47,23 +33,23 @@ Ambisonic recording can be done with an b-format microphone which is composed of
 
 Binaural recording captures the sound _as it was heard through ears_. It does not allow you to move through the space or rotate your head, because the entire spatiality is baked into the recording. 
 
-## Ambisonic Audio in Reaper
+## 3D Sound in Tone.js
 
-For generating and mixing ambisonic audio, I would recommend [Reaper](http://www.reaper.fm/) and the [Facebook Spatial Workstation](https://facebook360.fb.com/spatial-workstation/).
+### [Tone.Panner3D](http://tonejs.github.io/docs/#Panner3D)
 
-This will allow you to mix and master in Reaper and export to a variety of formats including facebook and youtube. The Facebook Spatial Workstation also has boilerplate for Protools and Nuendo. 
+All audio you pass through this node will be spatialized. Does not necessarily need to be connected directly to the master output, but can be run through additional effects. 
 
-### Tracks
+### [Tone.Listener](http://tonejs.github.io/docs/#Listener)
 
-Each of the audio sources has an FB360 FX plugin on it. That plugin will let you adjust the position, elevation, spread and attenuation of your source. 
+There is only one listener. It models the listeners head and allows you to interact with the positioned audio. 
 
-### Export
+### [Tone.Convolver](http://tonejs.github.io/docs/#Convolver)
 
-To export the audio from Reaper or another DAW, carefully follow the instructions in the PDF provided with Facebook Spatial Workstation. You can then combine the audio and video file in Facebook's Video Encoder. 
+Convolution is a powerful tool for mimicking realistic spaces. Reverb plays a large role in how we perceive a space. 
 
-### View Video
+[Impulse Responses](https://github.com/GoogleChrome/web-audio-samples/tree/gh-pages/samples/audio/impulse-responses)
 
-FB360 also provides a flexible video player which will synchronize to your DAW and allow you to navigate in 360 and hear the binaural decoding.
+https://jsfiddle.net/yotammann/b0eg1ooz/2/
 
 ## Resources
 
