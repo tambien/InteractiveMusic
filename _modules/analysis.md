@@ -13,23 +13,12 @@ RMS is statistical measure defined as the square root of the mean of the squares
 
 RMS gives you a single number which you can use to see about how loud the signal is. 
 
-[Here's](https://jsfiddle.net/yotammann/y9jpr0L3/) a simple example getting the loudness of the microphone. 
-
 ### FFT - Fast Fourier Transform
 
 The principle of Fourier Analysis is that all waves, no matter how complex can be decomposed into a collection of sine-tones at different frequencies and amplitudes. The "fast" part of FFT has to do with an efficient algorithm which makes it possible to do this type analysis in real time. 
 
 [Mechanical Fourier Analysis](https://www.youtube.com/watch?v=6dW6VYXp9HM)
 
-#### AnalyserNode
-
-FFT is found in Web Audio's AnalyzerNode. 
-
-[example](https://jsfiddle.net/yotammann/ojL3fnye/)
-
-The Analyser node is also capable of producing a waveform. A waveform just shows samples over time. 
-
-[waveform](https://jsfiddle.net/yotammann/p5e6zw75/)
 
 #### Analysis/Resynthesis
 
