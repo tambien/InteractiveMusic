@@ -9,11 +9,11 @@ Some basic techniques for following audio with Tone.js.
 
 Tone.Analyser does FFT as well as waveform representation. 
 
-https://jsfiddle.net/yotammann/noecnjeq/9/
+https://jsfiddle.net/yotammann/noecnjeq/12/
 
 ## Waveform
 
-https://jsfiddle.net/yotammann/97yw5q6m/6/
+https://jsfiddle.net/yotammann/97yw5q6m/11/
 
 ## Meter
 
