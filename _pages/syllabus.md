@@ -82,8 +82,8 @@ layout: default
 * Pair up to review final prospectus. Put yourself in the role of the audience: is the piece understandable? effective? compelling? Put yourself in the role of the performer: is the piece possible? expressive? 
 * [Visual Music]({{site.baseurl}}/module/visual_music)
 * [Visual Libraries]({{site.baseurl}}/module/visual_libraries)
-* [Analysis]({{site.baseurl}}/activity/analysis)
-* [Following Music]({{site.baseurl}}/activity/following_music)
+* [Analysis]({{site.baseurl}}/module/analysis)
+* [Following Music]({{site.baseurl}}/module/following_music)
 * Activity: [Drawing Music]({{site.baseurl}}/activity/drawing_music)
 
 ## 12 - FINAL (4/26/17)
