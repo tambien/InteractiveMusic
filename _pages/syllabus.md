@@ -79,6 +79,7 @@ layout: default
 
 ## 11 - Seeing (4/20/17)
 
+* Pair up to review final prospectus. Put yourself in the role of the audience: is the piece understandable? effective? compelling? Put yourself in the role of the performer: is the piece possible? expressive? 
 * [Visual Music]({{site.baseurl}}/module/visual_music)
 * [Visual Libraries]({{site.baseurl}}/module/visual_libraries)
 * [Analysis]({{site.baseurl}}/activity/analysis)
