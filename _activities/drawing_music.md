@@ -5,10 +5,16 @@ layout: default
 
 **What is an intuitive mapping between sound and visuals?**
 
-3 Short (5 minute) drawing excercises. Listen to these short samples and draw a visual representation of them.
+3 Short (6 minute) drawing excercises. Listen to these short samples and draw a visual representation of them. I will play each twice. 
 
-[Nico Muhly - Mothertongue - I](https://youtu.be/cB46mn8Exd8?t=8s)
+Try representing structure:
 
-[Tristan Perich - 1-Bit Symphony Movement 1](https://soundcloud.com/cantaloupemusic/04-tristan-perich-1-bit)
+{% include youtube.html video='9X3j_76VBvI' end=180 %}
 
-[Kaija Saariaho - Lichtbogen](https://www.youtube.com/watch?v=xufJp8kHzOQ)
+Try representing timbre:
+
+{% include youtube.html video='zIqS5_bh4nM' end=180 %}
+
+Try representing space:
+
+{% include youtube.html video='xufJp8kHzOQ' end=180 %}

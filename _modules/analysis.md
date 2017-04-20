@@ -1,3 +1,8 @@
+---
+title : Audio Analysis
+layout : default
+---
+
 https://jackschaedler.github.io/circles-sines-signals/
 
 Real-time audio analysis can be useful for coupling visuals to audio in interactive applications. There are a lot of libraries and acronyms when it comes to audio analysis, we'll run through some of the most common analysis techniques and what sort of data they provide. 

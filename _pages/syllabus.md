@@ -79,11 +79,11 @@ layout: default
 
 ## 11 - Seeing (4/20/17)
 
-* Visual Cohesion
-* Guest - [Sarah Rothberg](http://sarahrothberg.com/)
+* [Visual Music]({{site.baseurl}}/module/visual_music)
+* [Visual Libraries]({{site.baseurl}}/module/visual_libraries)
+* [Analysis]({{site.baseurl}}/activity/analysis)
+* [Following Music]({{site.baseurl}}/activity/following_music)
 * Activity: [Drawing Music]({{site.baseurl}}/activity/drawing_music)
-* Analysis
-* Special Bonus Guest [Tamara Jafar](http://cultfever.com/)
 
 ## 12 - FINAL (4/26/17)
 

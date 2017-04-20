@@ -1,3 +1,8 @@
+---
+title : Visual Music
+layout: default
+---
+
 # Cohesion with Visual Music
 
 How do sounds interact with visuals? 
@@ -15,16 +20,6 @@ How do you create cohesion between color/sound/form/movement/concept?
 What is an intuitive mapping between sound and visuals? 
 
 Music exists in time, so perhaps clear mappings have to do more with movement and gesture (Spectromorphology) than with shape and color.
-
-### Conceptual Clarity / Cohesion with Interactive Music
-
-[BubbleHarp](https://www.youtube.com/watch?v=ly8tgaswRo8)
-
-[OscilloScoop - Scott Snibbe Studio](https://www.youtube.com/watch?v=ymW-_RENMKY)
-
-[n - Drexler](http://www.wakeapp.com/n/en/)
-
-[Thicket - Morgan Packard & Josh Ott](https://www.youtube.com/watch?v=4Xr9ELZSOnc)
 
 ## [Photoplay](https://en.wikipedia.org/wiki/Photoplay_music)
 
