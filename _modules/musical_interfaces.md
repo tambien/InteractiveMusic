@@ -3,6 +3,8 @@ layout: default
 title : Musical Interfaces
 ---
 
+[Professor Miller Puckette - Limitations of Computers as Musical Tools](https://vimeo.com/213083465)
+
 ### Acoustic Interfaces
 
 * Sound source and interface are the same. 

@@ -13,3 +13,7 @@ _site
 
 Gemfile.lock
 *.scssc
+
+.sass-cache
+
+.sync-config.cson
