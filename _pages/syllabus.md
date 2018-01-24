@@ -11,8 +11,7 @@ layout: default
 * [Listening]({{site.baseurl}}/module/listening)
 * [Music as commodity]({{site.baseurl}}/module/commodity)
 * [Why interaction?]({{site.baseurl}}/module/why_interaction)
-* [Interaction Concept]({{site.baseurl}}/module/interaction_concept)
-* [Musical Installations]({{site.baseurl}}/module/installations)
+* [Examples]({{site.baseurl}}/module/examples)
 * Activity: [Cobra]({{site.baseurl}}/activity/cobra) && [Rhythm Circle]({{site.baseurl}}/activity/rhythm_circle)
 * Assignment: [Manifesto]({{site.baseurl}}/assignment/manifesto)
 
