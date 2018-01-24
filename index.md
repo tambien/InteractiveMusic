@@ -3,9 +3,9 @@ layout: default
 title : Interactive Music Course
 ---
 
-Thursdays 3:20p-6:15
+Wednesdays 3:20p-5:50p
 
-Office Hours by appointment. I also typically arrive 20-30 minutes before class. Happy to discuss any questions/comments/issues at that time. 
+Office Hours by appointment. I also typically arrive 20-30 minutes before class. Happy to discuss any questions/comments/issues at that time.
 
 [Goals]({{ site.baseurl }}/goals)
 
