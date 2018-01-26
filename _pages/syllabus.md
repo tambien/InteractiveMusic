@@ -47,7 +47,7 @@ layout: default
 * [3D Sound]({{site.baseurl}}/module/3d_sound)
 * Activity: [Make Tone.js Presets]({{site.baseurl}}/activity/presets)
 
-## 6 - Interfaces (1/28/18)
+## 6 - Interfaces (2/28/18)
 
 * [Musical Interfaces]({{site.baseurl}}/module/musical_interfaces)
 * [Gesture Mapping]({{site.baseurl}}/module/gesture_mapping)
