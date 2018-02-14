@@ -9,52 +9,135 @@
 
 		//ANSWER THE FOLLOWING QUESTIONS USING ONLY THE DEVELOPER TOOLS (don't type anything here)
 
-		// 0
+
+		// 0 a
+		// osc has an output object
+		// type `osc.output` in the console to see it
 		// What is the type of osc's output?
-		// Whats the value of osc's volume?
 
 		var osc = new Tone.Oscillator().toMaster()
 
-		// 1
-		// start the oscillator
-		// what is the frequency value?
-		// multiply its frequency value by 2
+		// 0 b
+		// what is the value of osc.volume.value?
+		// what is the value of osc.output.volume.value?
+		// set osc.volume.value to -10
+		// what is the value of osc.output.volume.value?
 
-		// 2
+		// 0 c
+		// start osc
+		// what is osc's frequency?
+		// multiply its frequency by 2
+
+
+		// 1
 		// What is the type of Tone.context?
 		// What is the value of Tone.context.currentTime?
 		// What is the value of Tone.context.currentTime now?
 
-		// 3
+
+		// 2 a
 		// what type is 'gainy'?
+		//
 		// List 4 of gainys properties?
+		// properties whose values are "(...)" are only shown when you click on them
+		//
 		// List 4 or more of its methods?
+		// methods and properties whose values begin with "_" are indicated to be "private"
+
 		var gainy = new Tone.Gain()
 
-		// 4
-		// osc has a property called 'output', what type is 'output'?
-		// output has a property called 'volume', what is the value of volume
-		// osc has a property called volume, if you change output.volume, does it change osc.volume?
 
-		// 5
-		// What is the value of freq before the lfo is connected
-		// Step past 'lfo.connect...', what is the value after?
-		// Start oscTwo by calling oscTwo.start()
+		// 3 a
+		// synth extends the class Tone.Monophonic
+		// expand "__proto__" in the console to see what synth inherits from Tone.Monophonic
+		//
+		// what class does Tone.Monophonic inherit from?
+		//
+		// type synth.toString()
+		// what is the returned value?
+		// where is this method inherited from?
+		//
+		// follow the prototype chain all the way to the end.
+		// what is base class at the end?
+
+		var synth = new Tone.Synth().toMaster()
+
+		// 3 b
+		// trigger a note by typing `synth.triggerAttackRelease('C4', 0.3)`
+		// what is the return type of this method?
+		//
+		// type synth.triggerAttack('C4', Tone.now()).triggerRelease(Tone.now() + 0.3)
+		// does this sound the same or different than synth.triggerAttackRelease('C4', 0.3)?
+
+
+		//
+		// USING THE DEBUGGER DEVELOPER TOOLS...
+		//
+
+		// 4 a
+		// this is an immediately invoked anonymous function
+		// sometimes called IIF (immediately invoked function)
+		// it is executed as soon as the page loads
+		;(function(){
+			var oscTwo = new Tone.Oscillator(990).toMaster()
+
+			oscTwo.type = 'square'
+
+		}())
+
+		// 5 b
+		// type `oscTwo` in the console
+		// why does it say it's not defined?
+		//
+		// add a break point on line just after `oscTwo` is defined, then refresh the page
+		// type `oscTwo` in the console
+		// it should be available now
+		//
+		// start the oscillator
+		//
+		// before the next line is executed, what is the value of `oscTwo.type`?
+		// after `oscTwo.value` is set, what is the value of `oscTwo.type`?
+
+
+		// 6
+		// Here another IIF
+		// Start oscThree by calling oscThree.start()
 		;(function(){
 
 			var lfo = new Tone.LFO("4n", 20, 20000)
 
-			var oscTwo = new Tone.Oscillator().toMaster()
+			var oscThree = new Tone.Oscillator().toMaster()
 
-			var freq = oscTwo.frequency.value
+			var freq = oscThree.frequency.value
 
-			lfo.connect(oscTwo.frequency)
+			lfo.connect(oscThree.frequency)
 
-			freq = oscTwo.frequency.value
+			freq = oscThree.frequency.value
 
 			lfo.start()
 
 		}())
+
+
+		// 7 a
+		// this anonymous function is invoked every 100ms
+		// it checks the value of truthy (which does not exist)
+		//
+		// what is the `window` object?
+		//
+		// create a variable called truthy and set it to `true`
+		// that will trigger the debugger to start
+		//
+		setInterval(function(){
+			if (window.truthy){
+				debugger
+
+				// 7b
+				// without setting another breakpoint,
+				// step into this function
+				stepIn()
+			}
+		}, 100)
 
 		function stepIn(){
 			var osc = new Tone.Oscillator(220, "square4").toMaster()
@@ -64,17 +147,6 @@
 				osc.start()
 			}
 		}
-
-		
-		// 6
-		// create a variable called truthy and set it to true
-		setInterval(function(){
-			if (window.truthy){
-				debugger
-				//step into this function
-				stepIn()
-			}
-		}, 100)
 
 	</script>
 </body>
