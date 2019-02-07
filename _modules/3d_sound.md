@@ -13,7 +13,7 @@ The way we perceive the position of sound in space is mostly related to our phys
 
 The basics of spatialized sound representation comes down to an encoding/decoding problem. If you wanted to record and then recreate two sound sources left and right, then i could record two channels and then when i reproduce the sound, just place two speakers at the same place that i recorded them. I could do this for as many sources and speakers as i wanted. 
 
-{% include youtube.html video="ncWFLzVrwU4" %}
+[40 part motet](https://www.youtube.com/watch?v=ncWFLzVrwU4)
 
 But as some point this becomes impractical, so we need another representation. 
 
