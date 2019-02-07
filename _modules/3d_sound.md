@@ -53,6 +53,24 @@ Convolution is a powerful tool for mimicking realistic spaces. Reverb plays a la
 
 https://jsfiddle.net/yotammann/b0eg1ooz/2/
 
+## Ambisonic Audio in Reaper
+
+For generating and mixing ambisonic audio, I would recommend [Reaper](http://www.reaper.fm/) and the [Facebook Spatial Workstation](https://facebook360.fb.com/spatial-workstation/).
+
+This will allow you to mix and master in Reaper and export to a variety of formats including facebook and youtube. The Facebook Spatial Workstation also has boilerplate for Protools and Nuendo. 
+
+### Tracks
+
+Each of the audio sources has an FB360 FX plugin on it. That plugin will let you adjust the position, elevation, spread and attenuation of your source. 
+
+### Export
+
+To export the audio from Reaper or another DAW, carefully follow the instructions in the PDF provided with Facebook Spatial Workstation. You can then combine the audio and video file in Facebook's Video Encoder. 
+
+### View Video
+
+FB360 also provides a flexible video player which will synchronize to your DAW and allow you to navigate in 360 and hear the binaural decoding.
+
 ## Resources
 
 * [Authoring Spatial Media for Web](https://github.com/jts3k/Authoring-Spatial-Media-for-Web)
