@@ -26,7 +26,7 @@ To add an effect to your audio signal, simply connect the effect in between your
 
 ```javascript
 //create an effect and connect it to the master output
-var dist = new Tone.Distortion().toMaster();
+var dist = new Tone.Distortion().toDestination();
 //create a synth and connect it to the effect
 var synth = new Tone.Synth().connect(dist);
 //and play a note to hear the distortion
@@ -106,7 +106,7 @@ Instead of scheduling events along the AudioContext time, the Transport allows y
 This is done by scheduling a **callback** to be invoked right before the event is supposed to be scheduled and then using the time in that callback to schedule the event.
 
 ```javascript
-var synth = new Tone.Synth().toMaster()
+var synth = new Tone.Synth().toDestination()
 //schedule an event to happen 1 second after the transport is started
 Tone.Transport.schedule(function(time){
 	//use the time passed in to schedule the method
